@@ -7,3 +7,5 @@ The public page reads agency response updates from the owner's password-protecte
 GitHub Pages serves the root of the main branch. Both public views load the same response log. Search engines are asked not to index this material; it remains publicly accessible.
 
 The editor supports multiple document uploads per agency, up to 25 MB per file. Originals are stored on the droplet and downloaded from the public document links; they are not committed to GitHub. Uploads and deletions require editor access. The JSON progress backup includes document metadata, not the original files.
+
+The public overview groups agencies into expandable court, police, and sheriff cards. Search covers agency names, request text/dockets, replies, and document names. Filters and expand/collapse controls help review a subset. Documents, individual replies, and the original request remain inside each card; periodic refreshes preserve expansion state and retain the last loaded data if the live service is temporarily unavailable.
