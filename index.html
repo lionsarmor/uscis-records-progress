@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow,noarchive"><title>Records requests — progress for counsel</title><link rel="stylesheet" href="styles.css"></head>
 <body class="records-page"><header><div class="wrap top"><span class="brand">Records requests</span><span class="pill">Read-only · For counsel</span></div></header>
-<main class="wrap"><section class="hero"><p class="eyebrow">James Michael Weeks Jr. · Nathan Jeppsen</p><h1>Records, organized.</h1><p class="intro">Track each agency’s replies and documents. Open a card to review its records, updates, and original request.</p></section>
+<main class="wrap"><section class="hero"><p class="eyebrow">James Michael Weeks Jr. · Nathan Jeppsen</p><h1>Records, organized.</h1><p class="intro">Track each agency’s replies and documents. Open a card for its RFE checklist, records, updates, and original request.</p></section>
 <section class="stats" aria-label="Progress"><div><strong id="sent-count">10 / 10</strong><span>requests sent</span></div><div><strong id="reply-count">—</strong><span>agencies that replied</span></div><div><strong id="files-count">—</strong><span>documents uploaded</span></div></section>
 <div class="deadline-bar"><span>Records target <strong>Nov 2, 2026</strong></span><span>USCIS receipt deadline <strong>Nov 16, 2026</strong></span></div>
 <section class="agency-section" aria-labelledby="requests-title"><div class="section-heading"><div><h2 id="requests-title">Agency records</h2><p class="muted">Courts, police, and custody records in separate cards.</p></div><div class="expand-actions"><button type="button" id="expand-all">Expand all</button><button type="button" id="collapse-all">Collapse all</button></div></div>
@@ -9,7 +9,883 @@
 <div class="list-info"><p id="result-count" class="muted" role="status"></p><p id="sync-status" class="sync" role="status">Loading latest updates…</p></div>
 <div id="requests"></div><p id="empty-results" class="empty-results" hidden>No agencies match. Try another search or choose “All agencies.”</p></section>
 <footer><p>All 10 requests marked sent based on James’s confirmation on October 20, 2026. Delivery and receipt have not been independently verified. Saved requests are reference copies, not sent-email exports. Records received does not mean the complete file has been verified.</p><p>This page is public to anyone with its link. Updates are entered by James; it does not connect to his inbox.</p><a id="owner-link" href="https://records.143-244-168-180.sslip.io/admin">Private response editor →</a></footer>
-</main><noscript><p>JavaScript is needed to display requests and responses. <a href="snapshot.json">Download the saved request snapshot</a>.</p></noscript><script id="saved-data" type="application/json">{
+</main><noscript><p>JavaScript is needed to display requests and responses. <a href="snapshot.json">Download the saved request snapshot</a>.</p></noscript><script id="rfe-checklist-data" type="application/json">{
+  "court-2": {
+    "intro": "Match the records to each listed case, then check the document requirements across all applicable counts.",
+    "groups": [
+      {
+        "title": "Cases to match against the records",
+        "items": [
+          {
+            "id": "case-1615CR001456",
+            "title": "1615CR001456 — court records for every count",
+            "detail": "1615CR001456A: ABUSE PREVENTION ACT. CORI court appearance: 05/26/2016 (not necessarily the arrest date). RFE date: 03/17/2016; CORI court appearance: 05/26/2016. Verify actual incident dates. The existing request also seeks the underlying abuse-prevention order and service/notice records held by the court.",
+            "source": "Case routing: supplied Jan 2, 2025 CORI + saved agency request; RFE covers unlisted offenses too"
+          },
+          {
+            "id": "case-1515CR005525",
+            "title": "1515CR005525 — court records for every count",
+            "detail": "1515CR005525A: HARASSMENT, CRIMINAL. CORI court appearance: 12/29/2015 (not necessarily the arrest date). Resolve the RFE’s 10/30/2000 date against the CORI court appearance on 12/29/2015; verify any link to Plymouth jail custody and the conflicting felony/misdemeanor labels. Obtain the actual plea/CWOF conditions and outcome from the court.",
+            "source": "Case routing: supplied Jan 2, 2025 CORI + saved agency request; RFE covers unlisted offenses too"
+          }
+        ]
+      },
+      {
+        "title": "Required by the RFE · check across all applicable cases",
+        "items": [
+          {
+            "id": "certified-outcomes",
+            "title": "Certified charges, pleas, and final outcomes",
+            "detail": "For every offense and every count, check the certified court records for the charge in words, any plea, and final disposition. Numeric codes alone are not enough.",
+            "source": "RFE pp. 2, 4"
+          },
+          {
+            "id": "agreements",
+            "title": "Plea / diversion agreements and conditions, if applicable",
+            "detail": "Obtain the agreement, stipulations, plea, court-imposed requirements, and final outcome. A pre-trial intervention agreement must be a full certified copy. Do not assume a CWOF was a diversion program.",
+            "source": "RFE pp. 2, 4"
+          },
+          {
+            "id": "classification",
+            "title": "Conviction classification, if applicable",
+            "detail": "Check felony, misdemeanor, or other classification. If the judgment omits it, obtain the relevant statute, sentencing guide, or court-clerk statement.",
+            "source": "RFE p. 2"
+          },
+          {
+            "id": "dismissal",
+            "title": "Reason for each dismissed charge, if applicable",
+            "detail": "The court judgment/disposition should explain why the charge was dismissed.",
+            "source": "RFE p. 2"
+          },
+          {
+            "id": "reduced",
+            "title": "Original-to-final charge mapping, if applicable",
+            "detail": "For reduced charges, verify which final conviction corresponds to each original charge.",
+            "source": "RFE p. 2"
+          },
+          {
+            "id": "pending",
+            "title": "Current status and next action, if still pending",
+            "detail": "Obtain a court document identifying the current status and next scheduled action for each pending charge.",
+            "source": "RFE p. 2"
+          },
+          {
+            "id": "removed",
+            "title": "Orders removing or clearing a record, if applicable",
+            "detail": "Obtain original or certified orders for any vacated, set-aside, sealed, expunged, or otherwise removed arrest or conviction.",
+            "source": "RFE p. 4"
+          },
+          {
+            "id": "unavailable",
+            "title": "Court evidence of unavailability, if records cannot be obtained",
+            "detail": "Obtain the court’s original or certified evidence that records do not exist or are unavailable, including court seals where required, plus other evidence describing the charges and final outcome. A personal statement alone does not replace it.",
+            "source": "RFE pp. 2, 4"
+          }
+        ]
+      },
+      {
+        "title": "Supporting records / follow-up requested",
+        "items": [
+          {
+            "id": "other-history",
+            "title": "Search for additional history",
+            "detail": "Confirm the agency searched for other cases or incidents under the name variants in the saved request. The RFE covers all offenses, not just the listed dockets.",
+            "source": "Supporting step in saved request; RFE pp. 2–4"
+          },
+          {
+            "id": "full-file",
+            "title": "Complete court file and supporting papers requested",
+            "detail": "The existing email also asks for the full file, docket sheets, complaints/amendments, probation/completion papers, and police reports held by the court. Check what was supplied and ask about gaps.",
+            "source": "Supporting records in saved request"
+          }
+        ]
+      },
+      {
+        "title": "Your follow-up if records are unavailable",
+        "items": [
+          {
+            "id": "personal-statement",
+            "title": "Notarized statement, only if the underlying records are unavailable",
+            "detail": "If court records are unavailable, the RFE also calls for your notarized account of the events, arresting agency, charges, every final outcome, court location, and punishments. Prepare this with counsel; it is separate from the court’s evidence of unavailability. (RFE p. 4)",
+            "source": "RFE p. 4"
+          }
+        ]
+      }
+    ],
+    "unavailable": "If a record is restricted, sealed, or held elsewhere, ask for the access procedure or correct custodian. Do not label it nonexistent merely because the agency cannot email it."
+  },
+  "court-3": {
+    "intro": "Match the records to each listed case, then check the document requirements across all applicable counts.",
+    "groups": [
+      {
+        "title": "Cases to match against the records",
+        "items": [
+          {
+            "id": "case-1660CR001716",
+            "title": "1660CR001716 — court records for every count",
+            "detail": "1660CR001716A: VANDALIZE PROPERTY; 1660CR001716B: ASSAULT AND BATTERY. CORI court appearance: 08/29/2016 (not necessarily the arrest date). Review both A and B. CORI labels B OPEN but includes dismissal text; ask the court for the current outcome.",
+            "source": "Case routing: supplied Jan 2, 2025 CORI + saved agency request; RFE covers unlisted offenses too"
+          },
+          {
+            "id": "case-1560CR002421",
+            "title": "1560CR002421 — court records for every count",
+            "detail": "1560CR002421A: OPERATING AFTER SUSPEND LIC. CORI court appearance: 12/28/2015 (not necessarily the arrest date).",
+            "source": "Case routing: supplied Jan 2, 2025 CORI + saved agency request; RFE covers unlisted offenses too"
+          },
+          {
+            "id": "case-1360CR000445",
+            "title": "1360CR000445 — court records for every count",
+            "detail": "1360CR000445A: INDECENT ASSLT&BATTERY PERSON; 1360CR000445B: ASSAULT AND BATTERY. CORI court appearance: 03/04/2013 (not necessarily the arrest date). RFE date: 03/02/2013; CORI court appearance: 03/04/2013. Verify both actual charges; the RFE labels differ from CORI’s A/B labels.",
+            "source": "Case routing: supplied Jan 2, 2025 CORI + saved agency request; RFE covers unlisted offenses too"
+          },
+          {
+            "id": "case-1160CR000487",
+            "title": "1160CR000487 — court records for every count",
+            "detail": "1160CR000487A: DISORDERLY CONDUCT. CORI court appearance: 03/08/2011 (not necessarily the arrest date).",
+            "source": "Case routing: supplied Jan 2, 2025 CORI + saved agency request; RFE covers unlisted offenses too"
+          },
+          {
+            "id": "case-0660CR3644",
+            "title": "0660CR3644 — court records for every count",
+            "detail": "0660CR3644A: A&B DANGEROUS WEAPON. CORI court appearance: 12/11/2006 (not necessarily the arrest date).",
+            "source": "Case routing: supplied Jan 2, 2025 CORI + saved agency request; RFE covers unlisted offenses too"
+          },
+          {
+            "id": "case-0660CR3447",
+            "title": "0660CR3447 — court records for every count",
+            "detail": "0660CR3447A: ASSAULT AND BATTERY; 0660CR3447B: A&B DANGEROUS WEAPON; 0660CR3447C: A&B DANGEROUS WEAPON; 0660CR3447D: DISTURBING THE PEACE(BREACH). CORI court appearance: 11/16/2006 (not necessarily the arrest date). Review all four counts A–D. CORI labels A a conviction and includes CWOF entries for B/C; obtain the actual plea, conditions, and outcomes from the court.",
+            "source": "Case routing: supplied Jan 2, 2025 CORI + saved agency request; RFE covers unlisted offenses too"
+          },
+          {
+            "id": "case-0660CR3032",
+            "title": "0660CR3032 — court records for every count",
+            "detail": "0660CR3032A: ASSAULT AND BATTERY. CORI court appearance: 10/06/2006 (not necessarily the arrest date). CORI includes CWOF entries. Obtain the court’s actual admission/agreement, conditions, changes, and final outcome.",
+            "source": "Case routing: supplied Jan 2, 2025 CORI + saved agency request; RFE covers unlisted offenses too"
+          },
+          {
+            "id": "case-0660CR2886",
+            "title": "0660CR2886 — court records for every count",
+            "detail": "0660CR2886A: ASSAULT AND BATTERY. CORI court appearance: 09/26/2006 (not necessarily the arrest date). CORI includes CWOF entries. Obtain the court’s actual admission/agreement, conditions, changes, and final outcome.",
+            "source": "Case routing: supplied Jan 2, 2025 CORI + saved agency request; RFE covers unlisted offenses too"
+          }
+        ]
+      },
+      {
+        "title": "Required by the RFE · check across all applicable cases",
+        "items": [
+          {
+            "id": "certified-outcomes",
+            "title": "Certified charges, pleas, and final outcomes",
+            "detail": "For every offense and every count, check the certified court records for the charge in words, any plea, and final disposition. Numeric codes alone are not enough.",
+            "source": "RFE pp. 2, 4"
+          },
+          {
+            "id": "agreements",
+            "title": "Plea / diversion agreements and conditions, if applicable",
+            "detail": "Obtain the agreement, stipulations, plea, court-imposed requirements, and final outcome. A pre-trial intervention agreement must be a full certified copy. Do not assume a CWOF was a diversion program.",
+            "source": "RFE pp. 2, 4"
+          },
+          {
+            "id": "classification",
+            "title": "Conviction classification, if applicable",
+            "detail": "Check felony, misdemeanor, or other classification. If the judgment omits it, obtain the relevant statute, sentencing guide, or court-clerk statement.",
+            "source": "RFE p. 2"
+          },
+          {
+            "id": "dismissal",
+            "title": "Reason for each dismissed charge, if applicable",
+            "detail": "The court judgment/disposition should explain why the charge was dismissed.",
+            "source": "RFE p. 2"
+          },
+          {
+            "id": "reduced",
+            "title": "Original-to-final charge mapping, if applicable",
+            "detail": "For reduced charges, verify which final conviction corresponds to each original charge.",
+            "source": "RFE p. 2"
+          },
+          {
+            "id": "pending",
+            "title": "Current status and next action, if still pending",
+            "detail": "Obtain a court document identifying the current status and next scheduled action for each pending charge.",
+            "source": "RFE p. 2"
+          },
+          {
+            "id": "removed",
+            "title": "Orders removing or clearing a record, if applicable",
+            "detail": "Obtain original or certified orders for any vacated, set-aside, sealed, expunged, or otherwise removed arrest or conviction.",
+            "source": "RFE p. 4"
+          },
+          {
+            "id": "unavailable",
+            "title": "Court evidence of unavailability, if records cannot be obtained",
+            "detail": "Obtain the court’s original or certified evidence that records do not exist or are unavailable, including court seals where required, plus other evidence describing the charges and final outcome. A personal statement alone does not replace it.",
+            "source": "RFE pp. 2, 4"
+          }
+        ]
+      },
+      {
+        "title": "Supporting records / follow-up requested",
+        "items": [
+          {
+            "id": "other-history",
+            "title": "Search for additional history",
+            "detail": "Confirm the agency searched for other cases or incidents under the name variants in the saved request. The RFE covers all offenses, not just the listed dockets.",
+            "source": "Supporting step in saved request; RFE pp. 2–4"
+          },
+          {
+            "id": "full-file",
+            "title": "Complete court file and supporting papers requested",
+            "detail": "The existing email also asks for the full file, docket sheets, complaints/amendments, probation/completion papers, and police reports held by the court. Check what was supplied and ask about gaps.",
+            "source": "Supporting records in saved request"
+          }
+        ]
+      },
+      {
+        "title": "Your follow-up if records are unavailable",
+        "items": [
+          {
+            "id": "personal-statement",
+            "title": "Notarized statement, only if the underlying records are unavailable",
+            "detail": "If court records are unavailable, the RFE also calls for your notarized account of the events, arresting agency, charges, every final outcome, court location, and punishments. Prepare this with counsel; it is separate from the court’s evidence of unavailability. (RFE p. 4)",
+            "source": "RFE p. 4"
+          }
+        ]
+      }
+    ],
+    "unavailable": "If a record is restricted, sealed, or held elsewhere, ask for the access procedure or correct custodian. Do not label it nonexistent merely because the agency cannot email it."
+  },
+  "court-4": {
+    "intro": "Match the records to each listed case, then check the document requirements across all applicable counts.",
+    "groups": [
+      {
+        "title": "Cases to match against the records",
+        "items": [
+          {
+            "id": "case-1631CR001779",
+            "title": "1631CR001779 — court records for every count",
+            "detail": "1631CR001779A: OPERATING AFTER SUSPENDED LIC. CORI court appearance: 08/05/2016 (not necessarily the arrest date). The police agency is not identified in the supplied CORI. Ask the court to identify it; do not assume this belongs to Taunton Police.",
+            "source": "Case routing: supplied Jan 2, 2025 CORI + saved agency request; RFE covers unlisted offenses too"
+          },
+          {
+            "id": "case-1131CR003137",
+            "title": "1131CR003137 — court records for every count",
+            "detail": "1131CR003137A: DISORDERLY CONDUCT; 1131CR003137B: RESISTING ARREST; 1131CR003137C: GV FLS ADDR W/I HINDER PO DUTY. CORI court appearance: 10/11/2011 (not necessarily the arrest date). RFE incident date: 10/09/2011; CORI court appearance: 10/11/2011. Check A–C and resolve the RFE’s false-name/SSN wording against CORI’s false-address label.",
+            "source": "Case routing: supplied Jan 2, 2025 CORI + saved agency request; RFE covers unlisted offenses too"
+          }
+        ]
+      },
+      {
+        "title": "Required by the RFE · check across all applicable cases",
+        "items": [
+          {
+            "id": "certified-outcomes",
+            "title": "Certified charges, pleas, and final outcomes",
+            "detail": "For every offense and every count, check the certified court records for the charge in words, any plea, and final disposition. Numeric codes alone are not enough.",
+            "source": "RFE pp. 2, 4"
+          },
+          {
+            "id": "agreements",
+            "title": "Plea / diversion agreements and conditions, if applicable",
+            "detail": "Obtain the agreement, stipulations, plea, court-imposed requirements, and final outcome. A pre-trial intervention agreement must be a full certified copy. Do not assume a CWOF was a diversion program.",
+            "source": "RFE pp. 2, 4"
+          },
+          {
+            "id": "classification",
+            "title": "Conviction classification, if applicable",
+            "detail": "Check felony, misdemeanor, or other classification. If the judgment omits it, obtain the relevant statute, sentencing guide, or court-clerk statement.",
+            "source": "RFE p. 2"
+          },
+          {
+            "id": "dismissal",
+            "title": "Reason for each dismissed charge, if applicable",
+            "detail": "The court judgment/disposition should explain why the charge was dismissed.",
+            "source": "RFE p. 2"
+          },
+          {
+            "id": "reduced",
+            "title": "Original-to-final charge mapping, if applicable",
+            "detail": "For reduced charges, verify which final conviction corresponds to each original charge.",
+            "source": "RFE p. 2"
+          },
+          {
+            "id": "pending",
+            "title": "Current status and next action, if still pending",
+            "detail": "Obtain a court document identifying the current status and next scheduled action for each pending charge.",
+            "source": "RFE p. 2"
+          },
+          {
+            "id": "removed",
+            "title": "Orders removing or clearing a record, if applicable",
+            "detail": "Obtain original or certified orders for any vacated, set-aside, sealed, expunged, or otherwise removed arrest or conviction.",
+            "source": "RFE p. 4"
+          },
+          {
+            "id": "unavailable",
+            "title": "Court evidence of unavailability, if records cannot be obtained",
+            "detail": "Obtain the court’s original or certified evidence that records do not exist or are unavailable, including court seals where required, plus other evidence describing the charges and final outcome. A personal statement alone does not replace it.",
+            "source": "RFE pp. 2, 4"
+          }
+        ]
+      },
+      {
+        "title": "Supporting records / follow-up requested",
+        "items": [
+          {
+            "id": "other-history",
+            "title": "Search for additional history",
+            "detail": "Confirm the agency searched for other cases or incidents under the name variants in the saved request. The RFE covers all offenses, not just the listed dockets.",
+            "source": "Supporting step in saved request; RFE pp. 2–4"
+          },
+          {
+            "id": "full-file",
+            "title": "Complete court file and supporting papers requested",
+            "detail": "The existing email also asks for the full file, docket sheets, complaints/amendments, probation/completion papers, and police reports held by the court. Check what was supplied and ask about gaps.",
+            "source": "Supporting records in saved request"
+          }
+        ]
+      },
+      {
+        "title": "Your follow-up if records are unavailable",
+        "items": [
+          {
+            "id": "personal-statement",
+            "title": "Notarized statement, only if the underlying records are unavailable",
+            "detail": "If court records are unavailable, the RFE also calls for your notarized account of the events, arresting agency, charges, every final outcome, court location, and punishments. Prepare this with counsel; it is separate from the court’s evidence of unavailability. (RFE p. 4)",
+            "source": "RFE p. 4"
+          }
+        ]
+      }
+    ],
+    "unavailable": "If a record is restricted, sealed, or held elsewhere, ask for the access procedure or correct custodian. Do not label it nonexistent merely because the agency cannot email it."
+  },
+  "court-17": {
+    "intro": "Match the records to each listed case, then check the document requirements across all applicable counts.",
+    "groups": [
+      {
+        "title": "Cases to match against the records",
+        "items": [
+          {
+            "id": "case-1134CR000858",
+            "title": "1134CR000858 — court records for every count",
+            "detail": "1134CR000858A: OPERATING AFTER SUSPEND REG; 1134CR000858B: COMPULSORY INSURANCE VIOLATION. CORI court appearance: 04/20/2011 (not necessarily the arrest date). Check both A and B. If initiated by citation or summons, ask for the surviving citation/incident records and whether an arrest report was ever created.",
+            "source": "Case routing: supplied Jan 2, 2025 CORI + saved agency request; RFE covers unlisted offenses too"
+          }
+        ]
+      },
+      {
+        "title": "Required by the RFE · check across all applicable cases",
+        "items": [
+          {
+            "id": "certified-outcomes",
+            "title": "Certified charges, pleas, and final outcomes",
+            "detail": "For every offense and every count, check the certified court records for the charge in words, any plea, and final disposition. Numeric codes alone are not enough.",
+            "source": "RFE pp. 2, 4"
+          },
+          {
+            "id": "agreements",
+            "title": "Plea / diversion agreements and conditions, if applicable",
+            "detail": "Obtain the agreement, stipulations, plea, court-imposed requirements, and final outcome. A pre-trial intervention agreement must be a full certified copy. Do not assume a CWOF was a diversion program.",
+            "source": "RFE pp. 2, 4"
+          },
+          {
+            "id": "classification",
+            "title": "Conviction classification, if applicable",
+            "detail": "Check felony, misdemeanor, or other classification. If the judgment omits it, obtain the relevant statute, sentencing guide, or court-clerk statement.",
+            "source": "RFE p. 2"
+          },
+          {
+            "id": "dismissal",
+            "title": "Reason for each dismissed charge, if applicable",
+            "detail": "The court judgment/disposition should explain why the charge was dismissed.",
+            "source": "RFE p. 2"
+          },
+          {
+            "id": "reduced",
+            "title": "Original-to-final charge mapping, if applicable",
+            "detail": "For reduced charges, verify which final conviction corresponds to each original charge.",
+            "source": "RFE p. 2"
+          },
+          {
+            "id": "pending",
+            "title": "Current status and next action, if still pending",
+            "detail": "Obtain a court document identifying the current status and next scheduled action for each pending charge.",
+            "source": "RFE p. 2"
+          },
+          {
+            "id": "removed",
+            "title": "Orders removing or clearing a record, if applicable",
+            "detail": "Obtain original or certified orders for any vacated, set-aside, sealed, expunged, or otherwise removed arrest or conviction.",
+            "source": "RFE p. 4"
+          },
+          {
+            "id": "unavailable",
+            "title": "Court evidence of unavailability, if records cannot be obtained",
+            "detail": "Obtain the court’s original or certified evidence that records do not exist or are unavailable, including court seals where required, plus other evidence describing the charges and final outcome. A personal statement alone does not replace it.",
+            "source": "RFE pp. 2, 4"
+          }
+        ]
+      },
+      {
+        "title": "Supporting records / follow-up requested",
+        "items": [
+          {
+            "id": "other-history",
+            "title": "Search for additional history",
+            "detail": "Confirm the agency searched for other cases or incidents under the name variants in the saved request. The RFE covers all offenses, not just the listed dockets.",
+            "source": "Supporting step in saved request; RFE pp. 2–4"
+          },
+          {
+            "id": "full-file",
+            "title": "Complete court file and supporting papers requested",
+            "detail": "The existing email also asks for the full file, docket sheets, complaints/amendments, probation/completion papers, and police reports held by the court. Check what was supplied and ask about gaps.",
+            "source": "Supporting records in saved request"
+          }
+        ]
+      },
+      {
+        "title": "Your follow-up if records are unavailable",
+        "items": [
+          {
+            "id": "personal-statement",
+            "title": "Notarized statement, only if the underlying records are unavailable",
+            "detail": "If court records are unavailable, the RFE also calls for your notarized account of the events, arresting agency, charges, every final outcome, court location, and punishments. Prepare this with counsel; it is separate from the court’s evidence of unavailability. (RFE p. 4)",
+            "source": "RFE p. 4"
+          }
+        ]
+      }
+    ],
+    "unavailable": "If a record is restricted, sealed, or held elsewhere, ask for the access procedure or correct custodian. Do not label it nonexistent merely because the agency cannot email it."
+  },
+  "police-5": {
+    "intro": "Match the records to each listed case, then check the document requirements across all applicable counts.",
+    "groups": [
+      {
+        "title": "Cases to match against the records",
+        "items": [
+          {
+            "id": "case-1615CR001456",
+            "title": "1615CR001456 — police reports for this incident",
+            "detail": "1615CR001456A: ABUSE PREVENTION ACT. CORI court appearance: 05/26/2016 (not necessarily the arrest date). RFE date: 03/17/2016; CORI court appearance: 05/26/2016. Verify actual incident dates. The existing request also seeks the underlying abuse-prevention order and service/notice records held by the court.",
+            "source": "Case routing: supplied Jan 2, 2025 CORI + saved agency request; RFE covers unlisted offenses too"
+          },
+          {
+            "id": "case-1515CR005525",
+            "title": "1515CR005525 — police reports for this incident",
+            "detail": "1515CR005525A: HARASSMENT, CRIMINAL. CORI court appearance: 12/29/2015 (not necessarily the arrest date). Resolve the RFE’s 10/30/2000 date against the CORI court appearance on 12/29/2015; verify any link to Plymouth jail custody and the conflicting felony/misdemeanor labels. Obtain the actual plea/CWOF conditions and outcome from the court.",
+            "source": "Case routing: supplied Jan 2, 2025 CORI + saved agency request; RFE covers unlisted offenses too"
+          }
+        ]
+      },
+      {
+        "title": "Required by the RFE · check across all applicable cases",
+        "items": [
+          {
+            "id": "narratives",
+            "title": "Complete police narrative for every arrest and charge",
+            "detail": "Check for the arresting officer’s detailed account of the events, including incidents not individually named in the RFE and records later sealed or cleared. An arrest log or history summary is not the detailed narrative.",
+            "source": "RFE p. 3"
+          },
+          {
+            "id": "certification",
+            "title": "Certified copies of the police records",
+            "detail": "Check that the records supplied include their certification; an email attachment by itself does not establish certification.",
+            "source": "RFE p. 4"
+          },
+          {
+            "id": "unavailable",
+            "title": "Agency confirmation if an arrest report is unavailable",
+            "detail": "Obtain original or certified confirmation from the arresting agency that the report is unavailable. This is separate from the notarized statement described below.",
+            "source": "RFE p. 3"
+          }
+        ]
+      },
+      {
+        "title": "Supporting records / follow-up requested",
+        "items": [
+          {
+            "id": "other-history",
+            "title": "Search for additional history",
+            "detail": "Confirm the agency searched for other cases or incidents under the name variants in the saved request. The RFE covers all offenses, not just the listed dockets.",
+            "source": "Supporting step in saved request; RFE pp. 2–4"
+          },
+          {
+            "id": "attachments",
+            "title": "Related reports, attachments, and identifiers requested",
+            "detail": "Check supplemental reports, statements, probable-cause/complaint papers, charge sheets, and booking records held by this agency. Confirm report numbers, actual dates, and original/amended charges. Obtain certified court outcomes separately from the court.",
+            "source": "Supporting records in saved request"
+          }
+        ]
+      },
+      {
+        "title": "Your follow-up if records are unavailable",
+        "items": [
+          {
+            "id": "personal-statement",
+            "title": "Notarized statement, only if the underlying records are unavailable",
+            "detail": "If an arrest report is unavailable, the RFE also calls for your notarized account of the events, including relevant victim ages and your relationship to any victim. Prepare this with counsel; the agency’s original/certified unavailability confirmation is also needed. (RFE p. 3)",
+            "source": "RFE p. 3"
+          }
+        ]
+      }
+    ],
+    "unavailable": "If a record is restricted, sealed, or held elsewhere, ask for the access procedure or correct custodian. Do not label it nonexistent merely because the agency cannot email it."
+  },
+  "police-6": {
+    "intro": "Match the records to each listed case, then check the document requirements across all applicable counts.",
+    "groups": [
+      {
+        "title": "Cases to match against the records",
+        "items": [
+          {
+            "id": "case-1660CR001716",
+            "title": "1660CR001716 — police reports for this incident",
+            "detail": "1660CR001716A: VANDALIZE PROPERTY; 1660CR001716B: ASSAULT AND BATTERY. CORI court appearance: 08/29/2016 (not necessarily the arrest date). Review both A and B. CORI labels B OPEN but includes dismissal text; ask the court for the current outcome.",
+            "source": "Case routing: supplied Jan 2, 2025 CORI + saved agency request; RFE covers unlisted offenses too"
+          },
+          {
+            "id": "case-1560CR002421",
+            "title": "1560CR002421 — police reports for this incident",
+            "detail": "1560CR002421A: OPERATING AFTER SUSPEND LIC. CORI court appearance: 12/28/2015 (not necessarily the arrest date).",
+            "source": "Case routing: supplied Jan 2, 2025 CORI + saved agency request; RFE covers unlisted offenses too"
+          },
+          {
+            "id": "case-1360CR000445",
+            "title": "1360CR000445 — police reports for this incident",
+            "detail": "1360CR000445A: INDECENT ASSLT&BATTERY PERSON; 1360CR000445B: ASSAULT AND BATTERY. CORI court appearance: 03/04/2013 (not necessarily the arrest date). RFE date: 03/02/2013; CORI court appearance: 03/04/2013. Verify both actual charges; the RFE labels differ from CORI’s A/B labels.",
+            "source": "Case routing: supplied Jan 2, 2025 CORI + saved agency request; RFE covers unlisted offenses too"
+          },
+          {
+            "id": "case-1160CR000487",
+            "title": "1160CR000487 — police reports for this incident",
+            "detail": "1160CR000487A: DISORDERLY CONDUCT. CORI court appearance: 03/08/2011 (not necessarily the arrest date).",
+            "source": "Case routing: supplied Jan 2, 2025 CORI + saved agency request; RFE covers unlisted offenses too"
+          },
+          {
+            "id": "case-0660CR3447",
+            "title": "0660CR3447 — police reports for this incident",
+            "detail": "0660CR3447A: ASSAULT AND BATTERY; 0660CR3447B: A&B DANGEROUS WEAPON; 0660CR3447C: A&B DANGEROUS WEAPON; 0660CR3447D: DISTURBING THE PEACE(BREACH). CORI court appearance: 11/16/2006 (not necessarily the arrest date). Review all four counts A–D. CORI labels A a conviction and includes CWOF entries for B/C; obtain the actual plea, conditions, and outcomes from the court.",
+            "source": "Case routing: supplied Jan 2, 2025 CORI + saved agency request; RFE covers unlisted offenses too"
+          },
+          {
+            "id": "case-0660CR3032",
+            "title": "0660CR3032 — police reports for this incident",
+            "detail": "0660CR3032A: ASSAULT AND BATTERY. CORI court appearance: 10/06/2006 (not necessarily the arrest date). CORI includes CWOF entries. Obtain the court’s actual admission/agreement, conditions, changes, and final outcome.",
+            "source": "Case routing: supplied Jan 2, 2025 CORI + saved agency request; RFE covers unlisted offenses too"
+          },
+          {
+            "id": "case-0660CR2886",
+            "title": "0660CR2886 — police reports for this incident",
+            "detail": "0660CR2886A: ASSAULT AND BATTERY. CORI court appearance: 09/26/2006 (not necessarily the arrest date). CORI includes CWOF entries. Obtain the court’s actual admission/agreement, conditions, changes, and final outcome.",
+            "source": "Case routing: supplied Jan 2, 2025 CORI + saved agency request; RFE covers unlisted offenses too"
+          }
+        ]
+      },
+      {
+        "title": "Required by the RFE · check across all applicable cases",
+        "items": [
+          {
+            "id": "narratives",
+            "title": "Complete police narrative for every arrest and charge",
+            "detail": "Check for the arresting officer’s detailed account of the events, including incidents not individually named in the RFE and records later sealed or cleared. An arrest log or history summary is not the detailed narrative.",
+            "source": "RFE p. 3"
+          },
+          {
+            "id": "certification",
+            "title": "Certified copies of the police records",
+            "detail": "Check that the records supplied include their certification; an email attachment by itself does not establish certification.",
+            "source": "RFE p. 4"
+          },
+          {
+            "id": "unavailable",
+            "title": "Agency confirmation if an arrest report is unavailable",
+            "detail": "Obtain original or certified confirmation from the arresting agency that the report is unavailable. This is separate from the notarized statement described below.",
+            "source": "RFE p. 3"
+          }
+        ]
+      },
+      {
+        "title": "Supporting records / follow-up requested",
+        "items": [
+          {
+            "id": "other-history",
+            "title": "Search for additional history",
+            "detail": "Confirm the agency searched for other cases or incidents under the name variants in the saved request. The RFE covers all offenses, not just the listed dockets.",
+            "source": "Supporting step in saved request; RFE pp. 2–4"
+          },
+          {
+            "id": "attachments",
+            "title": "Related reports, attachments, and identifiers requested",
+            "detail": "Check supplemental reports, statements, probable-cause/complaint papers, charge sheets, and booking records held by this agency. Confirm report numbers, actual dates, and original/amended charges. Obtain certified court outcomes separately from the court.",
+            "source": "Supporting records in saved request"
+          }
+        ]
+      },
+      {
+        "title": "Your follow-up if records are unavailable",
+        "items": [
+          {
+            "id": "personal-statement",
+            "title": "Notarized statement, only if the underlying records are unavailable",
+            "detail": "If an arrest report is unavailable, the RFE also calls for your notarized account of the events, including relevant victim ages and your relationship to any victim. Prepare this with counsel; the agency’s original/certified unavailability confirmation is also needed. (RFE p. 3)",
+            "source": "RFE p. 3"
+          }
+        ]
+      }
+    ],
+    "unavailable": "If a record is restricted, sealed, or held elsewhere, ask for the access procedure or correct custodian. Do not label it nonexistent merely because the agency cannot email it."
+  },
+  "police-7": {
+    "intro": "Match the records to each listed case, then check the document requirements across all applicable counts.",
+    "groups": [
+      {
+        "title": "Cases to match against the records",
+        "items": [
+          {
+            "id": "case-1131CR003137",
+            "title": "1131CR003137 — police reports for this incident",
+            "detail": "1131CR003137A: DISORDERLY CONDUCT; 1131CR003137B: RESISTING ARREST; 1131CR003137C: GV FLS ADDR W/I HINDER PO DUTY. CORI court appearance: 10/11/2011 (not necessarily the arrest date). RFE incident date: 10/09/2011; CORI court appearance: 10/11/2011. Check A–C and resolve the RFE’s false-name/SSN wording against CORI’s false-address label.",
+            "source": "Case routing: supplied Jan 2, 2025 CORI + saved agency request; RFE covers unlisted offenses too"
+          }
+        ]
+      },
+      {
+        "title": "Required by the RFE · check across all applicable cases",
+        "items": [
+          {
+            "id": "narratives",
+            "title": "Complete police narrative for every arrest and charge",
+            "detail": "Check for the arresting officer’s detailed account of the events, including incidents not individually named in the RFE and records later sealed or cleared. An arrest log or history summary is not the detailed narrative.",
+            "source": "RFE p. 3"
+          },
+          {
+            "id": "certification",
+            "title": "Certified copies of the police records",
+            "detail": "Check that the records supplied include their certification; an email attachment by itself does not establish certification.",
+            "source": "RFE p. 4"
+          },
+          {
+            "id": "unavailable",
+            "title": "Agency confirmation if an arrest report is unavailable",
+            "detail": "Obtain original or certified confirmation from the arresting agency that the report is unavailable. This is separate from the notarized statement described below.",
+            "source": "RFE p. 3"
+          }
+        ]
+      },
+      {
+        "title": "Supporting records / follow-up requested",
+        "items": [
+          {
+            "id": "other-history",
+            "title": "Search for additional history",
+            "detail": "Confirm the agency searched for other cases or incidents under the name variants in the saved request. The RFE covers all offenses, not just the listed dockets.",
+            "source": "Supporting step in saved request; RFE pp. 2–4"
+          },
+          {
+            "id": "attachments",
+            "title": "Related reports, attachments, and identifiers requested",
+            "detail": "Check supplemental reports, statements, probable-cause/complaint papers, charge sheets, and booking records held by this agency. Confirm report numbers, actual dates, and original/amended charges. Obtain certified court outcomes separately from the court.",
+            "source": "Supporting records in saved request"
+          }
+        ]
+      },
+      {
+        "title": "Your follow-up if records are unavailable",
+        "items": [
+          {
+            "id": "personal-statement",
+            "title": "Notarized statement, only if the underlying records are unavailable",
+            "detail": "If an arrest report is unavailable, the RFE also calls for your notarized account of the events, including relevant victim ages and your relationship to any victim. Prepare this with counsel; the agency’s original/certified unavailability confirmation is also needed. (RFE p. 3)",
+            "source": "RFE p. 3"
+          }
+        ]
+      }
+    ],
+    "unavailable": "If a record is restricted, sealed, or held elsewhere, ask for the access procedure or correct custodian. Do not label it nonexistent merely because the agency cannot email it."
+  },
+  "police-18": {
+    "intro": "Match the records to each listed case, then check the document requirements across all applicable counts.",
+    "groups": [
+      {
+        "title": "Cases to match against the records",
+        "items": [
+          {
+            "id": "case-1134CR000858",
+            "title": "1134CR000858 — police reports for this incident",
+            "detail": "1134CR000858A: OPERATING AFTER SUSPEND REG; 1134CR000858B: COMPULSORY INSURANCE VIOLATION. CORI court appearance: 04/20/2011 (not necessarily the arrest date). Check both A and B. If initiated by citation or summons, ask for the surviving citation/incident records and whether an arrest report was ever created.",
+            "source": "Case routing: supplied Jan 2, 2025 CORI + saved agency request; RFE covers unlisted offenses too"
+          }
+        ]
+      },
+      {
+        "title": "Required by the RFE · check across all applicable cases",
+        "items": [
+          {
+            "id": "narratives",
+            "title": "Complete police narrative for every arrest and charge",
+            "detail": "Check for the arresting officer’s detailed account of the events, including incidents not individually named in the RFE and records later sealed or cleared. An arrest log or history summary is not the detailed narrative.",
+            "source": "RFE p. 3"
+          },
+          {
+            "id": "certification",
+            "title": "Certified copies of the police records",
+            "detail": "Check that the records supplied include their certification; an email attachment by itself does not establish certification.",
+            "source": "RFE p. 4"
+          },
+          {
+            "id": "unavailable",
+            "title": "Agency confirmation if an arrest report is unavailable",
+            "detail": "Obtain original or certified confirmation from the arresting agency that the report is unavailable. This is separate from the notarized statement described below.",
+            "source": "RFE p. 3"
+          }
+        ]
+      },
+      {
+        "title": "Supporting records / follow-up requested",
+        "items": [
+          {
+            "id": "other-history",
+            "title": "Search for additional history",
+            "detail": "Confirm the agency searched for other cases or incidents under the name variants in the saved request. The RFE covers all offenses, not just the listed dockets.",
+            "source": "Supporting step in saved request; RFE pp. 2–4"
+          },
+          {
+            "id": "attachments",
+            "title": "Related reports, attachments, and identifiers requested",
+            "detail": "Check supplemental reports, statements, probable-cause/complaint papers, charge sheets, and booking records held by this agency. Confirm report numbers, actual dates, and original/amended charges. Obtain certified court outcomes separately from the court.",
+            "source": "Supporting records in saved request"
+          }
+        ]
+      },
+      {
+        "title": "Your follow-up if records are unavailable",
+        "items": [
+          {
+            "id": "personal-statement",
+            "title": "Notarized statement, only if the underlying records are unavailable",
+            "detail": "If an arrest report is unavailable, the RFE also calls for your notarized account of the events, including relevant victim ages and your relationship to any victim. Prepare this with counsel; the agency’s original/certified unavailability confirmation is also needed. (RFE p. 3)",
+            "source": "RFE p. 3"
+          }
+        ]
+      }
+    ],
+    "unavailable": "If a record is restricted, sealed, or held elsewhere, ask for the access procedure or correct custodian. Do not label it nonexistent merely because the agency cannot email it."
+  },
+  "police-19": {
+    "intro": "Match the records to each listed case, then check the document requirements across all applicable counts.",
+    "groups": [
+      {
+        "title": "Cases to match against the records",
+        "items": [
+          {
+            "id": "case-0660CR3644",
+            "title": "0660CR3644 — police reports for this incident",
+            "detail": "0660CR3644A: A&B DANGEROUS WEAPON. CORI court appearance: 12/11/2006 (not necessarily the arrest date).",
+            "source": "Case routing: supplied Jan 2, 2025 CORI + saved agency request; RFE covers unlisted offenses too"
+          }
+        ]
+      },
+      {
+        "title": "Required by the RFE · check across all applicable cases",
+        "items": [
+          {
+            "id": "narratives",
+            "title": "Complete police narrative for every arrest and charge",
+            "detail": "Check for the arresting officer’s detailed account of the events, including incidents not individually named in the RFE and records later sealed or cleared. An arrest log or history summary is not the detailed narrative.",
+            "source": "RFE p. 3"
+          },
+          {
+            "id": "certification",
+            "title": "Certified copies of the police records",
+            "detail": "Check that the records supplied include their certification; an email attachment by itself does not establish certification.",
+            "source": "RFE p. 4"
+          },
+          {
+            "id": "unavailable",
+            "title": "Agency confirmation if an arrest report is unavailable",
+            "detail": "Obtain original or certified confirmation from the arresting agency that the report is unavailable. This is separate from the notarized statement described below.",
+            "source": "RFE p. 3"
+          }
+        ]
+      },
+      {
+        "title": "Supporting records / follow-up requested",
+        "items": [
+          {
+            "id": "other-history",
+            "title": "Search for additional history",
+            "detail": "Confirm the agency searched for other cases or incidents under the name variants in the saved request. The RFE covers all offenses, not just the listed dockets.",
+            "source": "Supporting step in saved request; RFE pp. 2–4"
+          },
+          {
+            "id": "attachments",
+            "title": "Related reports, attachments, and identifiers requested",
+            "detail": "Check supplemental reports, statements, probable-cause/complaint papers, charge sheets, and booking records held by this agency. Confirm report numbers, actual dates, and original/amended charges. Obtain certified court outcomes separately from the court.",
+            "source": "Supporting records in saved request"
+          }
+        ]
+      },
+      {
+        "title": "Your follow-up if records are unavailable",
+        "items": [
+          {
+            "id": "personal-statement",
+            "title": "Notarized statement, only if the underlying records are unavailable",
+            "detail": "If an arrest report is unavailable, the RFE also calls for your notarized account of the events, including relevant victim ages and your relationship to any victim. Prepare this with counsel; the agency’s original/certified unavailability confirmation is also needed. (RFE p. 3)",
+            "source": "RFE p. 3"
+          }
+        ]
+      }
+    ],
+    "unavailable": "If a record is restricted, sealed, or held elsewhere, ask for the access procedure or correct custodian. Do not label it nonexistent merely because the agency cannot email it."
+  },
+  "sheriff-8": {
+    "intro": "The RFE names Plymouth County jail custody on 12/29/2015 under a criminal-harassment label. These are supporting records requested to identify that entry; the RFE does not separately list booking records as a standalone requirement.",
+    "groups": [
+      {
+        "title": "Supporting records / follow-up requested",
+        "items": [
+          {
+            "id": "custody-identity",
+            "title": "Identify the December 29, 2015 custody entry",
+            "detail": "Obtain the court, docket, arresting/transporting agency, report number, and whether this date reflects booking, transfer, arrest, sentence, or another event.",
+            "source": "Saved sheriff request; related RFE entry on p. 2"
+          },
+          {
+            "id": "custody-link",
+            "title": "Resolve the possible Brockton case link",
+            "detail": "Ask whether the entry connects to 1515CR005525 and the RFE’s 10/30/2000 Brockton entry. The connection and felony/misdemeanor discrepancy are not yet established.",
+            "source": "Saved sheriff request; RFE p. 2 / supplied CORI"
+          },
+          {
+            "id": "custody-records",
+            "title": "Certified custody and charge records requested",
+            "detail": "Check booking/intake, charge/case-number records, commitment/mittimus, release/discharge, custody dates, and the legal basis for custody.",
+            "source": "Supporting records in saved sheriff request"
+          },
+          {
+            "id": "custody-held",
+            "title": "Related narratives and agreement records held by the sheriff",
+            "detail": "Check arrest/incident/probable-cause narratives and any diversion/intervention terms, completion or termination records in this office’s custody. Ask for the actual court or program custodian where needed.",
+            "source": "Supporting records in saved sheriff request"
+          },
+          {
+            "id": "custody-routing",
+            "title": "Route the remaining court and police requirements",
+            "detail": "Use the identified court for certified charges/outcomes and any plea/diversion agreements; use the arresting agency for the certified police narrative. Track those requirements in the corresponding agency cards.",
+            "source": "Routing step for RFE pp. 2–4"
+          },
+          {
+            "id": "custody-other",
+            "title": "Other custody records or written explanation of gaps",
+            "detail": "Confirm the requested search for other custody records; obtain a signed/certified explanation for unavailable items or the correct custodian for transferred records.",
+            "source": "Supporting records in saved sheriff request"
+          }
+        ]
+      }
+    ],
+    "unavailable": "If an underlying court disposition or arrest report is unavailable, follow the relevant court or police card’s unavailability requirements. A missing jail record alone does not establish that the court file or arrest report is unavailable."
+  }
+}</script><script id="saved-data" type="application/json">{
   "updatedAt": "2026-10-20",
   "source": "James confirmed that all 10 agency requests were emailed.",
   "emails": [

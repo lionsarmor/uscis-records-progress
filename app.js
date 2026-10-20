@@ -12,6 +12,105 @@ const groups = [['court','Courts'], ['police','Police departments'], ['sheriff',
 const dateLabel = value => new Date(value.slice(0,10) + 'T12:00:00').toLocaleDateString('en-US', {month:'short', day:'numeric', year:'numeric'});
 const plural = (count, word) => count + ' ' + word + (count === 1 ? '' : 's');
 let currentData, fingerprint = '', hasLiveData = false;
+const checklistPlans = JSON.parse($('#rfe-checklist-data').textContent);
+const CHECKLIST_KEY = 'records-rfe-2026-10-14-checks-v1';
+let checklistSaved = true;
+let checkedItems = new Set();
+try {
+  const saved = JSON.parse(localStorage.getItem(CHECKLIST_KEY) || '[]');
+  if (Array.isArray(saved)) checkedItems = new Set(saved.filter(key => typeof key === 'string'));
+} catch (error) { checklistSaved = false; }
+
+function checklistItems(agencyId) {
+  return checklistPlans[agencyId].groups.flatMap(group => group.items);
+}
+function updateChecklistProgress(agencyId) {
+  const items = checklistItems(agencyId);
+  const count = items.filter(item => checkedItems.has(agencyId + ':' + item.id)).length;
+  document.querySelectorAll('[data-check-progress="' + agencyId + '"]').forEach(node => {
+    node.textContent = count + ' / ' + items.length + ' checked';
+  });
+  document.querySelectorAll('.checklist-storage').forEach(node => {
+    node.textContent = checklistSaved
+      ? 'Checks save only in this browser at this page address. They are not shared with counsel or synced to the other page.'
+      : 'Browser saving is unavailable. Checks are kept for this visit only.';
+  });
+}
+function checklistNode(agency) {
+  const plan = checklistPlans[agency.id];
+  const section = disclosure('checklist-' + agency.id, '', 'rfe-checklist');
+  const progress = el('span', 'checklist-progress');
+  progress.dataset.checkProgress = agency.id;
+  section.firstChild.append(el('span', '', 'RFE checklist'), progress);
+  const body = el('div', 'checklist-body');
+  body.append(el('p', 'checklist-intro', plan.intro));
+  body.append(el('p', 'section-note', 'Check an item after reviewing all relevant records or confirming it does not apply. Unchecked means not yet reviewed—not automatically missing. Uploading a file does not check anything off.'));
+  body.append(el('p', 'checklist-storage'));
+  for (const group of plan.groups) {
+    const fieldset = el('fieldset', 'checklist-group');
+    fieldset.append(el('legend', '', group.title));
+    for (const item of group.items) {
+      const key = agency.id + ':' + item.id;
+      const label = el('label', 'checklist-item');
+      const input = el('input');
+      input.type = 'checkbox';
+      input.id = 'check-' + agency.id + '-' + item.id;
+      input.dataset.checkKey = key;
+      input.checked = checkedItems.has(key);
+      const text = el('span', 'checklist-copy');
+      const detail = el('span', 'checklist-detail', item.detail);
+      detail.id = input.id + '-detail';
+      input.setAttribute('aria-describedby', detail.id);
+      text.append(el('span', 'checklist-label', item.title), detail, el('span', 'checklist-source', item.source));
+      input.addEventListener('change', () => {
+        if (input.checked) checkedItems.add(key);
+        else checkedItems.delete(key);
+        try {
+          localStorage.setItem(CHECKLIST_KEY, JSON.stringify([...checkedItems]));
+          checklistSaved = true;
+        } catch (error) { checklistSaved = false; }
+        updateChecklistProgress(agency.id);
+      });
+      label.append(input, text);
+      fieldset.append(label);
+    }
+    body.append(fieldset);
+  }
+  body.append(el('p', 'checklist-note', plan.unavailable));
+  const actions = el('div', 'checklist-actions');
+  const copy = el('button', '', 'Copy unchecked items');
+  copy.type = 'button';
+  const status = el('span', 'section-note');
+  status.setAttribute('role', 'status');
+  const fallback = el('textarea', 'checklist-copy-fallback');
+  fallback.readOnly = true;
+  fallback.hidden = true;
+  fallback.setAttribute('aria-label', 'Unchecked checklist items to copy');
+  copy.addEventListener('click', async () => {
+    const remaining = checklistItems(agency.id).filter(item => !checkedItems.has(agency.id + ':' + item.id));
+    fallback.hidden = true;
+    if (!remaining.length) {
+      status.textContent = 'All checklist items are checked.';
+      return;
+    }
+    const text = agency.name + ' — items still to review / follow up\nUnchecked items have not yet been verified; they are not necessarily missing.\n\n'
+      + remaining.map(item => '• ' + item.title + '\n' + item.detail + '\n' + item.source).join('\n\n');
+    try {
+      await navigator.clipboard.writeText(text);
+      status.textContent = plural(remaining.length, 'unchecked item') + ' copied.';
+    } catch (error) {
+      fallback.value = text;
+      fallback.hidden = false;
+      fallback.focus();
+      fallback.select();
+      status.textContent = 'Select and copy the text below.';
+    }
+  });
+  actions.append(copy, status);
+  body.append(actions, fallback, el('p', 'checklist-source', 'Source: your USCIS RFE dated October 14, 2026, printed pages 2–4. Case routing uses the supplied January 2, 2025 CORI and saved requests. These checks track your review, not USCIS acceptance or a legal finding.'));
+  section.append(body);
+  return section;
+}
 
 function messageHTML(text) {
   const box = el('div', 'email');
@@ -50,6 +149,9 @@ function agencyCard(agency, replies, documents) {
   const [status, statusClass] = statusFor(replies, documents);
   const overview = el('span', 'agency-overview');
   overview.append(el('span', 'status-badge ' + statusClass, status), el('span', 'agency-meta', plural(documents.length, 'document') + ' · ' + plural(replies.length, 'update')));
+  const checklistCount = el('span', 'agency-meta checklist-card-progress');
+  checklistCount.dataset.checkProgress = agency.id;
+  overview.append(checklistCount);
   const chevron = el('span', 'chevron', '⌄');
   chevron.setAttribute('aria-hidden', 'true');
   summary.append(title, overview, chevron);
@@ -80,7 +182,7 @@ function agencyCard(agency, replies, documents) {
     envelope.append(p);
   }
   request.append(envelope, messageHTML(agency.body));
-  content.append(docs, updates, request);
+  content.append(checklistNode(agency), docs, updates, request);
   card.append(content);
   return card;
 }
@@ -103,6 +205,7 @@ function render(data) {
   if (nextFingerprint === fingerprint) return;
   const openIds = new Set([...document.querySelectorAll('details[open]')].map(node => node.id));
   const focused = document.activeElement;
+  const focusedControlId = focused?.id;
   const focusId = focused?.closest('details')?.id;
   const focusIsSummary = focused?.tagName === 'SUMMARY';
   $('#sent-count').textContent = data.emails.filter(c => c.sent).length + ' / ' + data.emails.length;
@@ -128,6 +231,8 @@ function render(data) {
   }
   openIds.forEach(id => { const node = document.getElementById(id); if (node) node.open = true; });
   if (focusIsSummary && focusId) document.getElementById(focusId)?.firstChild.focus({preventScroll:true});
+  else if (focusedControlId) document.getElementById(focusedControlId)?.focus({preventScroll:true});
+  data.emails.forEach(agency => updateChecklistProgress(agency.id));
   fingerprint = nextFingerprint;
   applyFilters();
 }
@@ -162,6 +267,18 @@ openHash();
 load();
 setInterval(() => {if (!document.hidden) load();}, 60000);
 window.addEventListener('hashchange', openHash);
+window.addEventListener('storage', event => {
+  if (event.key !== CHECKLIST_KEY && event.key !== null) return;
+  try {
+    const saved = JSON.parse(event.newValue || '[]');
+    if (!Array.isArray(saved)) return;
+    checkedItems = new Set(saved.filter(key => typeof key === 'string'));
+    document.querySelectorAll('[data-check-key]').forEach(input => {
+      input.checked = checkedItems.has(input.dataset.checkKey);
+    });
+    currentData.emails.forEach(agency => updateChecklistProgress(agency.id));
+  } catch (error) { /* Keep current checks if another tab writes invalid data. */ }
+});
 let printState;
 window.addEventListener('beforeprint', () => {
   printState = new Set([...document.querySelectorAll('details[open]')].map(node => node.id));
