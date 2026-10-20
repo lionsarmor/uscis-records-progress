@@ -1,0 +1,18 @@
+'use strict';
+const LIVE='https://records.143-244-168-180.sslip.io';
+const el=(tag,cls,text)=>{const e=document.createElement(tag);if(cls)e.className=cls;if(text!==undefined)e.textContent=text;return e};
+const types={reply:'Reply received',records:'Records received',unavailable:'Records unavailable / restricted',followup:'Follow-up sent'};
+function messageHTML(text){const box=el('div','email');let list=null;for(const part of text.split(/\n\s*\n/)){const m=part.match(/^(\d+)\.\s+([\s\S]*)$/);if(m){if(!list){list=el('ol');list.start=Number(m[1]);box.append(list)}const li=el('li','',m[2]);li.value=Number(m[1]);li.style.whiteSpace='pre-line';list.append(li)}else{list=null;const p=el('p','',part);p.style.whiteSpace='pre-line';box.append(p)}}return box}
+function responseNode(r){const node=el('div','response');node.append(el('strong','',types[r.type]||'Update'),el('div','muted',r.date+' · Recorded '+r.createdAt.slice(0,10)),el('p','text',r.text));return node}
+function render(data){
+ document.querySelector('#sent-count').textContent=data.emails.filter(c=>c.sent).length+' / '+data.emails.length;
+ document.querySelector('#reply-count').textContent=new Set(data.responses.filter(r=>r.type!=='followup').map(r=>r.agencyId)).size;
+ document.querySelector('#files-count').textContent=new Set(data.responses.filter(r=>r.type==='records').map(r=>r.agencyId)).size;
+ const requests=document.querySelector('#requests'),links=document.querySelector('#office-links');requests.replaceChildren();links.replaceChildren();
+ data.emails.forEach(c=>{const jump=el('a','',c.name.replace(' District Court',' Court'));jump.href='#'+c.id;links.append(jump);const card=el('article','card');card.id=c.id;const head=el('div','card-head'),title=el('div');title.append(el('h2','',c.name),el('p','',c.kind==='sheriff'?'Custody records':c.cases+' known '+(c.cases===1?'case':'cases')));head.append(title,el('span','pill','✓ Sent · confirmed Oct 20'));
+ const body=el('div','card-body'),envelope=el('div','envelope');for(const [name,value] of [['To',c.to],['Subject',c.subject]]){const p=el('p');p.append(el('span','label',name),el('span','',value));envelope.append(p)}const details=el('details'),summary=el('summary','','View saved email request');details.append(summary,messageHTML(c.body));body.append(envelope,details);
+ const replies=el('section','responses');replies.append(el('h3','','Agency responses & follow-up'));const list=data.responses.filter(r=>r.agencyId===c.id).sort((a,b)=>b.date.localeCompare(a.date)||b.createdAt.localeCompare(a.createdAt));if(!list.length)replies.append(el('p','muted','No response recorded yet.'));else list.forEach(r=>replies.append(responseNode(r)));card.append(head,body,replies);requests.append(card)});
+}
+async function load(){const status=document.querySelector('#sync-status');try{const r=await fetch(LIVE+'/api/progress',{cache:'no-store',signal:AbortSignal.timeout(10000)});if(!r.ok)throw Error('Unavailable');const data=await r.json();render(data);status.textContent='Live response log loaded · Updates appear here after James saves them.';}catch(e){try{const r=await fetch('snapshot.json');if(!r.ok)throw Error();render(await r.json());status.textContent='Live updates are unavailable. Showing the saved October 20 request snapshot; newer replies may be missing.';}catch(e){status.textContent='The progress data could not load. Please refresh this page.';status.classList.add('error')}}}
+load();setInterval(()=>{if(!document.hidden)load()},60000);
+window.addEventListener('beforeprint',()=>document.querySelectorAll('details').forEach(d=>d.open=true));
