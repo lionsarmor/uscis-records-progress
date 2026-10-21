@@ -259,7 +259,7 @@ function messageNode(message) {
 }
 function communicationsNode(agency,replies) {
   const messages=departmentMessages(agency.id);
-  const section=disclosure('communications-'+agency.id,'Communications · '+plural(messages.length,'email')+' · '+plural(replies.length,'saved update'),'communications-section');
+  const section=disclosure('communications-'+agency.id,agency.id==='case-reference'?'Archive scope · 34 emails':('Communications · '+plural(messages.length,'email')+' · '+plural(replies.length,'saved update')),'communications-section');
   const body=el('div','communications-body');
   body.append(el('p','section-note','Imported emails through October 21, 2026. Full message text is preserved, including quoted history; original .eml files and attachments are in the downloadable ZIP. Phone updates are identified in the status summary.'));
   if(messages.length) [...messages].reverse().forEach(m=>body.append(messageNode(m)));
@@ -277,7 +277,7 @@ function agencyCard(agency,replies,documents) {
   const summary=card.firstChild;summary.className='agency-summary';
   const title=el('span','agency-title');title.append(el('span','agency-name',agency.name),el('span','agency-brief',meta?.short||'Open to review records and communications.'));
   const [status,statusClass]=statusFor(agency,replies,documents);
-  const overview=el('span','agency-overview');overview.append(el('span','status-badge '+statusClass,status),el('span','agency-meta',plural(documents.length,'file')+' · '+plural(departmentMessages(agency.id).length,'email')));
+  const overview=el('span','agency-overview');overview.append(el('span','status-badge '+statusClass,status),el('span','agency-meta',plural(documents.length,'file')+' · '+(agency.id==='case-reference'?'34 emails in full archive':plural(departmentMessages(agency.id).length,'email'))));
   const chevron=el('span','chevron','⌄');chevron.setAttribute('aria-hidden','true');summary.append(title,overview,chevron);
   const content=el('div','agency-content');content.append(statusNode(agency,replies,documents),contactNode(agency),documentsNode(agency,documents),communicationsNode(agency,replies));
   if(checklistPlans[agency.id]) content.append(checklistNode(agency));
