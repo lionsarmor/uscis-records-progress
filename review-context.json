@@ -1,0 +1,957 @@
+{
+  "asOf": "2026-10-21",
+  "departments": {
+    "sheriff-8": {
+      "title": "Attorney must sign & return",
+      "tone": "action",
+      "owner": "Nathan",
+      "received": "Written public-records denial and blank CORI waiver received October 20. James’s authorization, signed and dated October 21, is uploaded.",
+      "pending": "Nathan’s Part II signature/date and submission are not yet confirmed. The underlying custody records have not been received.",
+      "next": "Download the copy signed by James. Review, sign and date Part II, then return the completed form to Euvir Fahey with a personal/authorized request for the custody records. Confirm any identity requirements and retain the sent email and response.",
+      "evidence": "Sheriff letter and email, Oct 20; saved authorization and James’s signing confirmation, Oct 21.",
+      "phones": [
+        {
+          "label": "Euvir Fahey · public records",
+          "number": "508-830-6226"
+        },
+        {
+          "label": "Main office",
+          "number": "508-830-6200"
+        }
+      ],
+      "email": "efahey@pcsdma.org",
+      "source": "https://www.pcsdma.org/public.html",
+      "short": "James has signed. Nathan must complete Part II and return the authorization.",
+      "waiting": false,
+      "asOf": "2026-10-21"
+    },
+    "police-19": {
+      "title": "Attorney identity follow-up",
+      "tone": "action",
+      "owner": "Nathan",
+      "received": "James reports that Wareham said an attorney must verify his identity and that a written response would follow.",
+      "pending": "No written identity instructions or police records appear in the October 21 USCIS email import.",
+      "next": "Contact Records to obtain the written identity-verification procedure, confirm how Nathan can submit it remotely, and request the complete reports. Save any form or instructions before completing them.",
+      "evidence": "James’s telephone update; sent request and follow-up preserved in Gmail. The reported identity requirement is not yet documented in a received email.",
+      "phones": [
+        {
+          "label": "Records division",
+          "number": "508-295-8023"
+        }
+      ],
+      "email": "records@warehampolice.com",
+      "source": "https://www.wareham.ma.us/317/Records",
+      "short": "Awaiting written identity requirements; Nathan needs to contact Records.",
+      "waiting": true,
+      "asOf": "2026-10-21"
+    },
+    "police-7": {
+      "title": "Reports received · review needed",
+      "tone": "review",
+      "owner": "Nathan / James",
+      "received": "Reports.pdf received October 20. On October 21, Records confirmed that the document supplied is all they have and said redacted statements are not public records.",
+      "pending": "The response does not identify a specific redaction exemption or establish whether a certified copy or additional access through counsel is available.",
+      "next": "Call Records at 508-821-1471. Ask for the basis for the redactions, whether Nathan can obtain additional access, and how to obtain any certification needed. Keep Reports.pdf and the October 21 confirmation together for counsel.",
+      "evidence": "Gmail: records delivery Oct 20; completeness/redaction response Oct 21, 11:28 AM Eastern. The reply expressly says not to reply by email.",
+      "phones": [
+        {
+          "label": "Records · option 1",
+          "number": "508-821-1471"
+        }
+      ],
+      "email": "recordsrequest@tauntonpd.com",
+      "source": "https://tauntonpd.com/public-records/",
+      "short": "All-held-records confirmation saved. Call about redactions and certification.",
+      "waiting": false,
+      "asOf": "2026-10-21"
+    },
+    "police-5": {
+      "title": "Waiting for written response",
+      "tone": "waiting",
+      "owner": "Brockton Records",
+      "received": "The October 20 request and CORI follow-up are saved. James reached Brockton by phone and was told a response would come within 10 days, whether records exist or not.",
+      "pending": "No written response or police reports are in the imported USCIS emails. The phone update did not establish whether the quoted 10 days meant business or calendar days.",
+      "next": "Watch for the promised written response. If it does not arrive in the quoted window, call Records and ask for the request status and a written records/no-records response.",
+      "evidence": "James’s telephone update; Gmail confirms two sent messages on Oct 20. No received message in the Oct 21 import.",
+      "phones": [
+        {
+          "label": "Records · alternate directory number",
+          "number": "508-897-5208"
+        },
+        {
+          "label": "Records · previously busy",
+          "number": "508-941-0208"
+        },
+        {
+          "label": "Business line",
+          "number": "508-941-0200"
+        }
+      ],
+      "email": "records@brocktonpolice.com",
+      "source": "https://www.brocktonpolice.com/our-department/general-phone-numbers/",
+      "short": "Phone contact made; Brockton said a response would come within 10 days.",
+      "waiting": true,
+      "asOf": "2026-10-21"
+    },
+    "police-6": {
+      "title": "Request pending",
+      "tone": "waiting",
+      "owner": "Middleborough Records",
+      "received": "The October 20 request, including the CORI attachment, is saved. James reports that Middleborough is aware the request is pending.",
+      "pending": "No written reply or police narratives are in the October 21 imported email record.",
+      "next": "Follow up with Records for a response date and the narratives for the seven Middleborough-linked cases; save the response or any written explanation of unavailable records.",
+      "evidence": "James’s update and the Oct 20 sent email; no incoming message in the Oct 21 import.",
+      "phones": [
+        {
+          "label": "Records access officer",
+          "number": "508-947-1212"
+        }
+      ],
+      "email": "records@mpdmail.com",
+      "source": "https://middleboroughpolice.com/public-records-request/",
+      "short": "Department is aware the request is pending; written response still awaited.",
+      "waiting": true,
+      "asOf": "2026-10-21"
+    },
+    "police-18": {
+      "title": "Voicemail left · waiting",
+      "tone": "waiting",
+      "owner": "Norton Records",
+      "received": "The October 20 request and CORI follow-up are saved. James called Records and left a message.",
+      "pending": "James has not received a callback. No written response or records appear in the October 21 import.",
+      "next": "Watch for the callback or written response. Follow up with Records Administrator Michelle Goodwin about the reports for Attleboro case 1134CR000858A/B.",
+      "evidence": "James’s telephone update; Gmail confirms two sent messages on Oct 20.",
+      "phones": [
+        {
+          "label": "Michelle Goodwin · Records",
+          "number": "508-285-3305"
+        }
+      ],
+      "email": "RecordsRequest@nortonpolice.com",
+      "source": "https://www.nortonma.gov/347/Police-Reports-and-Logs",
+      "short": "Voicemail left; callback and written records response still pending.",
+      "waiting": true,
+      "asOf": "2026-10-21"
+    },
+    "court-2": {
+      "title": "Court scans received · match packet",
+      "tone": "review",
+      "owner": "Nathan / James",
+      "received": "Brockton emailed DOC102026.pdf on October 20. James reports that he has all certified court records. This statement is separate from the files uploaded here; counsel still needs to match the certified packet to every case and RFE item.",
+      "pending": "Completeness and certification of the uploaded scan have not been independently established against every RFE item.",
+      "next": "Match the certified packet and uploaded scan to 1515CR005525 and 1615CR001456. Check dispositions, count descriptions, plea/CWOF terms, and any remaining court-file gaps.",
+      "evidence": "Brockton court email Oct 20, 8:27 AM Eastern; James’s statement that all certified court records are in hand.",
+      "phones": [
+        {
+          "label": "Clerk’s office",
+          "number": "508-587-8000"
+        }
+      ],
+      "email": "cmbrocktondc@jud.state.ma.us",
+      "source": "https://www.mass.gov/locations/brockton-district-court",
+      "short": "Scanned court response saved; counsel needs to check it against the certified packet.",
+      "waiting": false,
+      "asOf": "2026-10-21"
+    },
+    "court-4": {
+      "title": "Dockets received · agency unresolved",
+      "tone": "review",
+      "owner": "Nathan / James",
+      "received": "Taunton acknowledged the request October 20 and sent two docket-sheet PDFs October 21. James reports that he has all certified court records. This statement is separate from the files uploaded here; counsel still needs to match the certified packet to every case and RFE item.",
+      "pending": "The issuing police agency for 1631CR001779A remains unresolved in this tracker.",
+      "next": "Ask sender Kristin Mohan which agency issued the complaint or citation for 1631CR001779A, and request the identifying complaint/citation if needed. Match both docket PDFs and the certified packet to the RFE checklist.",
+      "evidence": "Court acknowledgment Oct 20 and Kristin Mohan’s docket delivery Oct 21. An inquiry was drafted in conversation; no sent copy is verified in the import.",
+      "phones": [
+        {
+          "label": "Kristin Mohan · docket response",
+          "number": "508-977-6111"
+        },
+        {
+          "label": "Clerk’s office",
+          "number": "508-977-6000"
+        }
+      ],
+      "email": "kristin.mohan@jud.state.ma.us",
+      "source": "https://www.mass.gov/locations/taunton-district-court",
+      "short": "Two docket PDFs saved; identify the police agency for 1631CR001779A.",
+      "waiting": false,
+      "asOf": "2026-10-21"
+    },
+    "court-3": {
+      "title": "Certified packet reported in hand",
+      "tone": "review",
+      "owner": "Nathan / James",
+      "received": "James reports that he has all certified court records. This statement is separate from the files uploaded here; counsel still needs to match the certified packet to every case and RFE item. The October 20 email request is preserved.",
+      "pending": "No reply to this particular email request or new court-file attachment appears in the October 21 USCIS import. This does not mean James lacks the certified records.",
+      "next": "Review the certified papers for the eight Wareham dockets in the request. Upload the relevant copies for counsel and request any missing supporting court documents after that review.",
+      "evidence": "James’s statement about all certified court records; Oct 20 sent request; no received email in this imported label.",
+      "phones": [
+        {
+          "label": "Clerk’s office",
+          "number": "508-295-8300"
+        }
+      ],
+      "email": "cmwarehamdc@jud.state.ma.us",
+      "source": "https://www.mass.gov/locations/wareham-district-court",
+      "short": "James reports certified records in hand; the emailed request has no saved reply.",
+      "waiting": false,
+      "asOf": "2026-10-21"
+    },
+    "court-17": {
+      "title": "Certified packet reported in hand",
+      "tone": "review",
+      "owner": "Nathan / James",
+      "received": "James reports that he has all certified court records. This statement is separate from the files uploaded here; counsel still needs to match the certified packet to every case and RFE item. The October 20 email request is preserved.",
+      "pending": "No reply to this particular email request or new court-file attachment appears in the October 21 USCIS import. This does not mean James lacks the certified records.",
+      "next": "Review the certified papers for 1134CR000858A/B. Upload the relevant copies for counsel and request any missing supporting court documents after that review.",
+      "evidence": "James’s statement about all certified court records; Oct 20 sent request; no received email in this imported label.",
+      "phones": [
+        {
+          "label": "Clerk’s office",
+          "number": "508-222-5900"
+        }
+      ],
+      "email": "cmattleborodc@jud.state.ma.us",
+      "source": "https://www.mass.gov/locations/attleboro-district-court",
+      "short": "James reports certified records in hand; the emailed request has no saved reply.",
+      "waiting": false,
+      "asOf": "2026-10-21"
+    },
+    "congressional-hageman": {
+      "title": "Congressional correspondence saved",
+      "tone": "review",
+      "owner": "Nathan / James",
+      "received": "Eleven sent/received emails with Rep. Hageman’s office are preserved, including the privacy release and the RFE attachment.",
+      "pending": "The latest office email describes a planned mid-November inquiry. That is separate from the November 16 USCIS receipt deadline.",
+      "next": "Review the correspondence alongside the RFE response plan. Keep any further congressional updates in this section.",
+      "evidence": "Gmail USCIS import: Aug 26–Oct 20, 2026. This is assistance correspondence, not a police/court records response.",
+      "phones": [],
+      "email": "repharriethageman@mail15.housecommunications.gov",
+      "source": "",
+      "short": "All 11 messages preserved separately from agency records.",
+      "waiting": false,
+      "asOf": "2026-10-21"
+    },
+    "case-reference": {
+      "title": "Case reference & full archive",
+      "tone": "review",
+      "owner": "Nathan / James",
+      "received": "The imported USCIS label contains 34 messages across 16 threads: 21 sent and 13 received. All original messages and attachments are preserved.",
+      "pending": "The import is a snapshot of the USCIS label as of October 21; it does not claim to include every related message elsewhere in Gmail or later arrivals.",
+      "next": "Use the RFE and CORI inventory to review each agency’s records. Download the complete archive for an offline copy of the imported correspondence.",
+      "evidence": "October 21 Gmail export and verified attachment/archive checksums.",
+      "phones": [],
+      "email": "",
+      "source": "",
+      "short": "RFE, CORI inventory, and the complete imported correspondence in one place.",
+      "waiting": false,
+      "asOf": "2026-10-21"
+    }
+  },
+  "messages": [
+    {
+      "message_id": "1a03f8c5d1fc76bf",
+      "date_et": "2026-08-26T15:29:17-04:00",
+      "direction": "received",
+      "from": "\"Rep. Harriet Hageman\" <repharriethageman@mail15.housecommunications.gov>",
+      "to": "James M Weeks <jamesmweeksjr@gmail.com>",
+      "cc": "",
+      "subject": "Response from Rep. Harriet Hageman",
+      "agency_ids": [
+        "congressional-hageman"
+      ],
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a03f8c5d1fc76bf",
+      "body": "----------------------------------------------\n\nGood Afternoon, James,\nThanks for reaching out to us, and I would be happy to inquire with USCIS about your wife's application.\nIn order to do that, I need this agency-specific privacy release, attached. Please note, it needs to be signed in ink in the middle of the second page. The signature has to match the application signature, and since you're the Sponsor (I assume), then I need your signature there.\n\nAre you able to print it, fill it out and sign it, and email it back to me here? If not, I can put it in the mail for you today.\n\nI look forward for going to work for you!\nRachel\n  \n    USCIS_PRF_Hageman__2_.pdf\n    https://repharriethageman.zendesk.com/attachments/token/issNz1J5K9e6KJUExuyTeIJCm/?name=USCIS_PRF_Hageman+%282%29.pdf\n\n    Rachel Hedges\nField Representative \nU.S. Congresswoman Harriet Hageman of WY\nCell: 307-670-2289\n\nSign up for my newsletter to get updates on this issue and others!\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tSign Up\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t \n\nContact Me\n\nWashington DC Office \n\n1531 Longworth House Office Building Washington, DC 20515\n\nPhone: (202) 225-2311\n\nGillette District Office \n\n222 South Gillette Avenue Suite 600 Gillette, WY 82716\n\nPhone: (307) 228-6399\n\nCheyenne District Office \n\n2120 Capitol Avenue\n\nCheyenne, WY 82001\n\nPhone: (307) 829-3299\n\nCasper District Office \n\n100 E B Street Casper, WY 82601\n\nPhone: (307) 441-6328\n\n[269MW5-XN61V]",
+      "attachments": [
+        {
+          "message_id": "1a03f8c5d1fc76bf",
+          "part_index": 4,
+          "filename": "USCIS_PRF_Hageman (2).pdf",
+          "mime_type": "application/pdf",
+          "size": 539331,
+          "sha256": "4391691fcbfe1f524c484b9ee948498f0b7dc37a1133bb5d8e494f4d58ce1a51",
+          "path": "attachments/1a03f8c5d1fc76bf/04_USCIS_PRF_Hageman (2).pdf"
+        }
+      ]
+    },
+    {
+      "message_id": "1a048f5ed4f62ed1",
+      "date_et": "2026-08-28T11:21:11-04:00",
+      "direction": "received",
+      "from": "\"Rep. Harriet Hageman\" <repharriethageman@mail15.housecommunications.gov>",
+      "to": "James M Weeks <jamesmweeksjr@gmail.com>",
+      "cc": "",
+      "subject": "Response from Rep. Harriet Hageman",
+      "agency_ids": [
+        "congressional-hageman"
+      ],
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a048f5ed4f62ed1",
+      "body": "----------------------------------------------\n\nGood Morning, James,\nI wanted you to know about a few tools that USCIS provides to get information about current applications.\nYou can go here, put in your receipt number, and get a current case status.\nAlso, USCIS has posted estimated processing times for different applications here.\n\nI hope that's helpful. Please let me know if you want me to submit a Congressional Inquiry on your behalf, and I'd be happy to do that with this privacy release, attached.\nHave a great weekend,\nRachel\n\n    Rachel Hedges\nField Representative \nU.S. Congresswoman Harriet Hageman of WY\nCell: 307-670-2289\n\nSign up for my newsletter to get updates on this issue and others!\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tSign Up\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t \n\nContact Me\n\nWashington DC Office \n\n1531 Longworth House Office Building Washington, DC 20515\n\nPhone: (202) 225-2311\n\nGillette District Office \n\n222 South Gillette Avenue Suite 600 Gillette, WY 82716\n\nPhone: (307) 228-6399\n\nCheyenne District Office \n\n2120 Capitol Avenue\n\nCheyenne, WY 82001\n\nPhone: (307) 829-3299\n\nCasper District Office \n\n100 E B Street Casper, WY 82601\n\nPhone: (307) 441-6328\n\n[269MW5-XN61V]",
+      "attachments": []
+    },
+    {
+      "message_id": "1a081a6a8e6232f7",
+      "date_et": "2026-09-08T11:32:58-04:00",
+      "direction": "sent",
+      "from": "James Weeks <jamesmweeksjr@gmail.com>",
+      "to": "\"Rep. Harriet Hageman\" <repharriethageman@mail15.housecommunications.gov>",
+      "cc": "",
+      "subject": "Re: Response from Rep. Harriet Hageman",
+      "agency_ids": [
+        "congressional-hageman"
+      ],
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a081a6a8e6232f7",
+      "body": "Thank you for helping my family. Anything helps.\n\nOn Fri, Aug 28, 2026 at 10:21 AM Rep. Harriet Hageman <\nrepharriethageman@mail15.housecommunications.gov> wrote:\n\n> <\n>\n>\n>\n> Good Morning, James,\n> I wanted you to know about a few tools that USCIS provides to get\n> information about current applications.\n> You can go here <https://egov.uscis.gov/>, put in your receipt number,\n> and get a current case status.\n> Also, USCIS has posted estimated processing times for different\n> applications here <https://egov.uscis.gov/processing-times>.\n>\n> I hope that's helpful. Please let me know if you want me to submit a\n> Congressional Inquiry on your behalf, and I'd be happy to do that with this\n> privacy release, attached.\n> Have a great weekend,\n> Rachel\n>\n>\n>\n> Rachel Hedges\n> Field Representative\n> U.S. Congresswoman Harriet Hageman of WY\n> Cell: 307-670-2289 <(307)%20670-2289>\n>\n>\n> Sign up for my newsletter to get updates on this issue and others!\n> Sign Up <https://hageman.house.gov/newsletter>\n>\n> Contact Me <https://hageman.house.gov/contact>\n>\n> *Washington DC Office *\n>\n> 1227 Longworth HOB Washington, DC 20515\n>\n> Phone: (202) 225-2311\n>\n> *Cheyenne District Office *\n>\n> 2120 Capitol Avenue\n> <https://www.google.com/maps/search/2120+Capitol+Avenue+%0D%0A%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09+Cheyenne,+WY+82001?entry=gmail&source=g>\n>\n> <https://www.google.com/maps/search/2120+Capitol+Avenue+%0D%0A%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09+Cheyenne,+WY+82001?entry=gmail&source=g>\n>\n> Cheyenne, WY 82001\n> <https://www.google.com/maps/search/2120+Capitol+Avenue+%0D%0A%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09+Cheyenne,+WY+82001?entry=gmail&source=g>\n>\n> Phone: (307) 829-3299\n>\n> *Casper District Office *\n>\n> 100 E B Street\n> <https://www.google.com/maps/search/100+E+B+Street+%0D%0A%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09+Casper,+WY+82601?entry=gmail&source=g>\n>\n> <https://www.google.com/maps/search/100+E+B+Street+%0D%0A%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09+Casper,+WY+82601?entry=gmail&source=g>\n>\n> Casper, WY 82601\n> <https://www.google.com/maps/search/100+E+B+Street+%0D%0A%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09+Casper,+WY+82601?entry=gmail&source=g>\n>\n> Phone: (307) 261-6595\n> [269MW5-XN61V]\n>",
+      "attachments": [
+        {
+          "message_id": "1a081a6a8e6232f7",
+          "part_index": 4,
+          "filename": "USCIS_PRF_Hageman_completed_signed_corrected.pdf",
+          "mime_type": "application/pdf",
+          "size": 2210155,
+          "sha256": "e1aa3a3b9a928e873b2045eb791503466a785a97414cb6b6d337c9a07f2b0284",
+          "path": "attachments/1a081a6a8e6232f7/04_USCIS_PRF_Hageman_completed_signed_corrected.pdf"
+        }
+      ]
+    },
+    {
+      "message_id": "1a081fb83fc2016b",
+      "date_et": "2026-09-08T13:05:38-04:00",
+      "direction": "received",
+      "from": "\"Rep. Harriet Hageman\" <repharriethageman@mail15.housecommunications.gov>",
+      "to": "James M Weeks <jamesmweeksjr@gmail.com>",
+      "cc": "",
+      "subject": "Response from Rep. Harriet Hageman",
+      "agency_ids": [
+        "congressional-hageman"
+      ],
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a081fb83fc2016b",
+      "body": "----------------------------------------------\n\nGood Morning, James,\n\nPerfect! Thank you for submitting the USCIS privacy release form. I have submitted it, and USCIS typically responds to our inquiries within a few weeks. I will notify you once they reply. Please let me know if they contact you directly in the meantime.\n\nBest,\nRachel\n\n    Rachel Hedges\nField Representative \nU.S. Congresswoman Harriet Hageman of WY\nCell: 307-670-2289\n\nSign up for my newsletter to get updates on this issue and others!\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tSign Up\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t \n\nContact Me\n\nWashington DC Office \n\n1531 Longworth House Office Building Washington, DC 20515\n\nPhone: (202) 225-2311\n\nGillette District Office \n\n222 South Gillette Avenue Suite 600 Gillette, WY 82716\n\nPhone: (307) 228-6399\n\nCheyenne District Office \n\n2120 Capitol Avenue\n\nCheyenne, WY 82001\n\nPhone: (307) 829-3299\n\nCasper District Office \n\n100 E B Street Casper, WY 82601\n\nPhone: (307) 441-6328\n\n[269MW5-XN61V]",
+      "attachments": []
+    },
+    {
+      "message_id": "1a113e5027c860bc",
+      "date_et": "2026-10-06T21:05:34-04:00",
+      "direction": "sent",
+      "from": "James Weeks <jamesmweeksjr@gmail.com>",
+      "to": "\"Rep. Harriet Hageman\" <repharriethageman@mail15.housecommunications.gov>",
+      "cc": "",
+      "subject": "Re: Response from Rep. Harriet Hageman",
+      "agency_ids": [
+        "congressional-hageman"
+      ],
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a113e5027c860bc",
+      "body": "Hello,\n\nI am following up regarding my pending Form I-129F petition, which has been\npending since April 2025. It is now October 2026, meaning the petition has\nbeen pending for approximately 18 months without a decision or substantive\nupdate.\n\nAs we discussed before, the prolonged delay is especially difficult for my\nfamily. I have a 10-month-old son who is a U.S. citizen, and our continued\nseparation is causing significant emotional and practical hardship. Each\nadditional month prolongs our separation and prevents us from moving\nforward together as a family.\n\nUSCIS previously advised that I should expect a decision or further action\nwithin 60 days. That period has passed without a decision or substantive\nupdate. Your office subsequently submitted a congressional inquiry on my\nbehalf, and more than 30 days have now passed since that inquiry without a\nsubstantive response or action from USCIS.\n\nPlease if you will, contact the USCIS congressional liaison directly to\nrequest an explanation for the continued delay and a detailed status\nupdate. I would appreciate confirmation that the inquiry has been escalated\nthrough the appropriate congressional liaison channel rather than submitted\nas another general case-status request.\n\nSpecifically, please ask USCIS to confirm:\n\n   1. Whether the petition is currently assigned to an adjudicating officer;\n   2. Whether USCIS is waiting for any additional information or\n   documentation from me or the beneficiary;\n   3. Whether any additional review, background check, or other hold is\n   delaying adjudication; and\n   4. When USCIS expects to take action on the petition.\n\nPlease let me know when your office has contacted the USCIS congressional\nliaison and provide any substantive response , I apologize if I sound a bit\ndesperate, it’s just incredibly difficult having life on hold and missing\nso much. I have no idea what else I can do in this situation.\n\nThank you for your continued assistance.\n\nJames Weeks\n\nOn Wed, Sep 9, 2026 at 1:05 AM Rep. Harriet Hageman <\nrepharriethageman@mail15.housecommunications.gov> wrote:\n\n> <\n>\n>\n>\n> Good Morning, James,\n>\n> Perfect! Thank you for submitting the USCIS privacy release form. I have\n> submitted it, and USCIS typically responds to our inquiries within a few\n> weeks. I will notify you once they reply. Please let me know if they\n> contact you directly in the meantime.\n>\n> Best,\n> Rachel\n>\n>\n>\n> Rachel Hedges\n> Field Representative\n> U.S. Congresswoman Harriet Hageman of WY\n> Cell: 307-670-2289\n>\n>\n> Sign up for my newsletter to get updates on this issue and others!\n> Sign Up <https://hageman.house.gov/newsletter>\n>\n> Contact Me <https://hageman.house.gov/contact>\n>\n> *Washington DC Office *\n>\n> 1227 Longworth HOB Washington, DC 20515\n>\n> Phone: (202) 225-2311\n>\n> *Cheyenne District Office *\n>\n> 2120 Capitol Avenue\n> <https://www.google.com/maps/search/2120+Capitol+Avenue+%0D%0A%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09+Cheyenne,+WY+82001?entry=gmail&source=g>\n>\n> <https://www.google.com/maps/search/2120+Capitol+Avenue+%0D%0A%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09+Cheyenne,+WY+82001?entry=gmail&source=g>\n>\n> Cheyenne, WY 82001\n> <https://www.google.com/maps/search/2120+Capitol+Avenue+%0D%0A%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09+Cheyenne,+WY+82001?entry=gmail&source=g>\n>\n> Phone: (307) 829-3299\n>\n> *Casper District Office *\n>\n> 100 E B Street\n> <https://www.google.com/maps/search/100+E+B+Street+%0D%0A%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09+Casper,+WY+82601?entry=gmail&source=g>\n>\n> <https://www.google.com/maps/search/100+E+B+Street+%0D%0A%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09+Casper,+WY+82601?entry=gmail&source=g>\n>\n> Casper, WY 82601\n> <https://www.google.com/maps/search/100+E+B+Street+%0D%0A%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09+Casper,+WY+82601?entry=gmail&source=g>\n>\n> Phone: (307) 261-6595\n> [269MW5-XN61V]\n>",
+      "attachments": []
+    },
+    {
+      "message_id": "1a11778495c4018d",
+      "date_et": "2026-10-07T13:45:20-04:00",
+      "direction": "received",
+      "from": "\"Rep. Harriet Hageman\" <repharriethageman@mail15.housecommunications.gov>",
+      "to": "James M Weeks <jamesmweeksjr@gmail.com>",
+      "cc": "",
+      "subject": "Response from Rep. Harriet Hageman",
+      "agency_ids": [
+        "congressional-hageman"
+      ],
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a11778495c4018d",
+      "body": "----------------------------------------------\n\nGood Morning, James,\nThanks for reaching out. Yes, I will submit another inquiry and see what I can find out.\nBest,\nRachel\n\n    Rachel Hedges\nField Representative \nU.S. Congresswoman Harriet Hageman of WY\nCell: 307-670-2289\n\nSign up for my newsletter to get updates on this issue and others!\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tSign Up\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t \n\nContact Me\n\nWashington DC Office \n\n1531 Longworth House Office Building Washington, DC 20515\n\nPhone: (202) 225-2311\n\nGillette District Office \n\n222 South Gillette Avenue Suite 600 Gillette, WY 82716\n\nPhone: (307) 228-6399\n\nCheyenne District Office \n\n2120 Capitol Avenue\n\nCheyenne, WY 82001\n\nPhone: (307) 829-3299\n\nCasper District Office \n\n100 E B Street Casper, WY 82601\n\nPhone: (307) 441-6328\n\n[269MW5-XN61V]",
+      "attachments": []
+    },
+    {
+      "message_id": "1a11831acaa848fc",
+      "date_et": "2026-10-07T17:07:49-04:00",
+      "direction": "sent",
+      "from": "James Weeks <jamesmweeksjr@gmail.com>",
+      "to": "\"Rep. Harriet Hageman\" <repharriethageman@mail15.housecommunications.gov>",
+      "cc": "",
+      "subject": "Re: Response from Rep. Harriet Hageman",
+      "agency_ids": [
+        "congressional-hageman"
+      ],
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a11831acaa848fc",
+      "body": "Thank you!\n\nOn Thu, Oct 8, 2026 at 1:45 AM Rep. Harriet Hageman <\nrepharriethageman@mail15.housecommunications.gov> wrote:\n\n> <\n>\n>\n>\n> Good Morning, James,\n> Thanks for reaching out. Yes, I will submit another inquiry and see what I\n> can find out.\n> Best,\n> Rachel\n>\n>\n>\n> Rachel Hedges\n> Field Representative\n> U.S. Congresswoman Harriet Hageman of WY\n> Cell: 307-670-2289\n>\n>\n> Sign up for my newsletter to get updates on this issue and others!\n> Sign Up <https://hageman.house.gov/newsletter>\n>\n> Contact Me <https://hageman.house.gov/contact>\n>\n> *Washington DC Office *\n>\n> 1227 Longworth HOB Washington, DC 20515\n>\n> Phone: (202) 225-2311\n>\n> *Cheyenne District Office *\n>\n> 2120 Capitol Avenue\n> <https://www.google.com/maps/search/2120+Capitol+Avenue+%0D%0A%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09+Cheyenne,+WY+82001?entry=gmail&source=g>\n>\n> <https://www.google.com/maps/search/2120+Capitol+Avenue+%0D%0A%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09+Cheyenne,+WY+82001?entry=gmail&source=g>\n>\n> Cheyenne, WY 82001\n> <https://www.google.com/maps/search/2120+Capitol+Avenue+%0D%0A%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09+Cheyenne,+WY+82001?entry=gmail&source=g>\n>\n> Phone: (307) 829-3299\n>\n> *Casper District Office *\n>\n> 100 E B Street\n> <https://www.google.com/maps/search/100+E+B+Street+%0D%0A%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09+Casper,+WY+82601?entry=gmail&source=g>\n>\n> <https://www.google.com/maps/search/100+E+B+Street+%0D%0A%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09+Casper,+WY+82601?entry=gmail&source=g>\n>\n> Casper, WY 82601\n> <https://www.google.com/maps/search/100+E+B+Street+%0D%0A%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09+Casper,+WY+82601?entry=gmail&source=g>\n>\n> Phone: (307) 261-6595\n> [269MW5-XN61V]\n>",
+      "attachments": []
+    },
+    {
+      "message_id": "1a1566222255f1cf",
+      "date_et": "2026-10-19T18:57:13-04:00",
+      "direction": "received",
+      "from": "\"Rep. Harriet Hageman\" <repharriethageman@mail15.housecommunications.gov>",
+      "to": "James M Weeks <jamesmweeksjr@gmail.com>",
+      "cc": "",
+      "subject": "Response from Rep. Harriet Hageman",
+      "agency_ids": [
+        "congressional-hageman"
+      ],
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a1566222255f1cf",
+      "body": "----------------------------------------------\n\nGood Afternoon, James,\n\nAfter submitting inquiries about Rochelle's I-129, I just received this email response:\n\n\"Hedges, Rachel\n\nRE: Rochelle Misa Tafalla\n\nReceipt number: I-129F/WAC2590104055\n\nGreetings,\n\nThank you for your inquiry, relating to the above listed petition filed with U.S. Citizenship and Immigration Services (USCIS).\n\nUSCIS records indicate a Request for Evidence (RFE) was sent to your constituent on October 8, 2026. Our records do not show the RFE was returned to our office as undeliverable. The constituent must respond with the required information by the date specified on the RFE notice before a final decision can be made and a courtesy copy is attached.\"\n\nJames, did you change your address? Perhaps USCIS has an old address? Don't be alarmed by this, they just need more information before they process the I-129.\n\nYou can change your address online here: https://www.uscis.gov/addresschange\n\nor you should see an option to do so in your USCIS portal.\n\nI'm attaching the document they mailed you here too.\n\nHope that's helpful.\n\nBest,\n\nRachel\n  \n    WAC2590104055.pdf\n    https://repharriethageman.zendesk.com/attachments/token/wYyV3Gviu6wVmi5YVGYmNgVvI/?name=WAC2590104055.pdf\n\n    Rachel Hedges\nField Representative \nU.S. Congresswoman Harriet Hageman of WY\nCell: 307-670-2289\n\nSign up for my newsletter to get updates on this issue and others!\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tSign Up\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t \n\nContact Me\n\nWashington DC Office \n\n1531 Longworth House Office Building Washington, DC 20515\n\nPhone: (202) 225-2311\n\nGillette District Office \n\n222 South Gillette Avenue Suite 600 Gillette, WY 82716\n\nPhone: (307) 228-6399\n\nCheyenne District Office \n\n2120 Capitol Avenue\n\nCheyenne, WY 82001\n\nPhone: (307) 829-3299\n\nCasper District Office \n\n100 E B Street Casper, WY 82601\n\nPhone: (307) 441-6328\n\n[269MW5-XN61V]",
+      "attachments": [
+        {
+          "message_id": "1a1566222255f1cf",
+          "part_index": 4,
+          "filename": "WAC2590104055.pdf",
+          "mime_type": "application/pdf",
+          "size": 201437,
+          "sha256": "0afde7c931cd758aae21cb1b0c49f19b49fd7946f163fd1a7729c71dd4c15e40",
+          "path": "attachments/1a1566222255f1cf/04_WAC2590104055.pdf"
+        }
+      ]
+    },
+    {
+      "message_id": "1a157b453ca90903",
+      "date_et": "2026-10-20T01:06:37-04:00",
+      "direction": "sent",
+      "from": "James Weeks <jamesmweeksjr@gmail.com>",
+      "to": "\"Rep. Harriet Hageman\" <repharriethageman@mail15.housecommunications.gov>",
+      "cc": "",
+      "subject": "Re: Response from Rep. Harriet Hageman",
+      "agency_ids": [
+        "congressional-hageman"
+      ],
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a157b453ca90903",
+      "body": "thank you so much for this, no my address wasnt changed and my lawyer\ndoesnt even have a copy yet but thank you! now i can respond to this\n\nOn Tue, Oct 20, 2026 at 6:57 AM Rep. Harriet Hageman <\nrepharriethageman@mail15.housecommunications.gov> wrote:\n\n> <\n>\n>\n>\n> Good Afternoon, James,\n>\n> After submitting inquiries about Rochelle's I-129, I just received this\n> email response:\n>\n>\n>\n> \"Hedges, Rachel\n>\n> RE: Rochelle Misa Tafalla\n>\n> Receipt number: I-129F/WAC2590104055\n>\n>\n>\n> Greetings,\n>\n>\n>\n> Thank you for your inquiry, relating to the above listed petition filed\n> with U.S. Citizenship and Immigration Services (USCIS).\n>\n>\n>\n> USCIS records indicate a Request for Evidence (RFE) was sent to your\n> constituent on October 8, 2026. Our records do not show the RFE was\n> returned to our office as undeliverable. The constituent must respond with\n> the required information by the date specified on the RFE notice before a\n> final decision can be made and a courtesy copy is attached.\"\n>\n>\n>\n> James, did you change your address? Perhaps USCIS has an old address?\n> Don't be alarmed by this, they just need more information before they\n> process the I-129.\n>\n>\n>\n> You can change your address online here:\n> https://www.uscis.gov/addresschange\n>\n> or you should see an option to do so in your USCIS portal.\n>\n>\n>\n> I'm attaching the document they mailed you here too.\n>\n> Hope that's helpful.\n>\n> Best,\n>\n> Rachel\n>\n>\n>\n>\n>\n>\n>\n>\n> WAC2590104055.pdf\n>\n> https://repharriethageman.zendesk.com/attachments/token/wYyV3Gviu6wVmi5YVGYmNgVvI/?name=WAC2590104055.pdf\n>\n>\n>\n> Rachel Hedges\n> Field Representative\n> U.S. Congresswoman Harriet Hageman of WY\n> Cell: 307-670-2289 <(307)%20670-2289>\n>\n>\n> Sign up for my newsletter to get updates on this issue and others!\n> Sign Up <https://hageman.house.gov/newsletter>\n>\n> Contact Me <https://hageman.house.gov/contact>\n>\n> *Washington DC Office *\n>\n> 1227 Longworth HOB Washington, DC 20515\n>\n> Phone: (202) 225-2311\n>\n> *Cheyenne District Office *\n>\n> 2120 Capitol Avenue\n> <https://www.google.com/maps/search/2120+Capitol+Avenue+%0D%0A%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09+Cheyenne,+WY+82001?entry=gmail&source=g>\n>\n> <https://www.google.com/maps/search/2120+Capitol+Avenue+%0D%0A%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09+Cheyenne,+WY+82001?entry=gmail&source=g>\n>\n> Cheyenne, WY 82001\n> <https://www.google.com/maps/search/2120+Capitol+Avenue+%0D%0A%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09+Cheyenne,+WY+82001?entry=gmail&source=g>\n>\n> Phone: (307) 829-3299\n>\n> *Casper District Office *\n>\n> 100 E B Street\n> <https://www.google.com/maps/search/100+E+B+Street+%0D%0A%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09+Casper,+WY+82601?entry=gmail&source=g>\n>\n> <https://www.google.com/maps/search/100+E+B+Street+%0D%0A%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09+Casper,+WY+82601?entry=gmail&source=g>\n>\n> Casper, WY 82601\n> <https://www.google.com/maps/search/100+E+B+Street+%0D%0A%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09+Casper,+WY+82601?entry=gmail&source=g>\n>\n> Phone: (307) 261-6595\n> [269MW5-XN61V]\n>",
+      "attachments": []
+    },
+    {
+      "message_id": "1a157ba7010c071a",
+      "date_et": "2026-10-20T01:13:18-04:00",
+      "direction": "sent",
+      "from": "James Weeks <jamesmweeksjr@gmail.com>",
+      "to": "\"Rep. Harriet Hageman\" <repharriethageman@mail15.housecommunications.gov>",
+      "cc": "",
+      "subject": "Re: Response from Rep. Harriet Hageman",
+      "agency_ids": [
+        "congressional-hageman"
+      ],
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a157ba7010c071a",
+      "body": "and just to be clear i sent them all this information , possibly not all\nthe police records, but, all of this was dismissed outright they have those\nrecords. I am not sure what I am supposed to do other then try to submit it\nall again this time with police records, but thank you so much\n\nOn Tue, Oct 20, 2026 at 1:06 PM James Weeks <jamesmweeksjr@gmail.com> wrote:\n\n> thank you so much for this, no my address wasnt changed and my lawyer\n> doesnt even have a copy yet but thank you! now i can respond to this\n>\n> On Tue, Oct 20, 2026 at 6:57 AM Rep. Harriet Hageman <\n> repharriethageman@mail15.housecommunications.gov> wrote:\n>\n>> <\n>>\n>>\n>>\n>> Good Afternoon, James,\n>>\n>> After submitting inquiries about Rochelle's I-129, I just received this\n>> email response:\n>>\n>>\n>>\n>> \"Hedges, Rachel\n>>\n>> RE: Rochelle Misa Tafalla\n>>\n>> Receipt number: I-129F/WAC2590104055\n>>\n>>\n>>\n>> Greetings,\n>>\n>>\n>>\n>> Thank you for your inquiry, relating to the above listed petition filed\n>> with U.S. Citizenship and Immigration Services (USCIS).\n>>\n>>\n>>\n>> USCIS records indicate a Request for Evidence (RFE) was sent to your\n>> constituent on October 8, 2026. Our records do not show the RFE was\n>> returned to our office as undeliverable. The constituent must respond with\n>> the required information by the date specified on the RFE notice before a\n>> final decision can be made and a courtesy copy is attached.\"\n>>\n>>\n>>\n>> James, did you change your address? Perhaps USCIS has an old address?\n>> Don't be alarmed by this, they just need more information before they\n>> process the I-129.\n>>\n>>\n>>\n>> You can change your address online here:\n>> https://www.uscis.gov/addresschange\n>>\n>> or you should see an option to do so in your USCIS portal.\n>>\n>>\n>>\n>> I'm attaching the document they mailed you here too.\n>>\n>> Hope that's helpful.\n>>\n>> Best,\n>>\n>> Rachel\n>>\n>>\n>>\n>>\n>>\n>>\n>>\n>>\n>> WAC2590104055.pdf\n>>\n>> https://repharriethageman.zendesk.com/attachments/token/wYyV3Gviu6wVmi5YVGYmNgVvI/?name=WAC2590104055.pdf\n>>\n>>\n>>\n>> Rachel Hedges\n>> Field Representative\n>> U.S. Congresswoman Harriet Hageman of WY\n>> Cell: 307-670-2289 <(307)%20670-2289>\n>>\n>>\n>> Sign up for my newsletter to get updates on this issue and others!\n>> Sign Up <https://hageman.house.gov/newsletter>\n>>\n>> Contact Me <https://hageman.house.gov/contact>\n>>\n>> *Washington DC Office *\n>>\n>> 1227 Longworth HOB Washington, DC 20515\n>>\n>> Phone: (202) 225-2311\n>>\n>> *Cheyenne District Office *\n>>\n>> 2120 Capitol Avenue\n>> <https://www.google.com/maps/search/2120+Capitol+Avenue+%0D%0A%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09+Cheyenne,+WY+82001?entry=gmail&source=g>\n>>\n>> <https://www.google.com/maps/search/2120+Capitol+Avenue+%0D%0A%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09+Cheyenne,+WY+82001?entry=gmail&source=g>\n>>\n>> Cheyenne, WY 82001\n>> <https://www.google.com/maps/search/2120+Capitol+Avenue+%0D%0A%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09+Cheyenne,+WY+82001?entry=gmail&source=g>\n>>\n>> Phone: (307) 829-3299\n>>\n>> *Casper District Office *\n>>\n>> 100 E B Street\n>> <https://www.google.com/maps/search/100+E+B+Street+%0D%0A%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09+Casper,+WY+82601?entry=gmail&source=g>\n>>\n>> <https://www.google.com/maps/search/100+E+B+Street+%0D%0A%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09+Casper,+WY+82601?entry=gmail&source=g>\n>>\n>> Casper, WY 82601\n>> <https://www.google.com/maps/search/100+E+B+Street+%0D%0A%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09+Casper,+WY+82601?entry=gmail&source=g>\n>>\n>> Phone: (307) 261-6595\n>> [269MW5-XN61V]\n>>\n>",
+      "attachments": []
+    },
+    {
+      "message_id": "1a1580bf4e625a74",
+      "date_et": "2026-10-20T02:42:20-04:00",
+      "direction": "sent",
+      "from": "James Weeks <jamesmweeksjr@gmail.com>",
+      "to": "jkenny@pcsdma.org",
+      "cc": "",
+      "subject": "Urgent certified custody records and case identification — James Michael Weeks — December 29, 2015",
+      "agency_ids": [
+        "sheriff-8"
+      ],
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a1580bf4e625a74",
+      "body": "Dear Records Access Officer,\n\nI am out of state and need these records delivered by email or secure\ndownload. I cannot appear at your office or arrange in-person\ncollection. USCIS issued a Request for Evidence dated October 14,\n2026, for my Form I-129F petition and must receive my complete\nresponse by November 16, 2026. I respectfully request expedited\nelectronic access to my own records.I will pay any fees associated\nwith that.\n\nMy name is James Michael Weeks jr. Please also search the name James\nMichael Weeks. and the case-name format Weeks, JR, James Michael, as\nused in the USCIS notice. Date of birth: April 7, 1986 (as shown in my\nsupplied CORI).\n\nThe notice identifies “12/29/2015, PLYMOUTH COUNTY SD JAIL HOC,\nPLYMOUTH, MA” and the label “OTHER FELONY-CRIMINAL HARRASSMENT.” It\nalso identifies Brockton PD and docket 1515CR005525 with a date of\n10/30/2000. I cannot tell from the notice whether these refer to the\nsame underlying matter. Please establish any connection from your\nrecords. My supplied January 2, 2025 CORI lists 1515CR005525A at\nBrockton District Court, Brockton Police, court appearance 12/29/2015,\nand labels the charge MISDEMEANOR. Please reconcile your original\nbooking/commitment records with these references and the RFE’s OTHER\nFELONY label.\n\nPlease provide certified true copies of the booking/intake record,\ncharge and case-number records, commitment/mittimus and\nrelease/discharge documents, custody dates and legal basis for\ncustody, and any arrest, incident or probable-cause narratives\nreceived or generated for this matter. Please identify the committing\ncourt, court docket, arresting/transporting agency and its report\nnumber, and whether 12/29/2015 records a booking, transfer, arrest,\nsentence, or another event.\n\nPlease provide any documents in your custody relating to a diversion\nor pretrial intervention agreement, terms, conditions, completion or\ntermination, and final disposition for this matter. If your records\nshow no such program, please state what records were located and\nidentify the court, probation department or program custodian that\ncould clarify the disposition. Please include any other\ncustody/arrest/charge records concerning me held by your office and\nidentify the corresponding court and agency.\n\nIf a requested record is unavailable, please provide an original\nsigned or certified custodian letter specifying the record and case,\nscope of search, reason for unavailability and any surviving records\nor transfer destination. If it is restricted rather than missing,\nplease state the restriction and the subject/counsel-access route.\n\nI am requesting access as the person who is the subject of these\nrecords. If a public-records request is not the correct procedure,\nplease explain the defendant/subject-access procedure, required\nauthorization, or court order. If records are restricted, sealed,\nimpounded, or exempt, please distinguish that from records that do not\nexist or cannot be located, identify the restriction in writing, and\nexplain how my attorney or I can seek lawful access.\n\nPlease send the records as PDF attachments to jamesmweeksjr@gmail.com,\nor provide a secure download link I can access from out of state.\nInclude every page, certification page, signature and seal.\n\nPlease provide electronically certified PDFs if your office offers\nthem, or complete scans of the certified records already issued or\nretained in your file.\n\nIf only uncertified scans are available electronically, please send\nthem promptly and clearly identify their certification status so my\nattorney can address the USCIS requirement.\n\nPlease explain any electronic-access or certification restriction in\nwriting; inability to email a record is different from the record not\nexisting.\n\nPlease provide remote identification, signed-release and payment\ninstructions, your request reference, and expected completion date.\n\nMy requested target is November 2, 2026, for attorney review before\nUSCIS’s November 16 receipt deadline. I need electronic delivery only\nand cannot attend or arrange pickup in Massachusetts.\n\nThank you,\nJames Michael Weeks\nEmail: jamesmweeksjr@gmail.com\nTelephone: 13072122648\nRecords delivery: email or secure download",
+      "attachments": []
+    },
+    {
+      "message_id": "1a1580e0ed410fb9",
+      "date_et": "2026-10-20T02:44:38-04:00",
+      "direction": "sent",
+      "from": "James Weeks <jamesmweeksjr@gmail.com>",
+      "to": "jkenny@pcsdma.org",
+      "cc": "",
+      "subject": "Re: Urgent certified custody records and case identification — James Michael Weeks — December 29, 2015",
+      "agency_ids": [
+        "sheriff-8"
+      ],
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a1580e0ed410fb9",
+      "body": "On Tue, Oct 20, 2026 at 2:42 PM James Weeks <jamesmweeksjr@gmail.com> wrote:\n>\n> Dear Records Access Officer,\n>\n> I am out of state and need these records delivered by email or secure\n> download. I cannot appear at your office or arrange in-person\n> collection. USCIS issued a Request for Evidence dated October 14,\n> 2026, for my Form I-129F petition and must receive my complete\n> response by November 16, 2026. I respectfully request expedited\n> electronic access to my own records.I will pay any fees associated\n> with that.\n>\n> My name is James Michael Weeks jr. Please also search the name James\n> Michael Weeks. and the case-name format Weeks, JR, James Michael, as\n> used in the USCIS notice. Date of birth: April 7, 1986 (as shown in my\n> supplied CORI).\n>\n> The notice identifies “12/29/2015, PLYMOUTH COUNTY SD JAIL HOC,\n> PLYMOUTH, MA” and the label “OTHER FELONY-CRIMINAL HARRASSMENT.” It\n> also identifies Brockton PD and docket 1515CR005525 with a date of\n> 10/30/2000. I cannot tell from the notice whether these refer to the\n> same underlying matter. Please establish any connection from your\n> records. My supplied January 2, 2025 CORI lists 1515CR005525A at\n> Brockton District Court, Brockton Police, court appearance 12/29/2015,\n> and labels the charge MISDEMEANOR. Please reconcile your original\n> booking/commitment records with these references and the RFE’s OTHER\n> FELONY label.\n>\n> Please provide certified true copies of the booking/intake record,\n> charge and case-number records, commitment/mittimus and\n> release/discharge documents, custody dates and legal basis for\n> custody, and any arrest, incident or probable-cause narratives\n> received or generated for this matter. Please identify the committing\n> court, court docket, arresting/transporting agency and its report\n> number, and whether 12/29/2015 records a booking, transfer, arrest,\n> sentence, or another event.\n>\n> Please provide any documents in your custody relating to a diversion\n> or pretrial intervention agreement, terms, conditions, completion or\n> termination, and final disposition for this matter. If your records\n> show no such program, please state what records were located and\n> identify the court, probation department or program custodian that\n> could clarify the disposition. Please include any other\n> custody/arrest/charge records concerning me held by your office and\n> identify the corresponding court and agency.\n>\n> If a requested record is unavailable, please provide an original\n> signed or certified custodian letter specifying the record and case,\n> scope of search, reason for unavailability and any surviving records\n> or transfer destination. If it is restricted rather than missing,\n> please state the restriction and the subject/counsel-access route.\n>\n> I am requesting access as the person who is the subject of these\n> records. If a public-records request is not the correct procedure,\n> please explain the defendant/subject-access procedure, required\n> authorization, or court order. If records are restricted, sealed,\n> impounded, or exempt, please distinguish that from records that do not\n> exist or cannot be located, identify the restriction in writing, and\n> explain how my attorney or I can seek lawful access.\n>\n> Please send the records as PDF attachments to jamesmweeksjr@gmail.com,\n> or provide a secure download link I can access from out of state.\n> Include every page, certification page, signature and seal.\n>\n> Please provide electronically certified PDFs if your office offers\n> them, or complete scans of the certified records already issued or\n> retained in your file.\n>\n> If only uncertified scans are available electronically, please send\n> them promptly and clearly identify their certification status so my\n> attorney can address the USCIS requirement.\n>\n> Please explain any electronic-access or certification restriction in\n> writing; inability to email a record is different from the record not\n> existing.\n>\n> Please provide remote identification, signed-release and payment\n> instructions, your request reference, and expected completion date.\n>\n> My requested target is November 2, 2026, for attorney review before\n> USCIS’s November 16 receipt deadline. I need electronic delivery only\n> and cannot attend or arrange pickup in Massachusetts.\n>\n> Thank you,\n> James Michael Weeks\n> Email: jamesmweeksjr@gmail.com\n> Telephone: 13072122648\n> Records delivery: email or secure download",
+      "attachments": [
+        {
+          "message_id": "1a1580e0ed410fb9",
+          "part_index": 2,
+          "filename": "25-01727_E25PER-00003990.pdf",
+          "mime_type": "application/pdf",
+          "size": 162416,
+          "sha256": "b91a1b29961ff8f5bef6263171fb45c2452dc7c5b21a14e163412e460ba8e7e9",
+          "path": "attachments/1a1580e0ed410fb9/02_25-01727_E25PER-00003990.pdf"
+        }
+      ]
+    },
+    {
+      "message_id": "1a158106529389f1",
+      "date_et": "2026-10-20T02:47:11-04:00",
+      "direction": "sent",
+      "from": "James Weeks <jamesmweeksjr@gmail.com>",
+      "to": "records@brocktonpolice.com",
+      "cc": "",
+      "subject": "Urgent certified arrest/incident narratives — James Michael Weeks — USCIS ",
+      "agency_ids": [
+        "police-5"
+      ],
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a158106529389f1",
+      "body": "Dear Records Department,\n\nI am out of state and need these records delivered by email or secure\ndownload. I cannot appear at your office or arrange in-person\ncollection. USCIS issued a Request for Evidence dated October 14,\n2026, for my Form I-129F petition and must receive my complete\nresponse by November 16, 2026. I respectfully request expedited\nelectronic access to my own records.\n\nMy name is James Michael Weeks jr. Please also search the name James\nMichael Weeks. and the case-name format Weeks, JR, James Michael, as\nused in the USCIS notice. Date of birth: April 7, 1986 (as shown in my\nsupplied CORI).\n\nI have a DCJIS CORI issued January 2, 2025, request E25PER-00003990.\nIts labels and coded entries are search information; please provide\nthe underlying records and explain the codes in words. I can provide\nthe relevant excerpt through your preferred secure channel.\n\n1615CR001456 — CORI court appearance 05/26/2016 — 1615CR001456A: ABUSE\nPREVENTION ACT\n\n1515CR005525 — CORI court appearance 12/29/2015 — 1515CR005525A:\nHARASSMENT, CRIMINAL\n\nThe RFE separately prints 10/30/2000 with 1515CR005525 and 12/29/2015\nPlymouth County jail custody. Please determine the actual date and\nlinkage, including whether there was a separate 2000 incident. For\n1515CR005525A, CORI labels the offense MISDEMEANOR and includes CWOF\nand later DISM entries; the RFE jail label says OTHER FELONY. Please\ndocument the actual charges, classification, admissions, terms and\noutcome. For 1615CR001456A, the RFE gives 03/17/2016 while CORI gives\na 05/26/2016 court appearance. The dates identified as CORI court\nappearances are search anchors, not necessarily incident or arrest\ndates. Please identify the actual event dates and police report\nnumbers from the underlying files. Please supply each suffix/count,\nincluding any amended or successor charge.\n\nThe supplied CORI identifies your department for both listed dockets.\nPlease confirm incident/report numbers and actual dates.\n\nPlease provide certified true copies of the complete arrest and\nincident reports, including the arresting officer’s narrative,\nsupplemental/investigative reports, statements, complaint\napplications, probable-cause statements, charge sheets, and booking\nrecords held by your agency for the incidents below. Please include\nall pages and attachments forming part of those records. A\ncriminal-history summary or arrest log alone will not supply the\nnarrative USCIS requests.\n\nPlease include available records identifying each original and amended\ncharge in words, the incident and arrest dates, incident/report\nnumbers, court and docket numbers, and any recorded disposition. USCIS\nspecifically requests the relevant ages of any alleged victims and\ntheir relationship to me if an arrest report is unavailable; please\nprovide records establishing those facts where disclosure to me or my\ncounsel is permitted. If identifying information must be redacted,\nplease advise whether age at the incident and relationship can be\ndocumented without disclosing unnecessary identifiers.\n\nPlease search for any other arrests or charges involving me held by\nyour agency, including archived records and records under the name\nvariants above, because the notice also covers incidents not\nspecifically listed. Please identify any additional incident and court\ncase numbers.\n\nIf any requested arrest report is unavailable, please provide an\noriginal signed or certified agency letter identifying the incident,\nrecord requested, search performed, and why it cannot be supplied (for\nexample, never created, not located after a search, destroyed under a\nretention schedule, or transferred). Please provide any surviving\nrelated records and the receiving custodian’s details if transferred.\nA statement that a record is withheld or restricted should accurately\nsay that, rather than state there is no record.\n\nI am requesting access as the person who is the subject of these\nrecords. If a public-records request is not the correct procedure,\nplease explain the defendant/subject-access procedure, required\nauthorization, or court order. If records are restricted, sealed,\nimpounded, or exempt, please distinguish that from records that do not\nexist or cannot be located, identify the restriction in writing, and\nexplain how my attorney or I can seek lawful access.\n\nPlease send the records as PDF attachments to jamesmweeksjr@gmail.com,\nor provide a secure download link I can access from out of state.\nInclude every page, certification page, signature and seal.\n\nPlease provide electronically certified PDFs if your office offers\nthem, or complete scans of the certified records already issued or\nretained in your file.\n\nIf only uncertified scans are available electronically, please send\nthem promptly and clearly identify their certification status so my\nattorney can address the USCIS requirement.\n\nPlease explain any electronic-access or certification restriction in\nwriting; inability to email a record is different from the record not\nexisting.\n\nPlease provide remote identification, signed-release and payment\ninstructions, your request reference, and expected completion date.\n\nMy requested target is November 2, 2026, for attorney review before\nUSCIS’s November 16 receipt deadline. I need electronic delivery only\nand cannot attend or arrange pickup in Massachusetts.\n\nThank you,\nJames Michael Weeks\nEmail: jamesmweeksjr@gmail.com\nTelephone: 13072122648\nCurrent location: Out of state\nRecords delivery: email or secure download",
+      "attachments": []
+    },
+    {
+      "message_id": "1a158127084e996c",
+      "date_et": "2026-10-20T02:49:25-04:00",
+      "direction": "sent",
+      "from": "James Weeks <jamesmweeksjr@gmail.com>",
+      "to": "records@brocktonpolice.com",
+      "cc": "",
+      "subject": "Re: Urgent certified arrest/incident narratives — James Michael Weeks — USCIS",
+      "agency_ids": [
+        "police-5"
+      ],
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a158127084e996c",
+      "body": "On Tue, Oct 20, 2026 at 2:47 PM James Weeks <jamesmweeksjr@gmail.com> wrote:\n>\n> Dear Records Department,\n>\n> I am out of state and need these records delivered by email or secure\n> download. I cannot appear at your office or arrange in-person\n> collection. USCIS issued a Request for Evidence dated October 14,\n> 2026, for my Form I-129F petition and must receive my complete\n> response by November 16, 2026. I respectfully request expedited\n> electronic access to my own records.\n>\n> My name is James Michael Weeks jr. Please also search the name James\n> Michael Weeks. and the case-name format Weeks, JR, James Michael, as\n> used in the USCIS notice. Date of birth: April 7, 1986 (as shown in my\n> supplied CORI).\n>\n> I have a DCJIS CORI issued January 2, 2025, request E25PER-00003990.\n> Its labels and coded entries are search information; please provide\n> the underlying records and explain the codes in words. I can provide\n> the relevant excerpt through your preferred secure channel.\n>\n> 1615CR001456 — CORI court appearance 05/26/2016 — 1615CR001456A: ABUSE\n> PREVENTION ACT\n>\n> 1515CR005525 — CORI court appearance 12/29/2015 — 1515CR005525A:\n> HARASSMENT, CRIMINAL\n>\n> The RFE separately prints 10/30/2000 with 1515CR005525 and 12/29/2015\n> Plymouth County jail custody. Please determine the actual date and\n> linkage, including whether there was a separate 2000 incident. For\n> 1515CR005525A, CORI labels the offense MISDEMEANOR and includes CWOF\n> and later DISM entries; the RFE jail label says OTHER FELONY. Please\n> document the actual charges, classification, admissions, terms and\n> outcome. For 1615CR001456A, the RFE gives 03/17/2016 while CORI gives\n> a 05/26/2016 court appearance. The dates identified as CORI court\n> appearances are search anchors, not necessarily incident or arrest\n> dates. Please identify the actual event dates and police report\n> numbers from the underlying files. Please supply each suffix/count,\n> including any amended or successor charge.\n>\n> The supplied CORI identifies your department for both listed dockets.\n> Please confirm incident/report numbers and actual dates.\n>\n> Please provide certified true copies of the complete arrest and\n> incident reports, including the arresting officer’s narrative,\n> supplemental/investigative reports, statements, complaint\n> applications, probable-cause statements, charge sheets, and booking\n> records held by your agency for the incidents below. Please include\n> all pages and attachments forming part of those records. A\n> criminal-history summary or arrest log alone will not supply the\n> narrative USCIS requests.\n>\n> Please include available records identifying each original and amended\n> charge in words, the incident and arrest dates, incident/report\n> numbers, court and docket numbers, and any recorded disposition. USCIS\n> specifically requests the relevant ages of any alleged victims and\n> their relationship to me if an arrest report is unavailable; please\n> provide records establishing those facts where disclosure to me or my\n> counsel is permitted. If identifying information must be redacted,\n> please advise whether age at the incident and relationship can be\n> documented without disclosing unnecessary identifiers.\n>\n> Please search for any other arrests or charges involving me held by\n> your agency, including archived records and records under the name\n> variants above, because the notice also covers incidents not\n> specifically listed. Please identify any additional incident and court\n> case numbers.\n>\n> If any requested arrest report is unavailable, please provide an\n> original signed or certified agency letter identifying the incident,\n> record requested, search performed, and why it cannot be supplied (for\n> example, never created, not located after a search, destroyed under a\n> retention schedule, or transferred). Please provide any surviving\n> related records and the receiving custodian’s details if transferred.\n> A statement that a record is withheld or restricted should accurately\n> say that, rather than state there is no record.\n>\n> I am requesting access as the person who is the subject of these\n> records. If a public-records request is not the correct procedure,\n> please explain the defendant/subject-access procedure, required\n> authorization, or court order. If records are restricted, sealed,\n> impounded, or exempt, please distinguish that from records that do not\n> exist or cannot be located, identify the restriction in writing, and\n> explain how my attorney or I can seek lawful access.\n>\n> Please send the records as PDF attachments to jamesmweeksjr@gmail.com,\n> or provide a secure download link I can access from out of state.\n> Include every page, certification page, signature and seal.\n>\n> Please provide electronically certified PDFs if your office offers\n> them, or complete scans of the certified records already issued or\n> retained in your file.\n>\n> If only uncertified scans are available electronically, please send\n> them promptly and clearly identify their certification status so my\n> attorney can address the USCIS requirement.\n>\n> Please explain any electronic-access or certification restriction in\n> writing; inability to email a record is different from the record not\n> existing.\n>\n> Please provide remote identification, signed-release and payment\n> instructions, your request reference, and expected completion date.\n>\n> My requested target is November 2, 2026, for attorney review before\n> USCIS’s November 16 receipt deadline. I need electronic delivery only\n> and cannot attend or arrange pickup in Massachusetts.\n>\n> Thank you,\n> James Michael Weeks\n> Email: jamesmweeksjr@gmail.com\n> Telephone: 13072122648\n> Current location: Out of state\n> Records delivery: email or secure download",
+      "attachments": [
+        {
+          "message_id": "1a158127084e996c",
+          "part_index": 2,
+          "filename": "25-01727_E25PER-00003990.pdf",
+          "mime_type": "application/pdf",
+          "size": 162416,
+          "sha256": "b91a1b29961ff8f5bef6263171fb45c2452dc7c5b21a14e163412e460ba8e7e9",
+          "path": "attachments/1a158127084e996c/02_25-01727_E25PER-00003990.pdf"
+        }
+      ]
+    },
+    {
+      "message_id": "1a15814e9339b78c",
+      "date_et": "2026-10-20T02:52:07-04:00",
+      "direction": "sent",
+      "from": "James Weeks <jamesmweeksjr@gmail.com>",
+      "to": "records@mpdmail.com",
+      "cc": "",
+      "subject": "Urgent certified police narratives — James Michael Weeks — seven Middleborough-linked cases",
+      "agency_ids": [
+        "police-6"
+      ],
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a15814e9339b78c",
+      "body": "Dear Records Access Officer,\n\nI am out of state and need these records delivered by email or secure\ndownload. I cannot appear at your office or arrange in-person\ncollection. USCIS issued a Request for Evidence dated October 14,\n2026, and must receive my complete response by November 16, 2026. I\nrespectfully request expedited electronic access to my own records.\n\nMy name is James Michael Weeks jr. Please also search the name James\nMichael Weeks Jr. and the case-name format Weeks, JR, James Michael,\nas used in the USCIS notice. Date of birth: April 7, 1986 (as shown in\nmy supplied CORI).\n\nI have a DCJIS CORI issued January 2, 2025, request E25PER-00003990.\nIts labels and coded entries are search information; please provide\nthe underlying records and explain the codes in words. I can provide\nthe relevant excerpt through your preferred secure channel.\nPlease locate all these cases and the related police records:\n\n1660CR001716 — CORI court appearance 08/29/2016 — 1660CR001716A:\nVANDALIZE PROPERTY; 1660CR001716B: ASSAULT AND BATTERY\n\n1560CR002421 — CORI court appearance 12/28/2015 — 1560CR002421A:\nOPERATING AFTER SUSPEND LIC\n\n1360CR000445 — CORI court appearance 03/04/2013 — 1360CR000445A:\nINDECENT ASSLT&BATTERY PERSON; 1360CR000445B: ASSAULT AND BATTERY\n\n1160CR000487 — CORI court appearance 03/08/2011 — 1160CR000487A:\nDISORDERLY CONDUCT\n\n0660CR3447 — CORI court appearance 11/16/2006 — 0660CR3447A: ASSAULT\nAND BATTERY; 0660CR3447B: A&B DANGEROUS WEAPON; 0660CR3447C: A&B\nDANGEROUS WEAPON; 0660CR3447D: DISTURBING THE PEACE(BREACH)\n\n0660CR3032 — CORI court appearance 10/06/2006 — 0660CR3032A: ASSAULT AND BATTERY\n\n0660CR2886 — CORI court appearance 09/26/2006 — 0660CR2886A: ASSAULT AND BATTERY\nRFE anchors include Middleboro 11/16/2006, 03/08/2011 and 03/02/2013.\nThe dates identified as CORI court appearances are search anchors, not\nnecessarily incident or arrest dates. Please identify the actual event\ndates and police report numbers from the underlying files. Please\nsupply each suffix/count, including any amended or successor charge.\nThe CORI shows two counts for 1360CR000445: an indecent-assault label\non A and assault and battery on B; please reconcile the RFE labels\nwith the actual complaint. For 0660CR3447, supply all four counts,\nincluding A (CONVICTION label; disposition date 01/31/2007), B/C (CWOF\nentries), and D. For 1660CR001716B, reconcile the OPEN status with the\nentry ending 3/30/17 DISM and provide current status. Also supply full\nCWOF/admission, conditions, violation/modification and completion\nrecords for 0660CR3032A and 0660CR2886A.\n\nPlease provide certified true copies of the complete arrest and\nincident reports, including the arresting officer’s narrative,\nsupplemental/investigative reports, statements, complaint\napplications, probable-cause statements, charge sheets, and booking\nrecords held by your agency for the incidents below. Please include\nall pages and attachments forming part of those records. A\ncriminal-history summary or arrest log alone will not supply the\nnarrative USCIS requests.\n\nPlease include available records identifying each original and amended\ncharge in words, the incident and arrest dates, incident/report\nnumbers, court and docket numbers, and any recorded disposition. USCIS\nspecifically requests the relevant ages of any alleged victims and\ntheir relationship to me if an arrest report is unavailable; please\nprovide records establishing those facts where disclosure to me or my\ncounsel is permitted. If identifying information must be redacted,\nplease advise whether age at the incident and relationship can be\ndocumented without disclosing unnecessary identifiers.\n\nPlease search for any other arrests or charges involving me held by\nyour agency, including archived records and records under the name\nvariants above, because the notice also covers incidents not\nspecifically listed. Please identify any additional incident and court\ncase numbers.\n\nIf any requested arrest report is unavailable, please provide an\noriginal signed or certified agency letter identifying the incident,\nrecord requested, search performed, and why it cannot be supplied (for\nexample, never created, not located after a search, destroyed under a\nretention schedule, or transferred). Please provide any surviving\nrelated records and the receiving custodian’s details if transferred.\nA statement that a record is withheld or restricted should accurately\nsay that, rather than state there is no record.\n\nI am requesting access as the person who is the subject of these\nrecords. If a public-records request is not the correct procedure,\nplease explain the defendant/subject-access procedure, required\nauthorization, or court order. If records are restricted, sealed,\nimpounded, or exempt, please distinguish that from records that do not\nexist or cannot be located, identify the restriction in writing, and\nexplain how my attorney or I can seek lawful access.\n\nPlease send the records as PDF attachments to jamesmweeksjr@gmail.com,\nor provide a secure download link I can access from out of state.\nInclude every page, certification page, signature and seal.\n\nPlease provide electronically certified PDFs if your office offers\nthem, or complete scans of the certified records already issued or\nretained in your file.\n\nIf only uncertified scans are available electronically, please send\nthem promptly and clearly identify their certification status so my\nattorney can address the USCIS requirement.\n\nPlease explain any electronic-access or certification restriction in\nwriting; inability to email a record is different from the record not\nexisting.\n\nPlease provide remote identification, signed-release and payment\ninstructions, your request reference, and expected completion date.\n\nMy requested target is November 2, 2026, for attorney review before\nUSCIS’s November 16 receipt deadline. I need electronic delivery only\nand cannot attend or arrange pickup in Massachusetts.\n\nThank you,\nJames Michael Weeks\nEmail: jamesmweeksjr@gmail.com",
+      "attachments": [
+        {
+          "message_id": "1a15814e9339b78c",
+          "part_index": 2,
+          "filename": "25-01727_E25PER-00003990.pdf",
+          "mime_type": "application/pdf",
+          "size": 162416,
+          "sha256": "b91a1b29961ff8f5bef6263171fb45c2452dc7c5b21a14e163412e460ba8e7e9",
+          "path": "attachments/1a15814e9339b78c/02_25-01727_E25PER-00003990.pdf"
+        }
+      ]
+    },
+    {
+      "message_id": "1a158177025965c1",
+      "date_et": "2026-10-20T02:54:53-04:00",
+      "direction": "sent",
+      "from": "James Weeks <jamesmweeksjr@gmail.com>",
+      "to": "recordsrequest@tauntonpd.com",
+      "cc": "",
+      "subject": "Urgent certified arrest and incident reports — James Michael Weeks — October 9, 2011",
+      "agency_ids": [
+        "police-7"
+      ],
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a158177025965c1",
+      "body": "Dear Records Access Officer,\n\nI am out of state and need these records delivered by email or secure\ndownload. I cannot appear at your office or arrange in-person\ncollection. USCIS issued a Request for Evidence dated October 14, 2026\nand must receive my complete response by November 16, 2026. I\nrespectfully request expedited electronic access to my own records.\n\nMy name is James Michael Weeks Jr. Please also search the name James\nMichael Weeks. and the case-name format Weeks, JR, James Michael, as\nused in the USCIS notice. Date of birth: April 7, 1986 (as shown in my\nsupplied CORI).\n\nI have a DCJIS CORI issued January 2, 2025, request E25PER-00003990.\nIts labels and coded entries are search information; please provide\nthe underlying records and explain the codes in words. I can provide\nthe relevant excerpt through your preferred secure channel.\n\n1131CR003137 — CORI court appearance 10/11/2011 — 1131CR003137A:\nDISORDERLY CONDUCT; 1131CR003137B: RESISTING ARREST; 1131CR003137C: GV\nFLS ADDR W/I HINDER PO DUTY\nThe RFE gives 10/09/2011 for Taunton Police; CORI gives the related\ncourt appearance as 10/11/2011. Count C is labeled GV FLS ADDR W/I\nHINDER PO DUTY in CORI, while the RFE says false name or SS#; please\nprovide the actual charge and statute. The dates identified as CORI\ncourt appearances are search anchors, not necessarily incident or\narrest dates. Please identify the actual event dates and police report\nnumbers from the underlying files. Please supply each suffix/count,\nincluding any amended or successor charge.\n\nPlease provide certified true copies of the complete arrest and\nincident reports, including the arresting officer’s narrative,\nsupplemental/investigative reports, statements, complaint\napplications, probable-cause statements, charge sheets, and booking\nrecords held by your agency for the incidents below. Please include\nall pages and attachments forming part of those records. A\ncriminal-history summary or arrest log alone will not supply the\nnarrative USCIS requests.\n\nPlease include available records identifying each original and amended\ncharge in words, the incident and arrest dates, incident/report\nnumbers, court and docket numbers, and any recorded disposition. USCIS\nspecifically requests the relevant ages of any alleged victims and\ntheir relationship to me if an arrest report is unavailable; please\nprovide records establishing those facts where disclosure to me or my\ncounsel is permitted. If identifying information must be redacted,\nplease advise whether age at the incident and relationship can be\ndocumented without disclosing unnecessary identifiers.\n\nPlease search for any other arrests or charges involving me held by\nyour agency, including archived records and records under the name\nvariants above, because the notice also covers incidents not\nspecifically listed. Please identify any additional incident and court\ncase numbers.\n\nIf any requested arrest report is unavailable, please provide an\noriginal signed or certified agency letter identifying the incident,\nrecord requested, search performed, and why it cannot be supplied (for\nexample, never created, not located after a search, destroyed under a\nretention schedule, or transferred). Please provide any surviving\nrelated records and the receiving custodian’s details if transferred.\nA statement that a record is withheld or restricted should accurately\nsay that, rather than state there is no record.\n\nI am requesting access as the person who is the subject of these\nrecords. If a public-records request is not the correct procedure,\nplease explain the defendant/subject-access procedure, required\nauthorization, or court order. If records are restricted, sealed,\nimpounded, or exempt, please distinguish that from records that do not\nexist or cannot be located, identify the restriction in writing, and\nexplain how my attorney or I can seek lawful access.\n\nPlease send the records as PDF attachments to jamesmweeksjr@gmail.com,\nor provide a secure download link I can access from out of state.\nInclude every page, certification page, signature and seal.\n\nPlease provide electronically certified PDFs if your office offers\nthem, or complete scans of the certified records already issued or\nretained in your file.\n\nIf only uncertified scans are available electronically, please send\nthem promptly and clearly identify their certification status so my\nattorney can address the USCIS requirement.\n\nPlease explain any electronic-access or certification restriction in\nwriting; inability to email a record is different from the record not\nexisting.\n\nPlease provide remote identification, signed-release and payment\ninstructions, your request reference, and expected completion date.\n\nMy requested target is November 2, 2026, for attorney review before\nUSCIS’s November 16 receipt deadline. I need electronic delivery only\nand cannot attend or arrange pickup in Massachusetts.\n\nThank you,\nJames Michael Weeks\nEmail: jamesmweeksjr@gmail.com\nTelephone: 13072122648\nRecords delivery: email or secure download",
+      "attachments": []
+    },
+    {
+      "message_id": "1a15817aade245d5",
+      "date_et": "2026-10-20T02:55:07-04:00",
+      "direction": "received",
+      "from": "Records Request <recordsrequest@tauntonpd.com>",
+      "to": "jamesmweeksjr@gmail.com",
+      "cc": "",
+      "subject": "Records Request Re: Urgent certified arrest and incident reports — James Michael Weeks — October 9, 2011",
+      "agency_ids": [
+        "police-7"
+      ],
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a15817aade245d5",
+      "body": "Please be advised that we are in receipt of your records\nrequest.  Most requests will be answer\nthe same or next business day.  However,\nunder the law we do have ten (10) business days to provide a response.  If your request is expansive, we will provide\nyou a cost estimate and ask you if you would like to proceed.  \n\n \n\nThank you for your request\n\n \n\nThe Records Team\n\nTaunton Police Department \n\n-- \n\nPLEASE DO NOT REPLY TO THIS EMAIL: If your have questions or need more information please call the number below\n\nRECORDS OFFICE:\n\nTaunton Police Department\n\n90 County Street \n\nTaunton, MA.  02780\n\n508-821-1471\n\n***Please note that the City Of Taunton Police Department has moved to its new Public Safety Facility located at 90 County St Taunton, MA 02780***",
+      "attachments": []
+    },
+    {
+      "message_id": "1a15819511f361ae",
+      "date_et": "2026-10-20T02:56:55-04:00",
+      "direction": "sent",
+      "from": "James Weeks <jamesmweeksjr@gmail.com>",
+      "to": "RecordsRequest@nortonpolice.com",
+      "cc": "",
+      "subject": "Urgent certified reports — James Michael Weeks — Attleboro 1134CR000858A/B",
+      "agency_ids": [
+        "police-18"
+      ],
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a15819511f361ae",
+      "body": "Dear Records Department,\n\nI am out of state and need these records delivered by email or secure\ndownload. I cannot appear at your office or arrange in-person\ncollection. USCIS issued a Request for Evidence dated October 14, 2026\nand must receive my complete response by November 16, 2026. I\nrespectfully request expedited electronic access to my own records.\n\nMy name is James Michael Weeks Jr. Please also search the name James\nMichael Weeks and the case-name format Weeks, JR, James Michael, as\nused in the USCIS notice. Date of birth: April 7, 1986 (as shown in my\nsupplied CORI).\n\nMy January 2, 2025 CORI identifies Attleboro District Court docket\n1134CR000858A (OPERATING AFTER SUSPEND REG) and 1134CR000858B\n(COMPULSORY INSURANCE VIOLATION), court appearance April 20, 2011,\nwith Norton Police Department. Both entries are labeled CLOSED/NON\nCONVICTION and have text ending 7/8/11 PD DISM. Please verify the\nunderlying charge descriptions, actual incident dates and final\noutcomes from your records. The dates identified as CORI court\nappearances are search anchors, not necessarily incident or arrest\ndates. Please identify the actual event dates and police report\nnumbers from the underlying files. Please supply each suffix/count,\nincluding any amended or successor charge.\n\nPlease include the underlying citation, stop/incident report and\ncomplaint application if the charges were initiated by summons or\ncitation rather than arrest. Please accurately state if no arrest\nreport was created, and provide the surviving incident/citation\ndocuments.\n\nPlease provide certified true copies of the complete arrest and\nincident reports, including the arresting officer’s narrative,\nsupplemental/investigative reports, statements, complaint\napplications, probable-cause statements, charge sheets, and booking\nrecords held by your agency for the incidents below. Please include\nall pages and attachments forming part of those records. A\ncriminal-history summary or arrest log alone will not supply the\nnarrative USCIS requests.\n\nPlease include available records identifying each original and amended\ncharge in words, the incident and arrest dates, incident/report\nnumbers, court and docket numbers, and any recorded disposition. USCIS\nspecifically requests the relevant ages of any alleged victims and\ntheir relationship to me if an arrest report is unavailable; please\nprovide records establishing those facts where disclosure to me or my\ncounsel is permitted. If identifying information must be redacted,\nplease advise whether age at the incident and relationship can be\ndocumented without disclosing unnecessary identifiers.\n\nPlease search for any other arrests or charges involving me held by\nyour agency, including archived records and records under the name\nvariants above, because the notice also covers incidents not\nspecifically listed. Please identify any additional incident and court\ncase numbers.\n\nIf any requested arrest report is unavailable, please provide an\noriginal signed or certified agency letter identifying the incident,\nrecord requested, search performed, and why it cannot be supplied (for\nexample, never created, not located after a search, destroyed under a\nretention schedule, or transferred). Please provide any surviving\nrelated records and the receiving custodian’s details if transferred.\nA statement that a record is withheld or restricted should accurately\nsay that, rather than state there is no record.\n\nI am requesting access as the person who is the subject of these\nrecords. If a public-records request is not the correct procedure,\nplease explain the defendant/subject-access procedure, required\nauthorization, or court order. If records are restricted, sealed,\nimpounded, or exempt, please distinguish that from records that do not\nexist or cannot be located, identify the restriction in writing, and\nexplain how my attorney or I can seek lawful access.\n\nPlease send the records as PDF attachments to jamesmweeksjr@gmail.com,\nor provide a secure download link I can access from out of state.\nInclude every page, certification page, signature and seal.\n\nPlease provide electronically certified PDFs if your office offers\nthem, or complete scans of the certified records already issued or\nretained in your file.\n\nIf only uncertified scans are available electronically, please send\nthem promptly and clearly identify their certification status so my\nattorney can address the USCIS requirement.\n\nPlease explain any electronic-access or certification restriction in\nwriting; inability to email a record is different from the record not\nexisting.\n\nPlease provide remote identification, signed-release and payment\ninstructions, your request reference, and expected completion date.\n\nMy requested target is November 2, 2026, for attorney review before\nUSCIS’s November 16 receipt deadline. I need electronic delivery only\nand cannot attend or arrange pickup in Massachusetts.\n\nThank you,\nJames Michael Weeks\nEmail: jamesmweeksjr@gmail.com\nTelephone: 13072122648\nRecords delivery: email or secure download",
+      "attachments": []
+    },
+    {
+      "message_id": "1a1581b2d34c516f",
+      "date_et": "2026-10-20T02:58:58-04:00",
+      "direction": "sent",
+      "from": "James Weeks <jamesmweeksjr@gmail.com>",
+      "to": "records@warehampolice.com",
+      "cc": "",
+      "subject": "Urgent certified reports — James Michael Weeks — Wareham 0660CR3644A",
+      "agency_ids": [
+        "police-19"
+      ],
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a1581b2d34c516f",
+      "body": "Dear Records Office,\n\nI am out of state and need these records delivered by email or secure\ndownload. I cannot appear at your office or arrange in-person\ncollection. USCIS issued a Request for Evidence dated October 14,\n2026, and must receive my complete response by November 16, 2026. I\nrespectfully request expedited electronic access to my own records.\n\nMy name is James Michael Weeks Jr. Please also search the name James\nMichael Weeks and the case-name format Weeks, JR, James Michael, as\nused in the USCIS notice. Date of birth: April 7, 1986 (as shown in my\nsupplied CORI).\n\nMy January 2, 2025 CORI identifies Wareham District Court docket\n0660CR3644A, charge label A&B DANGEROUS WEAPON, court appearance\nDecember 11, 2006, and Wareham Police Department. It labels the entry\nCLOSED/NON CONVICTION with text C 1/8/07 (JT) 2/1/07 DISM. Please\nidentify the actual incident/arrest dates, police report number and\nfinal charge details from your records. The dates identified as CORI\ncourt appearances are search anchors, not necessarily incident or\narrest dates. Please identify the actual event dates and police report\nnumbers from the underlying files. Please supply each suffix/count,\nincluding any amended or successor charge.\n\nPlease provide certified true copies of the complete arrest and\nincident reports, including the arresting officer’s narrative,\nsupplemental/investigative reports, statements, complaint\napplications, probable-cause statements, charge sheets, and booking\nrecords held by your agency for the incidents below. Please include\nall pages and attachments forming part of those records. A\ncriminal-history summary or arrest log alone will not supply the\nnarrative USCIS requests.\n\nPlease include available records identifying each original and amended\ncharge in words, the incident and arrest dates, incident/report\nnumbers, court and docket numbers, and any recorded disposition. USCIS\nspecifically requests the relevant ages of any alleged victims and\ntheir relationship to me if an arrest report is unavailable; please\nprovide records establishing those facts where disclosure to me or my\ncounsel is permitted. If identifying information must be redacted,\nplease advise whether age at the incident and relationship can be\ndocumented without disclosing unnecessary identifiers.\n\nPlease search for any other arrests or charges involving me held by\nyour agency, including archived records and records under the name\nvariants above, because the notice also covers incidents not\nspecifically listed. Please identify any additional incident and court\ncase numbers.\n\nIf any requested arrest report is unavailable, please provide an\noriginal signed or certified agency letter identifying the incident,\nrecord requested, search performed, and why it cannot be supplied (for\nexample, never created, not located after a search, destroyed under a\nretention schedule, or transferred). Please provide any surviving\nrelated records and the receiving custodian’s details if transferred.\nA statement that a record is withheld or restricted should accurately\nsay that, rather than state there is no record.\n\nI am requesting access as the person who is the subject of these\nrecords. If a public-records request is not the correct procedure,\nplease explain the defendant/subject-access procedure, required\nauthorization, or court order. If records are restricted, sealed,\nimpounded, or exempt, please distinguish that from records that do not\nexist or cannot be located, identify the restriction in writing, and\nexplain how my attorney or I can seek lawful access.\n\nPlease send the records as PDF attachments to jamesmweeksjr@gmail.com,\nor provide a secure download link I can access from out of state.\nInclude every page, certification page, signature and seal.\n\nPlease provide electronically certified PDFs if your office offers\nthem, or complete scans of the certified records already issued or\nretained in your file.\n\nIf only uncertified scans are available electronically, please send\nthem promptly and clearly identify their certification status so my\nattorney can address the USCIS requirement.\n\nPlease explain any electronic-access or certification restriction in\nwriting; inability to email a record is different from the record not\nexisting.\n\nPlease provide remote identification, signed-release and payment\ninstructions, your request reference, and expected completion date.\n\nMy requested target is November 2, 2026, for attorney review before\nUSCIS’s November 16 receipt deadline. I need electronic delivery only\nand cannot attend or arrange pickup in Massachusetts.\n\nThank you,\nJames Michael Weeks\nEmail: jamesmweeksjr@gmail.com\nTelephone: 13072122648\nRecords delivery: email or secure download",
+      "attachments": []
+    },
+    {
+      "message_id": "1a1581e16af4d22b",
+      "date_et": "2026-10-20T03:02:08-04:00",
+      "direction": "sent",
+      "from": "James Weeks <jamesmweeksjr@gmail.com>",
+      "to": "records@warehampolice.com",
+      "cc": "",
+      "subject": "Re: Urgent certified reports — James Michael Weeks — Wareham 0660CR3644A",
+      "agency_ids": [
+        "police-19"
+      ],
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a1581e16af4d22b",
+      "body": "On Tue, Oct 20, 2026 at 2:58 PM James Weeks <jamesmweeksjr@gmail.com> wrote:\n>\n> Dear Records Office,\n>\n> I am out of state and need these records delivered by email or secure\n> download. I cannot appear at your office or arrange in-person\n> collection. USCIS issued a Request for Evidence dated October 14,\n> 2026, and must receive my complete response by November 16, 2026. I\n> respectfully request expedited electronic access to my own records.\n>\n> My name is James Michael Weeks Jr. Please also search the name James\n> Michael Weeks and the case-name format Weeks, JR, James Michael, as\n> used in the USCIS notice. Date of birth: April 7, 1986 (as shown in my\n> supplied CORI).\n>\n> My January 2, 2025 CORI identifies Wareham District Court docket\n> 0660CR3644A, charge label A&B DANGEROUS WEAPON, court appearance\n> December 11, 2006, and Wareham Police Department. It labels the entry\n> CLOSED/NON CONVICTION with text C 1/8/07 (JT) 2/1/07 DISM. Please\n> identify the actual incident/arrest dates, police report number and\n> final charge details from your records. The dates identified as CORI\n> court appearances are search anchors, not necessarily incident or\n> arrest dates. Please identify the actual event dates and police report\n> numbers from the underlying files. Please supply each suffix/count,\n> including any amended or successor charge.\n>\n> Please provide certified true copies of the complete arrest and\n> incident reports, including the arresting officer’s narrative,\n> supplemental/investigative reports, statements, complaint\n> applications, probable-cause statements, charge sheets, and booking\n> records held by your agency for the incidents below. Please include\n> all pages and attachments forming part of those records. A\n> criminal-history summary or arrest log alone will not supply the\n> narrative USCIS requests.\n>\n> Please include available records identifying each original and amended\n> charge in words, the incident and arrest dates, incident/report\n> numbers, court and docket numbers, and any recorded disposition. USCIS\n> specifically requests the relevant ages of any alleged victims and\n> their relationship to me if an arrest report is unavailable; please\n> provide records establishing those facts where disclosure to me or my\n> counsel is permitted. If identifying information must be redacted,\n> please advise whether age at the incident and relationship can be\n> documented without disclosing unnecessary identifiers.\n>\n> Please search for any other arrests or charges involving me held by\n> your agency, including archived records and records under the name\n> variants above, because the notice also covers incidents not\n> specifically listed. Please identify any additional incident and court\n> case numbers.\n>\n> If any requested arrest report is unavailable, please provide an\n> original signed or certified agency letter identifying the incident,\n> record requested, search performed, and why it cannot be supplied (for\n> example, never created, not located after a search, destroyed under a\n> retention schedule, or transferred). Please provide any surviving\n> related records and the receiving custodian’s details if transferred.\n> A statement that a record is withheld or restricted should accurately\n> say that, rather than state there is no record.\n>\n> I am requesting access as the person who is the subject of these\n> records. If a public-records request is not the correct procedure,\n> please explain the defendant/subject-access procedure, required\n> authorization, or court order. If records are restricted, sealed,\n> impounded, or exempt, please distinguish that from records that do not\n> exist or cannot be located, identify the restriction in writing, and\n> explain how my attorney or I can seek lawful access.\n>\n> Please send the records as PDF attachments to jamesmweeksjr@gmail.com,\n> or provide a secure download link I can access from out of state.\n> Include every page, certification page, signature and seal.\n>\n> Please provide electronically certified PDFs if your office offers\n> them, or complete scans of the certified records already issued or\n> retained in your file.\n>\n> If only uncertified scans are available electronically, please send\n> them promptly and clearly identify their certification status so my\n> attorney can address the USCIS requirement.\n>\n> Please explain any electronic-access or certification restriction in\n> writing; inability to email a record is different from the record not\n> existing.\n>\n> Please provide remote identification, signed-release and payment\n> instructions, your request reference, and expected completion date.\n>\n> My requested target is November 2, 2026, for attorney review before\n> USCIS’s November 16 receipt deadline. I need electronic delivery only\n> and cannot attend or arrange pickup in Massachusetts.\n>\n> Thank you,\n> James Michael Weeks\n> Email: jamesmweeksjr@gmail.com\n> Telephone: 13072122648\n> Records delivery: email or secure download",
+      "attachments": [
+        {
+          "message_id": "1a1581e16af4d22b",
+          "part_index": 2,
+          "filename": "25-01727_E25PER-00003990.pdf",
+          "mime_type": "application/pdf",
+          "size": 162416,
+          "sha256": "b91a1b29961ff8f5bef6263171fb45c2452dc7c5b21a14e163412e460ba8e7e9",
+          "path": "attachments/1a1581e16af4d22b/02_25-01727_E25PER-00003990.pdf"
+        }
+      ]
+    },
+    {
+      "message_id": "1a1581e64872cee7",
+      "date_et": "2026-10-20T03:02:28-04:00",
+      "direction": "sent",
+      "from": "James Weeks <jamesmweeksjr@gmail.com>",
+      "to": "recordsrequest@tauntonpd.com",
+      "cc": "",
+      "subject": "Re: Urgent certified arrest and incident reports — James Michael Weeks — October 9, 2011",
+      "agency_ids": [
+        "police-7"
+      ],
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a1581e64872cee7",
+      "body": "On Tue, Oct 20, 2026 at 2:54 PM James Weeks <jamesmweeksjr@gmail.com> wrote:\n>\n> Dear Records Access Officer,\n>\n> I am out of state and need these records delivered by email or secure\n> download. I cannot appear at your office or arrange in-person\n> collection. USCIS issued a Request for Evidence dated October 14, 2026\n> and must receive my complete response by November 16, 2026. I\n> respectfully request expedited electronic access to my own records.\n>\n> My name is James Michael Weeks Jr. Please also search the name James\n> Michael Weeks. and the case-name format Weeks, JR, James Michael, as\n> used in the USCIS notice. Date of birth: April 7, 1986 (as shown in my\n> supplied CORI).\n>\n> I have a DCJIS CORI issued January 2, 2025, request E25PER-00003990.\n> Its labels and coded entries are search information; please provide\n> the underlying records and explain the codes in words. I can provide\n> the relevant excerpt through your preferred secure channel.\n>\n> 1131CR003137 — CORI court appearance 10/11/2011 — 1131CR003137A:\n> DISORDERLY CONDUCT; 1131CR003137B: RESISTING ARREST; 1131CR003137C: GV\n> FLS ADDR W/I HINDER PO DUTY\n> The RFE gives 10/09/2011 for Taunton Police; CORI gives the related\n> court appearance as 10/11/2011. Count C is labeled GV FLS ADDR W/I\n> HINDER PO DUTY in CORI, while the RFE says false name or SS#; please\n> provide the actual charge and statute. The dates identified as CORI\n> court appearances are search anchors, not necessarily incident or\n> arrest dates. Please identify the actual event dates and police report\n> numbers from the underlying files. Please supply each suffix/count,\n> including any amended or successor charge.\n>\n> Please provide certified true copies of the complete arrest and\n> incident reports, including the arresting officer’s narrative,\n> supplemental/investigative reports, statements, complaint\n> applications, probable-cause statements, charge sheets, and booking\n> records held by your agency for the incidents below. Please include\n> all pages and attachments forming part of those records. A\n> criminal-history summary or arrest log alone will not supply the\n> narrative USCIS requests.\n>\n> Please include available records identifying each original and amended\n> charge in words, the incident and arrest dates, incident/report\n> numbers, court and docket numbers, and any recorded disposition. USCIS\n> specifically requests the relevant ages of any alleged victims and\n> their relationship to me if an arrest report is unavailable; please\n> provide records establishing those facts where disclosure to me or my\n> counsel is permitted. If identifying information must be redacted,\n> please advise whether age at the incident and relationship can be\n> documented without disclosing unnecessary identifiers.\n>\n> Please search for any other arrests or charges involving me held by\n> your agency, including archived records and records under the name\n> variants above, because the notice also covers incidents not\n> specifically listed. Please identify any additional incident and court\n> case numbers.\n>\n> If any requested arrest report is unavailable, please provide an\n> original signed or certified agency letter identifying the incident,\n> record requested, search performed, and why it cannot be supplied (for\n> example, never created, not located after a search, destroyed under a\n> retention schedule, or transferred). Please provide any surviving\n> related records and the receiving custodian’s details if transferred.\n> A statement that a record is withheld or restricted should accurately\n> say that, rather than state there is no record.\n>\n> I am requesting access as the person who is the subject of these\n> records. If a public-records request is not the correct procedure,\n> please explain the defendant/subject-access procedure, required\n> authorization, or court order. If records are restricted, sealed,\n> impounded, or exempt, please distinguish that from records that do not\n> exist or cannot be located, identify the restriction in writing, and\n> explain how my attorney or I can seek lawful access.\n>\n> Please send the records as PDF attachments to jamesmweeksjr@gmail.com,\n> or provide a secure download link I can access from out of state.\n> Include every page, certification page, signature and seal.\n>\n> Please provide electronically certified PDFs if your office offers\n> them, or complete scans of the certified records already issued or\n> retained in your file.\n>\n> If only uncertified scans are available electronically, please send\n> them promptly and clearly identify their certification status so my\n> attorney can address the USCIS requirement.\n>\n> Please explain any electronic-access or certification restriction in\n> writing; inability to email a record is different from the record not\n> existing.\n>\n> Please provide remote identification, signed-release and payment\n> instructions, your request reference, and expected completion date.\n>\n> My requested target is November 2, 2026, for attorney review before\n> USCIS’s November 16 receipt deadline. I need electronic delivery only\n> and cannot attend or arrange pickup in Massachusetts.\n>\n> Thank you,\n> James Michael Weeks\n> Email: jamesmweeksjr@gmail.com\n> Telephone: 13072122648\n> Records delivery: email or secure download",
+      "attachments": [
+        {
+          "message_id": "1a1581e64872cee7",
+          "part_index": 2,
+          "filename": "25-01727_E25PER-00003990.pdf",
+          "mime_type": "application/pdf",
+          "size": 162416,
+          "sha256": "b91a1b29961ff8f5bef6263171fb45c2452dc7c5b21a14e163412e460ba8e7e9",
+          "path": "attachments/1a1581e64872cee7/02_25-01727_E25PER-00003990.pdf"
+        }
+      ]
+    },
+    {
+      "message_id": "1a1581ed7ec4fbd0",
+      "date_et": "2026-10-20T03:02:57-04:00",
+      "direction": "sent",
+      "from": "James Weeks <jamesmweeksjr@gmail.com>",
+      "to": "RecordsRequest@nortonpolice.com",
+      "cc": "",
+      "subject": "Re: Urgent certified reports — James Michael Weeks — Attleboro 1134CR000858A/B",
+      "agency_ids": [
+        "police-18"
+      ],
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a1581ed7ec4fbd0",
+      "body": "On Tue, Oct 20, 2026 at 2:56 PM James Weeks <jamesmweeksjr@gmail.com> wrote:\n>\n> Dear Records Department,\n>\n> I am out of state and need these records delivered by email or secure\n> download. I cannot appear at your office or arrange in-person\n> collection. USCIS issued a Request for Evidence dated October 14, 2026\n> and must receive my complete response by November 16, 2026. I\n> respectfully request expedited electronic access to my own records.\n>\n> My name is James Michael Weeks Jr. Please also search the name James\n> Michael Weeks and the case-name format Weeks, JR, James Michael, as\n> used in the USCIS notice. Date of birth: April 7, 1986 (as shown in my\n> supplied CORI).\n>\n> My January 2, 2025 CORI identifies Attleboro District Court docket\n> 1134CR000858A (OPERATING AFTER SUSPEND REG) and 1134CR000858B\n> (COMPULSORY INSURANCE VIOLATION), court appearance April 20, 2011,\n> with Norton Police Department. Both entries are labeled CLOSED/NON\n> CONVICTION and have text ending 7/8/11 PD DISM. Please verify the\n> underlying charge descriptions, actual incident dates and final\n> outcomes from your records. The dates identified as CORI court\n> appearances are search anchors, not necessarily incident or arrest\n> dates. Please identify the actual event dates and police report\n> numbers from the underlying files. Please supply each suffix/count,\n> including any amended or successor charge.\n>\n> Please include the underlying citation, stop/incident report and\n> complaint application if the charges were initiated by summons or\n> citation rather than arrest. Please accurately state if no arrest\n> report was created, and provide the surviving incident/citation\n> documents.\n>\n> Please provide certified true copies of the complete arrest and\n> incident reports, including the arresting officer’s narrative,\n> supplemental/investigative reports, statements, complaint\n> applications, probable-cause statements, charge sheets, and booking\n> records held by your agency for the incidents below. Please include\n> all pages and attachments forming part of those records. A\n> criminal-history summary or arrest log alone will not supply the\n> narrative USCIS requests.\n>\n> Please include available records identifying each original and amended\n> charge in words, the incident and arrest dates, incident/report\n> numbers, court and docket numbers, and any recorded disposition. USCIS\n> specifically requests the relevant ages of any alleged victims and\n> their relationship to me if an arrest report is unavailable; please\n> provide records establishing those facts where disclosure to me or my\n> counsel is permitted. If identifying information must be redacted,\n> please advise whether age at the incident and relationship can be\n> documented without disclosing unnecessary identifiers.\n>\n> Please search for any other arrests or charges involving me held by\n> your agency, including archived records and records under the name\n> variants above, because the notice also covers incidents not\n> specifically listed. Please identify any additional incident and court\n> case numbers.\n>\n> If any requested arrest report is unavailable, please provide an\n> original signed or certified agency letter identifying the incident,\n> record requested, search performed, and why it cannot be supplied (for\n> example, never created, not located after a search, destroyed under a\n> retention schedule, or transferred). Please provide any surviving\n> related records and the receiving custodian’s details if transferred.\n> A statement that a record is withheld or restricted should accurately\n> say that, rather than state there is no record.\n>\n> I am requesting access as the person who is the subject of these\n> records. If a public-records request is not the correct procedure,\n> please explain the defendant/subject-access procedure, required\n> authorization, or court order. If records are restricted, sealed,\n> impounded, or exempt, please distinguish that from records that do not\n> exist or cannot be located, identify the restriction in writing, and\n> explain how my attorney or I can seek lawful access.\n>\n> Please send the records as PDF attachments to jamesmweeksjr@gmail.com,\n> or provide a secure download link I can access from out of state.\n> Include every page, certification page, signature and seal.\n>\n> Please provide electronically certified PDFs if your office offers\n> them, or complete scans of the certified records already issued or\n> retained in your file.\n>\n> If only uncertified scans are available electronically, please send\n> them promptly and clearly identify their certification status so my\n> attorney can address the USCIS requirement.\n>\n> Please explain any electronic-access or certification restriction in\n> writing; inability to email a record is different from the record not\n> existing.\n>\n> Please provide remote identification, signed-release and payment\n> instructions, your request reference, and expected completion date.\n>\n> My requested target is November 2, 2026, for attorney review before\n> USCIS’s November 16 receipt deadline. I need electronic delivery only\n> and cannot attend or arrange pickup in Massachusetts.\n>\n> Thank you,\n> James Michael Weeks\n> Email: jamesmweeksjr@gmail.com\n> Telephone: 13072122648\n> Records delivery: email or secure download",
+      "attachments": [
+        {
+          "message_id": "1a1581ed7ec4fbd0",
+          "part_index": 2,
+          "filename": "25-01727_E25PER-00003990.pdf",
+          "mime_type": "application/pdf",
+          "size": 162416,
+          "sha256": "b91a1b29961ff8f5bef6263171fb45c2452dc7c5b21a14e163412e460ba8e7e9",
+          "path": "attachments/1a1581ed7ec4fbd0/02_25-01727_E25PER-00003990.pdf"
+        }
+      ]
+    },
+    {
+      "message_id": "1a15821a08752ff1",
+      "date_et": "2026-10-20T03:06:00-04:00",
+      "direction": "sent",
+      "from": "James Weeks <jamesmweeksjr@gmail.com>",
+      "to": "cmbrocktondc@jud.state.ma.us",
+      "cc": "",
+      "subject": "Urgent complete court files by EMAIL — James Michael Weeks — 1515CR005525 / 1615CR001456",
+      "agency_ids": [
+        "court-2"
+      ],
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a15821a08752ff1",
+      "body": "Dear Clerk-Magistrate / Criminal Records Office,\n\nI am out of state and need these records delivered by email or secure\ndownload. I cannot appear at your office or arrange in-person\ncollection. USCIS issued a Request for Evidence dated October 14, 2026\nand must receive my complete response by November 16, 2026. I\nrespectfully request expedited electronic access to my own records.\n\nMy name is James Michael Weeks Jr. Please also search the name James\nMichael Weeks. and the case-name format Weeks, JR, James Michael, as\nused in the USCIS notice. Date of birth: April 7, 1986 (as shown in my\nsupplied CORI).\n\nI have a DCJIS CORI issued January 2, 2025, request E25PER-00003990.\nIts labels and coded entries are search information; please provide\nthe underlying records and explain the codes in words. I can provide\nthe relevant excerpt through your preferred secure channel.\n\n1615CR001456 — CORI court appearance 05/26/2016 — 1615CR001456A: ABUSE\nPREVENTION ACT\n\n1515CR005525 — CORI court appearance 12/29/2015 — 1515CR005525A:\nHARASSMENT, CRIMINAL\n\nThe RFE separately prints 10/30/2000 with 1515CR005525 and 12/29/2015\nPlymouth County jail custody. Please determine the actual date and\nlinkage, including whether there was a separate 2000 incident. For\n1515CR005525A, CORI labels the offense MISDEMEANOR and includes CWOF\nand later DISM entries; the RFE jail label says OTHER FELONY. Please\ndocument the actual charges, classification, admissions, terms and\noutcome. For 1615CR001456A, the RFE gives 03/17/2016 while CORI gives\na 05/26/2016 court appearance. The dates identified as CORI court\nappearances are search anchors, not necessarily incident or arrest\ndates. Please identify the actual event dates and police report\nnumbers from the underlying files. Please supply each suffix/count,\nincluding any amended or successor charge.\n\nI already mailed certified court records to USCIS. I am now requesting\nthe COMPLETE court file again for every case listed above, including\ndocuments previously supplied and all other records retained in each\nfile. Please search for any other criminal cases involving me in your\ncourt and include those files too. I cannot obtain another\npaper-certified set or appear in person. Please email the available\nPDFs/scans even if you cannot issue new certified copies\nelectronically. Include existing certification pages and seals if\nheld, but do not limit the response to certified dispositions.\nIdentify any transferred case and its receiving court/docket.\n\nA complete electronic copy of each criminal case file: every docket\nsheet and entry, complaint/indictment and amendment, motion, filed\nexhibit, hearing record or transcript already in the file,\nplea/admission form, judgment, sentence, and final disposition of\nevery count. Include every page and attachment, including existing\ncertification/seal pages. Please explain charge and disposition codes\nin words. If any record is stored separately or restricted, identify\nit and the procedure for obtaining it remotely.\nEvery plea agreement and stipulation; any pretrial\ndiversion/intervention agreement, continuance-without-a-finding\npaperwork, or other alternative disposition; the full signed agreement\nand all terms and court-imposed requirements; probation conditions and\nmodifications; completion or termination records; and the resulting\ndisposition. Please identify the actual disposition used. If no\ndiversion agreement existed, please confirm what the records show\nrather than treating another disposition as diversion.\nFor any conviction, documentation of whether it was a felony,\nmisdemeanor, or other classification. If the judgment does not state\nthat, please provide a clerk’s statement or identify the applicable\nstatute and version or sentencing guide establishing the\nclassification.\nFor every dismissed charge, the dismissal order and recorded reason\nfor dismissal. For every reduced or amended charge, records mapping\nthe original charge to the final charge and disposition. For any\npending charge, a court record stating its current status and next\nscheduled action.\nElectronic copies of every order vacating, setting aside, sealing,\nexpunging or otherwise removing an arrest or conviction, including\nrecorded grounds and any existing certification. Include records of\npunishment, confinement, probation, fines, completion and discharge.\nEvery police report, incident/arrest narrative, probable-cause\nstatement, complaint application and related attachment held in the\ncourt file. Please include these even if I can also request them from\npolice. Identify the originating agency and report number so I can\nobtain anything the court does not hold.\nIf any requested record cannot be supplied, please email a written\nexplanation identifying the case, specific missing/restricted\ndocument, search performed and reason. If available, provide the\nexplanation as a signed court-letterhead PDF with a seal or electronic\ncertification. Please send the explanation even if certification\ncannot be provided electronically. Distinguish nonexistent, destroyed,\nmissing, transferred and restricted records, and identify any other\ncustodian or remote access procedure.\n\nFor 1615CR001456, please include the underlying abuse-prevention\norder, amendments/extensions, return of service or notice, and\ndisposition of the criminal violation, to the extent held in the file\nand lawfully accessible. Identify the issuing court and related civil\ndocket if separate. Please identify the arresting agency so I can\nobtain its certified police narrative.\n\nI am requesting access as the person who is the subject of these\nrecords. If a public-records request is not the correct procedure,\nplease explain the defendant/subject-access procedure, required\nauthorization, or court order. If records are restricted, sealed,\nimpounded, or exempt, please distinguish that from records that do not\nexist or cannot be located, identify the restriction in writing, and\nexplain how my attorney or I can seek lawful access.\n\nPlease send the records as PDF attachments to jamesmweeksjr@gmail.com,\nor provide a secure download link I can access from out of state.\nInclude every page, certification page, signature and seal.\n\nPlease provide electronically certified PDFs if your office offers\nthem, or complete scans of the certified records already issued or\nretained in your file.\n\nIf only uncertified scans are available electronically, please send\nthem promptly and clearly identify their certification status so my\nattorney can address the USCIS requirement.\n\nPlease explain any electronic-access or certification restriction in\nwriting; inability to email a record is different from the record not\nexisting.\n\nPlease provide remote identification, signed-release and payment\ninstructions, your request reference, and expected completion date.\n\nMy requested target is November 2, 2026, for attorney review before\nUSCIS’s November 16 receipt deadline. I need electronic delivery only\nand cannot attend or arrange pickup in Massachusetts.\n\nThank you,\nJames Michael Weeks\nEmail: jamesmweeksjr@gmail.com\nTelephone: 13072122648\nRecords delivery: email or secure download",
+      "attachments": []
+    },
+    {
+      "message_id": "1a158231e6001a94",
+      "date_et": "2026-10-20T03:07:38-04:00",
+      "direction": "sent",
+      "from": "James Weeks <jamesmweeksjr@gmail.com>",
+      "to": "cmwarehamdc@jud.state.ma.us",
+      "cc": "",
+      "subject": "Urgent complete court files by EMAIL — James Michael Weeks — eight Wareham dockets listed below",
+      "agency_ids": [
+        "court-3"
+      ],
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a158231e6001a94",
+      "body": "Dear Clerk-Magistrate / Criminal Records Office,\n\nI am out of state and need these records delivered by email or secure\ndownload. I cannot appear at your office or arrange in-person\ncollection. USCIS issued a Request for Evidence dated October 14, 2026\nand must receive my complete response by November 16, 2026. I\nrespectfully request expedited electronic access to my own records.\n\nMy name is James Michael Weeks. Please also search the name James\nMichael Weeks Jr. and the case-name format Weeks, JR, James Michael,\nas used in the USCIS notice. Date of birth: April 7, 1986 (as shown in\nmy supplied CORI).\n\nI have a DCJIS CORI issued January 2, 2025, request E25PER-00003990.\nIts labels and coded entries are search information; please provide\nthe underlying records and explain the codes in words. I can provide\nthe relevant excerpt through your preferred secure channel.\nPlease locate all these cases and the related police records:\n\n1660CR001716 — CORI court appearance 08/29/2016 — 1660CR001716A:\nVANDALIZE PROPERTY; 1660CR001716B: ASSAULT AND BATTERY\n\n1560CR002421 — CORI court appearance 12/28/2015 — 1560CR002421A:\nOPERATING AFTER SUSPEND LIC\n\n1360CR000445 — CORI court appearance 03/04/2013 — 1360CR000445A:\nINDECENT ASSLT&BATTERY PERSON; 1360CR000445B: ASSAULT AND BATTERY\n\n1160CR000487 — CORI court appearance 03/08/2011 — 1160CR000487A:\nDISORDERLY CONDUCT\n\n0660CR3644 — CORI court appearance 12/11/2006 — 0660CR3644A: A&B\nDANGEROUS WEAPON\n\n0660CR3447 — CORI court appearance 11/16/2006 — 0660CR3447A: ASSAULT\nAND BATTERY; 0660CR3447B: A&B DANGEROUS WEAPON; 0660CR3447C: A&B\nDANGEROUS WEAPON; 0660CR3447D: DISTURBING THE PEACE(BREACH)\n\n0660CR3032 — CORI court appearance 10/06/2006 — 0660CR3032A: ASSAULT AND BATTERY\n\n0660CR2886 — CORI court appearance 09/26/2006 — 0660CR2886A: ASSAULT AND BATTERY\nRFE anchors include Middleboro 11/16/2006, 03/08/2011 and 03/02/2013.\nThe dates identified as CORI court appearances are search anchors, not\nnecessarily incident or arrest dates. Please identify the actual event\ndates and police report numbers from the underlying files. Please\nsupply each suffix/count, including any amended or successor charge.\nThe CORI shows two counts for 1360CR000445: an indecent-assault label\non A and assault and battery on B; please reconcile the RFE labels\nwith the actual complaint. For 0660CR3447, supply all four counts,\nincluding A (CONVICTION label; disposition date 01/31/2007), B/C (CWOF\nentries), and D. For 1660CR001716B, reconcile the OPEN status with the\nentry ending 3/30/17 DISM and provide current status. Also supply full\nCWOF/admission, conditions, violation/modification and completion\nrecords for 0660CR3032A and 0660CR2886A.\n\nI already mailed certified court records to USCIS. I am now requesting\nthe COMPLETE court file again for every case listed above, including\ndocuments previously supplied and all other records retained in each\nfile. Please search for any other criminal cases involving me in your\ncourt and include those files too. I cannot obtain another\npaper-certified set or appear in person. Please email the available\nPDFs/scans even if you cannot issue new certified copies\nelectronically. Include existing certification pages and seals if\nheld, but do not limit the response to certified dispositions.\nIdentify any transferred case and its receiving court/docket.\n\nA complete electronic copy of each criminal case file: every docket\nsheet and entry, complaint/indictment and amendment, motion, filed\nexhibit, hearing record or transcript already in the file,\nplea/admission form, judgment, sentence, and final disposition of\nevery count. Include every page and attachment, including existing\ncertification/seal pages. Please explain charge and disposition codes\nin words. If any record is stored separately or restricted, identify\nit and the procedure for obtaining it remotely.\nEvery plea agreement and stipulation; any pretrial\ndiversion/intervention agreement, continuance-without-a-finding\npaperwork, or other alternative disposition; the full signed agreement\nand all terms and court-imposed requirements; probation conditions and\nmodifications; completion or termination records; and the resulting\ndisposition. Please identify the actual disposition used. If no\ndiversion agreement existed, please confirm what the records show\nrather than treating another disposition as diversion.\nFor any conviction, documentation of whether it was a felony,\nmisdemeanor, or other classification. If the judgment does not state\nthat, please provide a clerk’s statement or identify the applicable\nstatute and version or sentencing guide establishing the\nclassification.\nFor every dismissed charge, the dismissal order and recorded reason\nfor dismissal. For every reduced or amended charge, records mapping\nthe original charge to the final charge and disposition. For any\npending charge, a court record stating its current status and next\nscheduled action.\nElectronic copies of every order vacating, setting aside, sealing,\nexpunging or otherwise removing an arrest or conviction, including\nrecorded grounds and any existing certification. Include records of\npunishment, confinement, probation, fines, completion and discharge.\nEvery police report, incident/arrest narrative, probable-cause\nstatement, complaint application and related attachment held in the\ncourt file. Please include these even if I can also request them from\npolice. Identify the originating agency and report number so I can\nobtain anything the court does not hold.\nIf any requested record cannot be supplied, please email a written\nexplanation identifying the case, specific missing/restricted\ndocument, search performed and reason. If available, provide the\nexplanation as a signed court-letterhead PDF with a seal or electronic\ncertification. Please send the explanation even if certification\ncannot be provided electronically. Distinguish nonexistent, destroyed,\nmissing, transferred and restricted records, and identify any other\ncustodian or remote access procedure.\n\nI am requesting access as the person who is the subject of these\nrecords. If a public-records request is not the correct procedure,\nplease explain the defendant/subject-access procedure, required\nauthorization, or court order. If records are restricted, sealed,\nimpounded, or exempt, please distinguish that from records that do not\nexist or cannot be located, identify the restriction in writing, and\nexplain how my attorney or I can seek lawful access.\n\nPlease send the records as PDF attachments to jamesmweeksjr@gmail.com,\nor provide a secure download link I can access from out of state.\nInclude every page, certification page, signature and seal.\n\nPlease provide electronically certified PDFs if your office offers\nthem, or complete scans of the certified records already issued or\nretained in your file.\n\nIf only uncertified scans are available electronically, please send\nthem promptly and clearly identify their certification status so my\nattorney can address the USCIS requirement.\n\nPlease explain any electronic-access or certification restriction in\nwriting; inability to email a record is different from the record not\nexisting.\n\nPlease provide remote identification, signed-release and payment\ninstructions, your request reference, and expected completion date.\n\nMy requested target is November 2, 2026, for attorney review before\nUSCIS’s November 16 receipt deadline. I need electronic delivery only\nand cannot attend or arrange pickup in Massachusetts.\n\nThank you,\nJames Michael Weeks\nEmail: jamesmweeksjr@gmail.com\nTelephone: 13072122648\nRecords delivery: email or secure download",
+      "attachments": []
+    },
+    {
+      "message_id": "1a1582498cb0e87c",
+      "date_et": "2026-10-20T03:09:15-04:00",
+      "direction": "sent",
+      "from": "James Weeks <jamesmweeksjr@gmail.com>",
+      "to": "cmtauntondc@jud.state.ma.us",
+      "cc": "",
+      "subject": "Urgent complete court files by EMAIL — James Michael Weeks — 1131CR003137A–C and 1631CR001779A",
+      "agency_ids": [
+        "court-4"
+      ],
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a1582498cb0e87c",
+      "body": "Dear Clerk-Magistrate / Criminal Records Office,\n\nI am out of state and need these records delivered by email or secure\ndownload. I cannot appear at your office or arrange in-person\ncollection. USCIS issued a Request for Evidence dated October 14, 2026\nand must receive my complete response by November 16, 2026. I\nrespectfully request expedited electronic access to my own records.\n\nMy name is James Michael Weeks Jr. Please also search the name James\nMichael Weeks. and the case-name format Weeks, JR, James Michael, as\nused in the USCIS notice. Date of birth: April 7, 1986 (as shown in my\nsupplied CORI).\n\nI have a DCJIS CORI issued January 2, 2025, request E25PER-00003990.\nIts labels and coded entries are search information; please provide\nthe underlying records and explain the codes in words. I can provide\nthe relevant excerpt through your preferred secure channel.\n\n1631CR001779 — CORI court appearance 08/05/2016 — 1631CR001779A:\nOPERATING AFTER SUSPENDED LIC\n\n1131CR003137 — CORI court appearance 10/11/2011 — 1131CR003137A:\nDISORDERLY CONDUCT; 1131CR003137B: RESISTING ARREST; 1131CR003137C: GV\nFLS ADDR W/I HINDER PO DUTY\nThe RFE gives 10/09/2011 for Taunton Police; CORI gives the related\ncourt appearance as 10/11/2011. Count C is labeled GV FLS ADDR W/I\nHINDER PO DUTY in CORI, while the RFE says false name or SS#; please\nprovide the actual charge and statute. The dates identified as CORI\ncourt appearances are search anchors, not necessarily incident or\narrest dates. Please identify the actual event dates and police report\nnumbers from the underlying files. Please supply each suffix/count,\nincluding any amended or successor charge. The CORI does not identify\na police agency for 1631CR001779A. Please provide the\ncomplaint/citation and identify the issuing agency, or document if\nthere was no police-originated case; do not assume Taunton Police\nhandled it.\n\nI already mailed certified court records to USCIS. I am now requesting\nthe COMPLETE court file again for every case listed above, including\ndocuments previously supplied and all other records retained in each\nfile. Please search for any other criminal cases involving me in your\ncourt and include those files too. I cannot obtain another\npaper-certified set or appear in person. Please email the available\nPDFs/scans even if you cannot issue new certified copies\nelectronically. Include existing certification pages and seals if\nheld, but do not limit the response to certified dispositions.\nIdentify any transferred case and its receiving court/docket.\n\nA complete electronic copy of each criminal case file: every docket\nsheet and entry, complaint/indictment and amendment, motion, filed\nexhibit, hearing record or transcript already in the file,\nplea/admission form, judgment, sentence, and final disposition of\nevery count. Include every page and attachment, including existing\ncertification/seal pages. Please explain charge and disposition codes\nin words. If any record is stored separately or restricted, identify\nit and the procedure for obtaining it remotely.\nEvery plea agreement and stipulation; any pretrial\ndiversion/intervention agreement, continuance-without-a-finding\npaperwork, or other alternative disposition; the full signed agreement\nand all terms and court-imposed requirements; probation conditions and\nmodifications; completion or termination records; and the resulting\ndisposition. Please identify the actual disposition used. If no\ndiversion agreement existed, please confirm what the records show\nrather than treating another disposition as diversion.\nFor any conviction, documentation of whether it was a felony,\nmisdemeanor, or other classification. If the judgment does not state\nthat, please provide a clerk’s statement or identify the applicable\nstatute and version or sentencing guide establishing the\nclassification.\nFor every dismissed charge, the dismissal order and recorded reason\nfor dismissal. For every reduced or amended charge, records mapping\nthe original charge to the final charge and disposition. For any\npending charge, a court record stating its current status and next\nscheduled action.\nElectronic copies of every order vacating, setting aside, sealing,\nexpunging or otherwise removing an arrest or conviction, including\nrecorded grounds and any existing certification. Include records of\npunishment, confinement, probation, fines, completion and discharge.\nEvery police report, incident/arrest narrative, probable-cause\nstatement, complaint application and related attachment held in the\ncourt file. Please include these even if I can also request them from\npolice. Identify the originating agency and report number so I can\nobtain anything the court does not hold.\nIf any requested record cannot be supplied, please email a written\nexplanation identifying the case, specific missing/restricted\ndocument, search performed and reason. If available, provide the\nexplanation as a signed court-letterhead PDF with a seal or electronic\ncertification. Please send the explanation even if certification\ncannot be provided electronically. Distinguish nonexistent, destroyed,\nmissing, transferred and restricted records, and identify any other\ncustodian or remote access procedure.\n\nI am requesting access as the person who is the subject of these\nrecords. If a public-records request is not the correct procedure,\nplease explain the defendant/subject-access procedure, required\nauthorization, or court order. If records are restricted, sealed,\nimpounded, or exempt, please distinguish that from records that do not\nexist or cannot be located, identify the restriction in writing, and\nexplain how my attorney or I can seek lawful access.\n\nPlease send the records as PDF attachments to jamesmweeksjr@gmail.com,\nor provide a secure download link I can access from out of state.\nInclude every page, certification page, signature and seal.\n\nPlease provide electronically certified PDFs if your office offers\nthem, or complete scans of the certified records already issued or\nretained in your file.\n\nIf only uncertified scans are available electronically, please send\nthem promptly and clearly identify their certification status so my\nattorney can address the USCIS requirement.\n\nPlease explain any electronic-access or certification restriction in\nwriting; inability to email a record is different from the record not\nexisting.\n\nPlease provide remote identification, signed-release and payment\ninstructions, your request reference, and expected completion date.\n\nMy requested target is November 2, 2026, for attorney review before\nUSCIS’s November 16 receipt deadline. I need electronic delivery only\nand cannot attend or arrange pickup in Massachusetts.\n\nThank you,\nJames Michael Weeks\nEmail: jamesmweeksjr@gmail.com\nTelephone: 13072122648\nRecords delivery: email or secure download",
+      "attachments": []
+    },
+    {
+      "message_id": "1a15826372f669b2",
+      "date_et": "2026-10-20T03:11:01-04:00",
+      "direction": "sent",
+      "from": "James Weeks <jamesmweeksjr@gmail.com>",
+      "to": "cmattleborodc@jud.state.ma.us",
+      "cc": "",
+      "subject": "Urgent complete court file by EMAIL — James Michael Weeks — 1134CR000858A/B",
+      "agency_ids": [
+        "court-17"
+      ],
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a15826372f669b2",
+      "body": "Dear Clerk-Magistrate / Criminal Records Office,\n\nI am out of state and need these records delivered by email or secure\ndownload. I cannot appear at your office or arrange in-person\ncollection. USCIS issued a Request for Evidence dated October 14, 2026\nand must receive my complete response by November 16, 2026. I\nrespectfully request expedited electronic access to my own records.\n\nMy name is James Michael Weeks Jr Please also search the name James\nMichael Weeks. and the case-name format Weeks, JR, James Michael, as\nused in the USCIS notice. Date of birth: April 7, 1986 (as shown in my\nsupplied CORI).\n\nMy January 2, 2025 CORI identifies Attleboro District Court docket\n1134CR000858A (OPERATING AFTER SUSPEND REG) and 1134CR000858B\n(COMPULSORY INSURANCE VIOLATION), court appearance April 20, 2011,\nwith Norton Police Department. Both entries are labeled CLOSED/NON\nCONVICTION and have text ending 7/8/11 PD DISM. Please verify the\nunderlying charge descriptions, actual incident dates and final\noutcomes from your records. The dates identified as CORI court\nappearances are search anchors, not necessarily incident or arrest\ndates. Please identify the actual event dates and police report\nnumbers from the underlying files. Please supply each suffix/count,\nincluding any amended or successor charge.\n\nI already mailed certified court records to USCIS. I am now requesting\nthe COMPLETE court file again for every case listed above, including\ndocuments previously supplied and all other records retained in each\nfile. Please search for any other criminal cases involving me in your\ncourt and include those files too. I cannot obtain another\npaper-certified set or appear in person. Please email the available\nPDFs/scans even if you cannot issue new certified copies\nelectronically. Include existing certification pages and seals if\nheld, but do not limit the response to certified dispositions.\nIdentify any transferred case and its receiving court/docket.\n\nA complete electronic copy of each criminal case file: every docket\nsheet and entry, complaint/indictment and amendment, motion, filed\nexhibit, hearing record or transcript already in the file,\nplea/admission form, judgment, sentence, and final disposition of\nevery count. Include every page and attachment, including existing\ncertification/seal pages. Please explain charge and disposition codes\nin words. If any record is stored separately or restricted, identify\nit and the procedure for obtaining it remotely.\nEvery plea agreement and stipulation; any pretrial\ndiversion/intervention agreement, continuance-without-a-finding\npaperwork, or other alternative disposition; the full signed agreement\nand all terms and court-imposed requirements; probation conditions and\nmodifications; completion or termination records; and the resulting\ndisposition. Please identify the actual disposition used. If no\ndiversion agreement existed, please confirm what the records show\nrather than treating another disposition as diversion.\nFor any conviction, documentation of whether it was a felony,\nmisdemeanor, or other classification. If the judgment does not state\nthat, please provide a clerk’s statement or identify the applicable\nstatute and version or sentencing guide establishing the\nclassification.\nFor every dismissed charge, the dismissal order and recorded reason\nfor dismissal. For every reduced or amended charge, records mapping\nthe original charge to the final charge and disposition. For any\npending charge, a court record stating its current status and next\nscheduled action.\nElectronic copies of every order vacating, setting aside, sealing,\nexpunging or otherwise removing an arrest or conviction, including\nrecorded grounds and any existing certification. Include records of\npunishment, confinement, probation, fines, completion and discharge.\nEvery police report, incident/arrest narrative, probable-cause\nstatement, complaint application and related attachment held in the\ncourt file. Please include these even if I can also request them from\npolice. Identify the originating agency and report number so I can\nobtain anything the court does not hold.\nIf any requested record cannot be supplied, please email a written\nexplanation identifying the case, specific missing/restricted\ndocument, search performed and reason. If available, provide the\nexplanation as a signed court-letterhead PDF with a seal or electronic\ncertification. Please send the explanation even if certification\ncannot be provided electronically. Distinguish nonexistent, destroyed,\nmissing, transferred and restricted records, and identify any other\ncustodian or remote access procedure.\n\nI am requesting access as the person who is the subject of these\nrecords. If a public-records request is not the correct procedure,\nplease explain the defendant/subject-access procedure, required\nauthorization, or court order. If records are restricted, sealed,\nimpounded, or exempt, please distinguish that from records that do not\nexist or cannot be located, identify the restriction in writing, and\nexplain how my attorney or I can seek lawful access.\n\nPlease send the records as PDF attachments to jamesmweeksjr@gmail.com,\nor provide a secure download link I can access from out of state.\nInclude every page, certification page, signature and seal.\n\nPlease provide electronically certified PDFs if your office offers\nthem, or complete scans of the certified records already issued or\nretained in your file.\n\nIf only uncertified scans are available electronically, please send\nthem promptly and clearly identify their certification status so my\nattorney can address the USCIS requirement.\n\nPlease explain any electronic-access or certification restriction in\nwriting; inability to email a record is different from the record not\nexisting.\n\nPlease provide remote identification, signed-release and payment\ninstructions, your request reference, and expected completion date.\n\nMy requested target is November 2, 2026, for attorney review before\nUSCIS’s November 16 receipt deadline. I need electronic delivery only\nand cannot attend or arrange pickup in Massachusetts.\n\nThank you,\nJames Michael Weeks\nEmail: jamesmweeksjr@gmail.com\nTelephone: 13072122648\nRecords delivery: email or secure download",
+      "attachments": []
+    },
+    {
+      "message_id": "1a15937e87382e90",
+      "date_et": "2026-10-20T08:09:26-04:00",
+      "direction": "received",
+      "from": "Kristin Mohan <kristin.mohan@jud.state.ma.us>",
+      "to": "James Weeks <jamesmweeksjr@gmail.com>, CMTauntonDC <CMTauntonDC@jud.state.ma.us>",
+      "cc": "",
+      "subject": "RE: Urgent complete court files by EMAIL — James Michael Weeks — 1131CR003137A–C and 1631CR001779A",
+      "agency_ids": [
+        "court-4"
+      ],
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a15937e87382e90",
+      "body": "Received, we will work on this request and provide a response shortly.\n\nRegards,\n\nKristin Mohan\nCase Administrator II\nClerk Magistrate’s Office\nTaunton District Court\n40 Broadway\nTaunton, MA 02780\n508-977-6111\nFrom: James Weeks <jamesmweeksjr@gmail.com>\nSent: Tuesday, October 20, 2026 3:09 AM\nTo: CMTauntonDC <cmtauntondc@jud.state.ma.us>\nSubject: Urgent complete court files by EMAIL — James Michael Weeks — 1131CR003137A–C and 1631CR001779A\n\nCAUTION: This email originated from outside the Judiciary. Report any suspicious email using the Phish Alert Report butt͏​​﻿‌͏\n\nCAUTION: This email originated from outside the Judiciary. Report any suspicious email using the Phish Alert Report button on the Outlook desktop ribbon or forward to phishing@jud.state.ma.us<mailto:phishing@jud.state.ma.us>.\n\nDear Clerk-Magistrate / Criminal Records Office,\n\nI am out of state and need these records delivered by email or secure\n\ndownload. I cannot appear at your office or arrange in-person\n\ncollection. USCIS issued a Request for Evidence dated October 14, 2026\n\nand must receive my complete response by November 16, 2026. I\n\nrespectfully request expedited electronic access to my own records.\n\nMy name is James Michael Weeks Jr. Please also search the name James\n\nMichael Weeks. and the case-name format Weeks, JR, James Michael, as\n\nused in the USCIS notice. Date of birth: April 7, 1986 (as shown in my\n\nsupplied CORI).\n\nI have a DCJIS CORI issued January 2, 2025, request E25PER-00003990.\n\nIts labels and coded entries are search information; please provide\n\nthe underlying records and explain the codes in words. I can provide\n\nthe relevant excerpt through your preferred secure channel.\n\n1631CR001779 — CORI court appearance 08/05/2016 — 1631CR001779A:\n\nOPERATING AFTER SUSPENDED LIC\n\n1131CR003137 — CORI court appearance 10/11/2011 — 1131CR003137A:\n\nDISORDERLY CONDUCT; 1131CR003137B: RESISTING ARREST; 1131CR003137C: GV\n\nFLS ADDR W/I HINDER PO DUTY\n\nThe RFE gives 10/09/2011 for Taunton Police; CORI gives the related\n\ncourt appearance as 10/11/2011. Count C is labeled GV FLS ADDR W/I\n\nHINDER PO DUTY in CORI, while the RFE says false name or SS#; please\n\nprovide the actual charge and statute. The dates identified as CORI\n\ncourt appearances are search anchors, not necessarily incident or\n\narrest dates. Please identify the actual event dates and police report\n\nnumbers from the underlying files. Please supply each suffix/count,\n\nincluding any amended or successor charge. The CORI does not identify\n\na police agency for 1631CR001779A. Please provide the\n\ncomplaint/citation and identify the issuing agency, or document if\n\nthere was no police-originated case; do not assume Taunton Police\n\nhandled it.\n\nI already mailed certified court records to USCIS. I am now requesting\n\nthe COMPLETE court file again for every case listed above, including\n\ndocuments previously supplied and all other records retained in each\n\nfile. Please search for any other criminal cases involving me in your\n\ncourt and include those files too. I cannot obtain another\n\npaper-certified set or appear in person. Please email the available\n\nPDFs/scans even if you cannot issue new certified copies\n\nelectronically. Include existing certification pages and seals if\n\nheld, but do not limit the response to certified dispositions.\n\nIdentify any transferred case and its receiving court/docket.\n\nA complete electronic copy of each criminal case file: every docket\n\nsheet and entry, complaint/indictment and amendment, motion, filed\n\nexhibit, hearing record or transcript already in the file,\n\nplea/admission form, judgment, sentence, and final disposition of\n\nevery count. Include every page and attachment, including existing\n\ncertification/seal pages. Please explain charge and disposition codes\n\nin words. If any record is stored separately or restricted, identify\n\nit and the procedure for obtaining it remotely.\n\nEvery plea agreement and stipulation; any pretrial\n\ndiversion/intervention agreement, continuance-without-a-finding\n\npaperwork, or other alternative disposition; the full signed agreement\n\nand all terms and court-imposed requirements; probation conditions and\n\nmodifications; completion or termination records; and the resulting\n\ndisposition. Please identify the actual disposition used. If no\n\ndiversion agreement existed, please confirm what the records show\n\nrather than treating another disposition as diversion.\n\nFor any conviction, documentation of whether it was a felony,\n\nmisdemeanor, or other classification. If the judgment does not state\n\nthat, please provide a clerk’s statement or identify the applicable\n\nstatute and version or sentencing guide establishing the\n\nclassification.\n\nFor every dismissed charge, the dismissal order and recorded reason\n\nfor dismissal. For every reduced or amended charge, records mapping\n\nthe original charge to the final charge and disposition. For any\n\npending charge, a court record stating its current status and next\n\nscheduled action.\n\nElectronic copies of every order vacating, setting aside, sealing,\n\nexpunging or otherwise removing an arrest or conviction, including\n\nrecorded grounds and any existing certification. Include records of\n\npunishment, confinement, probation, fines, completion and discharge.\n\nEvery police report, incident/arrest narrative, probable-cause\n\nstatement, complaint application and related attachment held in the\n\ncourt file. Please include these even if I can also request them from\n\npolice. Identify the originating agency and report number so I can\n\nobtain anything the court does not hold.\n\nIf any requested record cannot be supplied, please email a written\n\nexplanation identifying the case, specific missing/restricted\n\ndocument, search performed and reason. If available, provide the\n\nexplanation as a signed court-letterhead PDF with a seal or electronic\n\ncertification. Please send the explanation even if certification\n\ncannot be provided electronically. Distinguish nonexistent, destroyed,\n\nmissing, transferred and restricted records, and identify any other\n\ncustodian or remote access procedure.\n\nI am requesting access as the person who is the subject of these\n\nrecords. If a public-records request is not the correct procedure,\n\nplease explain the defendant/subject-access procedure, required\n\nauthorization, or court order. If records are restricted, sealed,\n\nimpounded, or exempt, please distinguish that from records that do not\n\nexist or cannot be located, identify the restriction in writing, and\n\nexplain how my attorney or I can seek lawful access.\n\nPlease send the records as PDF attachments to jamesmweeksjr@gmail.com<mailto:jamesmweeksjr@gmail.com>,\n\nor provide a secure download link I can access from out of state.\n\nInclude every page, certification page, signature and seal.\n\nPlease provide electronically certified PDFs if your office offers\n\nthem, or complete scans of the certified records already issued or\n\nretained in your file.\n\nIf only uncertified scans are available electronically, please send\n\nthem promptly and clearly identify their certification status so my\n\nattorney can address the USCIS requirement.\n\nPlease explain any electronic-access or certification restriction in\n\nwriting; inability to email a record is different from the record not\n\nexisting.\n\nPlease provide remote identification, signed-release and payment\n\ninstructions, your request reference, and expected completion date.\n\nMy requested target is November 2, 2026, for attorney review before\n\nUSCIS’s November 16 receipt deadline. I need electronic delivery only\n\nand cannot attend or arrange pickup in Massachusetts.\n\nThank you,\n\nJames Michael Weeks\n\nEmail: jamesmweeksjr@gmail.com<mailto:jamesmweeksjr@gmail.com>\n\nTelephone: 13072122648\n\nRecords delivery: email or secure download",
+      "attachments": []
+    },
+    {
+      "message_id": "1a15948148305925",
+      "date_et": "2026-10-20T08:27:24-04:00",
+      "direction": "received",
+      "from": "Maya Hall <maya.hall@jud.state.ma.us>",
+      "to": "\"jamesmweeksjr@gmail.com\" <jamesmweeksjr@gmail.com>",
+      "cc": "",
+      "subject": "Brockton Request ",
+      "agency_ids": [
+        "court-2"
+      ],
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a15948148305925",
+      "body": "Hello, \n\nAttached is the requested information. \n\nMaya Hall\n\n-----Original Message-----\nFrom: brcdclkfax@jud.state.ma.us <brcdclkfax@jud.state.ma.us> \nSent: Tuesday, October 20, 2026 8:17 AM\nTo: Maya Hall <maya.hall@jud.state.ma.us>\nSubject: Send data from MFP15646191 10/20/2026 08:17\n\nScanned from MFP15646191\nDate:10/20/2026 08:17\nPages:13\nResolution:200x200 DPI\n----------------------------------------\nThe attached PDF Document was scanned at the Brockton District Criminal Clerks.",
+      "attachments": [
+        {
+          "message_id": "1a15948148305925",
+          "part_index": 4,
+          "filename": "DOC102026.pdf",
+          "mime_type": "application/pdf",
+          "size": 390219,
+          "sha256": "229b5a91b932bbccfb623b581c0b0e586ebfc37982cf8877b30501949e88ef7a",
+          "path": "attachments/1a15948148305925/04_DOC102026.pdf"
+        }
+      ]
+    },
+    {
+      "message_id": "1a15a02e2d8c27b8",
+      "date_et": "2026-10-20T11:51:03-04:00",
+      "direction": "received",
+      "from": "Records Request <recordsrequest@tauntonpd.com>",
+      "to": "James Weeks <jamesmweeksjr@gmail.com>",
+      "cc": "",
+      "subject": "Re: Urgent certified arrest and incident reports — James Michael Weeks — October 9, 2011",
+      "agency_ids": [
+        "police-7"
+      ],
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a15a02e2d8c27b8",
+      "body": "*PLEASE DO NOT REPLY TO THIS EMAIL:* If your have questions or need more\ninformation please call the number below\n\nRECORDS OFFICE:\n\nTaunton Police Department\n90 County Street\nTaunton, MA.  02780\n508-821-1471 <(508)%20821-1471>\n\n***Please note that the City Of Taunton Police Department has moved to its\nnew Public Safety Facility located at 90 County St Taunton, MA 02780***\n\nOn Tue, Oct 20, 2026 at 3:02 AM James Weeks <jamesmweeksjr@gmail.com> wrote:\n\n> On Tue, Oct 20, 2026 at 2:54 PM James Weeks <jamesmweeksjr@gmail.com>\n> wrote:\n> >\n> > Dear Records Access Officer,\n> >\n> > I am out of state and need these records delivered by email or secure\n> > download. I cannot appear at your office or arrange in-person\n> > collection. USCIS issued a Request for Evidence dated October 14, 2026\n> > and must receive my complete response by November 16, 2026. I\n> > respectfully request expedited electronic access to my own records.\n> >\n> > My name is James Michael Weeks Jr. Please also search the name James\n> > Michael Weeks. and the case-name format Weeks, JR, James Michael, as\n> > used in the USCIS notice. Date of birth: April 7, 1986 (as shown in my\n> > supplied CORI).\n> >\n> > I have a DCJIS CORI issued January 2, 2025, request E25PER-00003990.\n> > Its labels and coded entries are search information; please provide\n> > the underlying records and explain the codes in words. I can provide\n> > the relevant excerpt through your preferred secure channel.\n> >\n> > 1131CR003137 — CORI court appearance 10/11/2011 — 1131CR003137A:\n> > DISORDERLY CONDUCT; 1131CR003137B: RESISTING ARREST; 1131CR003137C: GV\n> > FLS ADDR W/I HINDER PO DUTY\n> > The RFE gives 10/09/2011 for Taunton Police; CORI gives the related\n> > court appearance as 10/11/2011. Count C is labeled GV FLS ADDR W/I\n> > HINDER PO DUTY in CORI, while the RFE says false name or SS#; please\n> > provide the actual charge and statute. The dates identified as CORI\n> > court appearances are search anchors, not necessarily incident or\n> > arrest dates. Please identify the actual event dates and police report\n> > numbers from the underlying files. Please supply each suffix/count,\n> > including any amended or successor charge.\n> >\n> > Please provide certified true copies of the complete arrest and\n> > incident reports, including the arresting officer’s narrative,\n> > supplemental/investigative reports, statements, complaint\n> > applications, probable-cause statements, charge sheets, and booking\n> > records held by your agency for the incidents below. Please include\n> > all pages and attachments forming part of those records. A\n> > criminal-history summary or arrest log alone will not supply the\n> > narrative USCIS requests.\n> >\n> > Please include available records identifying each original and amended\n> > charge in words, the incident and arrest dates, incident/report\n> > numbers, court and docket numbers, and any recorded disposition. USCIS\n> > specifically requests the relevant ages of any alleged victims and\n> > their relationship to me if an arrest report is unavailable; please\n> > provide records establishing those facts where disclosure to me or my\n> > counsel is permitted. If identifying information must be redacted,\n> > please advise whether age at the incident and relationship can be\n> > documented without disclosing unnecessary identifiers.\n> >\n> > Please search for any other arrests or charges involving me held by\n> > your agency, including archived records and records under the name\n> > variants above, because the notice also covers incidents not\n> > specifically listed. Please identify any additional incident and court\n> > case numbers.\n> >\n> > If any requested arrest report is unavailable, please provide an\n> > original signed or certified agency letter identifying the incident,\n> > record requested, search performed, and why it cannot be supplied (for\n> > example, never created, not located after a search, destroyed under a\n> > retention schedule, or transferred). Please provide any surviving\n> > related records and the receiving custodian’s details if transferred.\n> > A statement that a record is withheld or restricted should accurately\n> > say that, rather than state there is no record.\n> >\n> > I am requesting access as the person who is the subject of these\n> > records. If a public-records request is not the correct procedure,\n> > please explain the defendant/subject-access procedure, required\n> > authorization, or court order. If records are restricted, sealed,\n> > impounded, or exempt, please distinguish that from records that do not\n> > exist or cannot be located, identify the restriction in writing, and\n> > explain how my attorney or I can seek lawful access.\n> >\n> > Please send the records as PDF attachments to jamesmweeksjr@gmail.com,\n> > or provide a secure download link I can access from out of state.\n> > Include every page, certification page, signature and seal.\n> >\n> > Please provide electronically certified PDFs if your office offers\n> > them, or complete scans of the certified records already issued or\n> > retained in your file.\n> >\n> > If only uncertified scans are available electronically, please send\n> > them promptly and clearly identify their certification status so my\n> > attorney can address the USCIS requirement.\n> >\n> > Please explain any electronic-access or certification restriction in\n> > writing; inability to email a record is different from the record not\n> > existing.\n> >\n> > Please provide remote identification, signed-release and payment\n> > instructions, your request reference, and expected completion date.\n> >\n> > My requested target is November 2, 2026, for attorney review before\n> > USCIS’s November 16 receipt deadline. I need electronic delivery only\n> > and cannot attend or arrange pickup in Massachusetts.\n> >\n> > Thank you,\n> > James Michael Weeks\n> > Email: jamesmweeksjr@gmail.com\n> > Telephone: 13072122648 <(307)%20212-2648>\n> > Records delivery: email or secure download\n>",
+      "attachments": [
+        {
+          "message_id": "1a15a02e2d8c27b8",
+          "part_index": 4,
+          "filename": "Reports.pdf",
+          "mime_type": "application/pdf",
+          "size": 245339,
+          "sha256": "89518bc938653e393b1a3a897e1f5a72e86bab7466493c1e1391822e3273849b",
+          "path": "attachments/1a15a02e2d8c27b8/04_Reports.pdf"
+        }
+      ]
+    },
+    {
+      "message_id": "1a15a5881e330eb1",
+      "date_et": "2026-10-20T13:25:11-04:00",
+      "direction": "received",
+      "from": "\"Rep. Harriet Hageman\" <repharriethageman@mail15.housecommunications.gov>",
+      "to": "James M Weeks <jamesmweeksjr@gmail.com>",
+      "cc": "",
+      "subject": "Response from Rep. Harriet Hageman",
+      "agency_ids": [
+        "congressional-hageman"
+      ],
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a15a5881e330eb1",
+      "body": "----------------------------------------------\n\nThanks for that info. I encourage you to work with your attorney and submit whatever documents they're missing. I have mid-November marked to submit another inquiry, and I will ask if they have the sufficient information to process your I-129 then.\nHave a good week,\nRachel\n\n    Rachel Hedges\nField Representative \nU.S. Congresswoman Harriet Hageman of WY\nCell: 307-670-2289\n\nSign up for my newsletter to get updates on this issue and others!\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tSign Up\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t \n\nContact Me\n\nWashington DC Office \n\n1531 Longworth House Office Building Washington, DC 20515\n\nPhone: (202) 225-2311\n\nGillette District Office \n\n222 South Gillette Avenue Suite 600 Gillette, WY 82716\n\nPhone: (307) 228-6399\n\nCheyenne District Office \n\n2120 Capitol Avenue\n\nCheyenne, WY 82001\n\nPhone: (307) 829-3299\n\nCasper District Office \n\n100 E B Street Casper, WY 82601\n\nPhone: (307) 441-6328\n\n[269MW5-XN61V]",
+      "attachments": []
+    },
+    {
+      "message_id": "1a15a764d09a9763",
+      "date_et": "2026-10-20T13:57:32-04:00",
+      "direction": "received",
+      "from": "\"Fahey, Euvir\" <efahey@pcsdma.org>",
+      "to": "\"jamesmweeksjr@gmail.com\" <jamesmweeksjr@gmail.com>",
+      "cc": "",
+      "subject": "FW: public records request",
+      "agency_ids": [
+        "sheriff-8"
+      ],
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a15a764d09a9763",
+      "body": "From: Fahey, Euvir\nSent: Tuesday, October 20, 2026 1:50 PM\nTo: 'jamesmweeksjr@gamil.com' <jamesmweeksjr@gamil.com>\nCc: Sarris, Susan <ssarris@pcsdma.org>\nSubject: public records request\n\nGood afternoon,\n\nAttached you will find the Department's response to your public record's request and a CORI Waiver Form.  Thank you.\n\nBest,\n\nEuvir Fahey\nPublic Records Officer\nPlymouth County Sheriff's Department\n26 Long Pond Road\nPlymouth, MA 02360\n(508)830-6226",
+      "attachments": [
+        {
+          "message_id": "1a15a764d09a9763",
+          "part_index": 4,
+          "filename": "Weeks.prr.pdf",
+          "mime_type": "application/pdf",
+          "size": 171685,
+          "sha256": "2e5509e81e85f1b33148ba3ad3eebe837ece8bfa4e7163b5ee666255f49f9247",
+          "path": "attachments/1a15a764d09a9763/04_Weeks.prr.pdf"
+        },
+        {
+          "message_id": "1a15a764d09a9763",
+          "part_index": 5,
+          "filename": "20261020134616093.pdf",
+          "mime_type": "application/pdf",
+          "size": 33244,
+          "sha256": "d6ce57ca1952cc63b7cc2e07bd9a16eca7968ecf74327be6752df0494cc963eb",
+          "path": "attachments/1a15a764d09a9763/05_20261020134616093.pdf"
+        }
+      ]
+    },
+    {
+      "message_id": "1a15ec8dfb1f5ce6",
+      "date_et": "2026-10-21T10:06:06-04:00",
+      "direction": "received",
+      "from": "Kristin Mohan <kristin.mohan@jud.state.ma.us>",
+      "to": "James Weeks <jamesmweeksjr@gmail.com>",
+      "cc": "",
+      "subject": "RE: Urgent complete court files by EMAIL — James Michael Weeks — 1131CR003137A–C and 1631CR001779A",
+      "agency_ids": [
+        "court-4"
+      ],
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a15ec8dfb1f5ce6",
+      "body": "Good morning Mr. Weeks,\n\nAttached please find docket sheets for 1131CR003137 and 1631CR001779.\n\nRegards,\n\nKristin Mohan\nCase Administrator II\nClerk Magistrate’s Office\nTaunton District Court\n40 Broadway\nTaunton, MA 02780\n508-977-6111\nFrom: Kristin Mohan\nSent: Tuesday, October 20, 2026 8:09 AM\nTo: James Weeks <jamesmweeksjr@gmail.com>; CMTauntonDC <CMTauntonDC@jud.state.ma.us>\nSubject: RE: Urgent complete court files by EMAIL — James Michael Weeks — 1131CR003137A–C and 1631CR001779A\n\nReceived, we will work on this request and provide a response shortly.\n\nRegards,\n\nKristin Mohan\nCase Administrator II\nClerk Magistrate’s Office\nTaunton District Court\n40 Broadway\nTaunton, MA 02780\n508-977-6111\nFrom: James Weeks <jamesmweeksjr@gmail.com<mailto:jamesmweeksjr@gmail.com>>\nSent: Tuesday, October 20, 2026 3:09 AM\nTo: CMTauntonDC <cmtauntondc@jud.state.ma.us<mailto:cmtauntondc@jud.state.ma.us>>\nSubject: Urgent complete court files by EMAIL — James Michael Weeks — 1131CR003137A–C and 1631CR001779A\n\nCAUTION: This email originated from outside the Judiciary. Report any suspicious email using the Phish Alert Report butt͏​​﻿‌͏\n\nCAUTION: This email originated from outside the Judiciary. Report any suspicious email using the Phish Alert Report button on the Outlook desktop ribbon or forward to phishing@jud.state.ma.us<mailto:phishing@jud.state.ma.us>.\n\nDear Clerk-Magistrate / Criminal Records Office,\n\nI am out of state and need these records delivered by email or secure\n\ndownload. I cannot appear at your office or arrange in-person\n\ncollection. USCIS issued a Request for Evidence dated October 14, 2026\n\nand must receive my complete response by November 16, 2026. I\n\nrespectfully request expedited electronic access to my own records.\n\nMy name is James Michael Weeks Jr. Please also search the name James\n\nMichael Weeks. and the case-name format Weeks, JR, James Michael, as\n\nused in the USCIS notice. Date of birth: April 7, 1986 (as shown in my\n\nsupplied CORI).\n\nI have a DCJIS CORI issued January 2, 2025, request E25PER-00003990.\n\nIts labels and coded entries are search information; please provide\n\nthe underlying records and explain the codes in words. I can provide\n\nthe relevant excerpt through your preferred secure channel.\n\n1631CR001779 — CORI court appearance 08/05/2016 — 1631CR001779A:\n\nOPERATING AFTER SUSPENDED LIC\n\n1131CR003137 — CORI court appearance 10/11/2011 — 1131CR003137A:\n\nDISORDERLY CONDUCT; 1131CR003137B: RESISTING ARREST; 1131CR003137C: GV\n\nFLS ADDR W/I HINDER PO DUTY\n\nThe RFE gives 10/09/2011 for Taunton Police; CORI gives the related\n\ncourt appearance as 10/11/2011. Count C is labeled GV FLS ADDR W/I\n\nHINDER PO DUTY in CORI, while the RFE says false name or SS#; please\n\nprovide the actual charge and statute. The dates identified as CORI\n\ncourt appearances are search anchors, not necessarily incident or\n\narrest dates. Please identify the actual event dates and police report\n\nnumbers from the underlying files. Please supply each suffix/count,\n\nincluding any amended or successor charge. The CORI does not identify\n\na police agency for 1631CR001779A. Please provide the\n\ncomplaint/citation and identify the issuing agency, or document if\n\nthere was no police-originated case; do not assume Taunton Police\n\nhandled it.\n\nI already mailed certified court records to USCIS. I am now requesting\n\nthe COMPLETE court file again for every case listed above, including\n\ndocuments previously supplied and all other records retained in each\n\nfile. Please search for any other criminal cases involving me in your\n\ncourt and include those files too. I cannot obtain another\n\npaper-certified set or appear in person. Please email the available\n\nPDFs/scans even if you cannot issue new certified copies\n\nelectronically. Include existing certification pages and seals if\n\nheld, but do not limit the response to certified dispositions.\n\nIdentify any transferred case and its receiving court/docket.\n\nA complete electronic copy of each criminal case file: every docket\n\nsheet and entry, complaint/indictment and amendment, motion, filed\n\nexhibit, hearing record or transcript already in the file,\n\nplea/admission form, judgment, sentence, and final disposition of\n\nevery count. Include every page and attachment, including existing\n\ncertification/seal pages. Please explain charge and disposition codes\n\nin words. If any record is stored separately or restricted, identify\n\nit and the procedure for obtaining it remotely.\n\nEvery plea agreement and stipulation; any pretrial\n\ndiversion/intervention agreement, continuance-without-a-finding\n\npaperwork, or other alternative disposition; the full signed agreement\n\nand all terms and court-imposed requirements; probation conditions and\n\nmodifications; completion or termination records; and the resulting\n\ndisposition. Please identify the actual disposition used. If no\n\ndiversion agreement existed, please confirm what the records show\n\nrather than treating another disposition as diversion.\n\nFor any conviction, documentation of whether it was a felony,\n\nmisdemeanor, or other classification. If the judgment does not state\n\nthat, please provide a clerk’s statement or identify the applicable\n\nstatute and version or sentencing guide establishing the\n\nclassification.\n\nFor every dismissed charge, the dismissal order and recorded reason\n\nfor dismissal. For every reduced or amended charge, records mapping\n\nthe original charge to the final charge and disposition. For any\n\npending charge, a court record stating its current status and next\n\nscheduled action.\n\nElectronic copies of every order vacating, setting aside, sealing,\n\nexpunging or otherwise removing an arrest or conviction, including\n\nrecorded grounds and any existing certification. Include records of\n\npunishment, confinement, probation, fines, completion and discharge.\n\nEvery police report, incident/arrest narrative, probable-cause\n\nstatement, complaint application and related attachment held in the\n\ncourt file. Please include these even if I can also request them from\n\npolice. Identify the originating agency and report number so I can\n\nobtain anything the court does not hold.\n\nIf any requested record cannot be supplied, please email a written\n\nexplanation identifying the case, specific missing/restricted\n\ndocument, search performed and reason. If available, provide the\n\nexplanation as a signed court-letterhead PDF with a seal or electronic\n\ncertification. Please send the explanation even if certification\n\ncannot be provided electronically. Distinguish nonexistent, destroyed,\n\nmissing, transferred and restricted records, and identify any other\n\ncustodian or remote access procedure.\n\nI am requesting access as the person who is the subject of these\n\nrecords. If a public-records request is not the correct procedure,\n\nplease explain the defendant/subject-access procedure, required\n\nauthorization, or court order. If records are restricted, sealed,\n\nimpounded, or exempt, please distinguish that from records that do not\n\nexist or cannot be located, identify the restriction in writing, and\n\nexplain how my attorney or I can seek lawful access.\n\nPlease send the records as PDF attachments to jamesmweeksjr@gmail.com<mailto:jamesmweeksjr@gmail.com>,\n\nor provide a secure download link I can access from out of state.\n\nInclude every page, certification page, signature and seal.\n\nPlease provide electronically certified PDFs if your office offers\n\nthem, or complete scans of the certified records already issued or\n\nretained in your file.\n\nIf only uncertified scans are available electronically, please send\n\nthem promptly and clearly identify their certification status so my\n\nattorney can address the USCIS requirement.\n\nPlease explain any electronic-access or certification restriction in\n\nwriting; inability to email a record is different from the record not\n\nexisting.\n\nPlease provide remote identification, signed-release and payment\n\ninstructions, your request reference, and expected completion date.\n\nMy requested target is November 2, 2026, for attorney review before\n\nUSCIS’s November 16 receipt deadline. I need electronic delivery only\n\nand cannot attend or arrange pickup in Massachusetts.\n\nThank you,\n\nJames Michael Weeks\n\nEmail: jamesmweeksjr@gmail.com<mailto:jamesmweeksjr@gmail.com>\n\nTelephone: 13072122648\n\nRecords delivery: email or secure download",
+      "attachments": [
+        {
+          "message_id": "1a15ec8dfb1f5ce6",
+          "part_index": 4,
+          "filename": "DOC102126.pdf",
+          "mime_type": "application/pdf",
+          "size": 131374,
+          "sha256": "03a34a7e3a60d2cb66c6d86e01e3be81d217db48f98a1e5c6c4f9fcf19a81ed0",
+          "path": "attachments/1a15ec8dfb1f5ce6/04_DOC102126.pdf"
+        },
+        {
+          "message_id": "1a15ec8dfb1f5ce6",
+          "part_index": 5,
+          "filename": "DOC102126.pdf",
+          "mime_type": "application/pdf",
+          "size": 113838,
+          "sha256": "dfccf2a7047a3c0a74b838555569e598ca714b6c9a5a91572340b5af93fa286f",
+          "path": "attachments/1a15ec8dfb1f5ce6/05_DOC102126.pdf"
+        }
+      ]
+    },
+    {
+      "message_id": "1a15ef3b842bb25d",
+      "date_et": "2026-10-21T10:53:13-04:00",
+      "direction": "sent",
+      "from": "James Weeks <jamesmweeksjr@gmail.com>",
+      "to": "recordsrequest@tauntonpd.com",
+      "cc": "",
+      "subject": "ollow-up: confirmation of complete records and redactions — James Michael Weeks Jr.",
+      "agency_ids": [
+        "police-7"
+      ],
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a15ef3b842bb25d",
+      "body": "Dear Records Department,\n\nThank you for responding to my records request and providing Reports.pdf.\n\nMy original request was for all records your department holds\nconcerning me, including complete incident and arrest reports, officer\nnarratives, supplemental reports, statements, booking records,\ncomplaint applications, and related attachments.\n\nWould you please confirm in writing whether Reports.pdf contains all\nresponsive records your department located and can provide, including\nany archived records?\n\nWould you also be willing to explain why portions of the documents are\nredacted, including the reason and applicable basis for those\nredactions? Please let me know whether I can obtain any of that\ninformation as the person the records concern, or through my attorney,\nwith identification or a signed authorization.\n\nIf any additional records exist but were withheld or omitted, please\nidentify the type of record and explain why it was not provided. If\nany requested records were destroyed, transferred, or could not be\nlocated, please explain that separately.\n\nIf Reports.pdf is everything your department holds in response to my\nrequest, please explicitly confirm that in your reply. This will help\nme accurately document the completeness of the records for USCIS,\nwhich must receive my response by November 16, 2026.\n\nThank you for your time and assistance.\n\nJames Michael Weeks Jr.\njamesmweeksjr@gmail.com",
+      "attachments": []
+    },
+    {
+      "message_id": "1a15f14513b1d292",
+      "date_et": "2026-10-21T11:28:12-04:00",
+      "direction": "received",
+      "from": "Records Request <recordsrequest@tauntonpd.com>",
+      "to": "James Weeks <jamesmweeksjr@gmail.com>",
+      "cc": "",
+      "subject": "Re: ollow-up: confirmation of complete records and redactions — James Michael Weeks Jr.",
+      "agency_ids": [
+        "police-7"
+      ],
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a15f14513b1d292",
+      "body": "The document you received is all that we have.\n\nAlso the redactions that were made statements that are not public records\n\n*PLEASE DO NOT REPLY TO THIS EMAIL:* If your have questions or need more\ninformation please call the number below\n\nRECORDS OFFICE:\n\nTaunton Police Department\n90 County Street\nTaunton, MA.  02780\n508-821-1471\n\n***Please note that the City Of Taunton Police Department has moved to its\nnew Public Safety Facility located at 90 County St Taunton, MA 02780***\n\nOn Wed, Oct 21, 2026 at 10:53 AM James Weeks <jamesmweeksjr@gmail.com>\nwrote:\n\n> Dear Records Department,\n>\n> Thank you for responding to my records request and providing Reports.pdf.\n>\n> My original request was for all records your department holds\n> concerning me, including complete incident and arrest reports, officer\n> narratives, supplemental reports, statements, booking records,\n> complaint applications, and related attachments.\n>\n> Would you please confirm in writing whether Reports.pdf contains all\n> responsive records your department located and can provide, including\n> any archived records?\n>\n> Would you also be willing to explain why portions of the documents are\n> redacted, including the reason and applicable basis for those\n> redactions? Please let me know whether I can obtain any of that\n> information as the person the records concern, or through my attorney,\n> with identification or a signed authorization.\n>\n> If any additional records exist but were withheld or omitted, please\n> identify the type of record and explain why it was not provided. If\n> any requested records were destroyed, transferred, or could not be\n> located, please explain that separately.\n>\n> If Reports.pdf is everything your department holds in response to my\n> request, please explicitly confirm that in your reply. This will help\n> me accurately document the completeness of the records for USCIS,\n> which must receive my response by November 16, 2026.\n>\n> Thank you for your time and assistance.\n>\n> James Michael Weeks Jr.\n> jamesmweeksjr@gmail.com\n>",
+      "attachments": []
+    }
+  ],
+  "knownResponseIds": [
+    "8885a65b57b837b5d7ab215456a47001",
+    "f23c499b41308c10a0fe0571a8e32ff5",
+    "9cc6148282eaf396a8bf5ff446791cae",
+    "2777dda6a415d3a84c42714cf64b49ac",
+    "9794ec3a1555b7959c306f17a9d4631b",
+    "4418f9fdc03df9195255d4af82f1f8e5",
+    "fa8d10768e31a6829e107137b3afb2e4"
+  ],
+  "knownDocumentIds": [
+    "c8b3b00dc3bc4349d1fefaa989d9362a",
+    "dca593c4a95a84002fbaad754c0927b7",
+    "b9e07be0ad6a8e8589bb60059fb87ae6",
+    "9adc6f11b06238c9ea222f45b11d9eb7",
+    "bf990cdea7a4e8f7abd3f4f0d24cee36",
+    "b9585895e561209594ddf0503c523729",
+    "f257869d7832600d49aa8be4adbf7408",
+    "15c1b688f18f61a93b22f4de5c8bd338",
+    "218ffbd7fc3ea98ff0a83fb4143e60c4",
+    "fc9d32968e6827fe4804fe1e15942568",
+    "e7c2c903cbccf5a84f00a1c280bcf7a6",
+    "149e58122c796970929921e9c0c04044",
+    "f24b2d003872319aff118f54e374a4c0",
+    "c93b8e99352db94489d8774da66f77fa",
+    "9823c8de7a0b78f8ac42f1f1007a141e",
+    "416db484fb850012058cca5a8f66bae3",
+    "0ea6a2805a799585e0b8d4015d494bd0",
+    "cc27a62b0c8bced34156d27fd4ae910e",
+    "1f7380f86726f0e1a1e9090dcf203474",
+    "6f60dd406f9b3cbd8319bd2ee7933893",
+    "180711c82792e48e8299371c5f25b86b",
+    "5f2ccb6b93aa94278461a100ef0db81e",
+    "d9c947cf0a00b2572355a211ad3927d2",
+    "6e59f6c909661f9b02469c8dcabd8146",
+    "58d05195e1fd6c9fccf22eb602388970",
+    "d07bf078cb7dd36102b5a40c30459796",
+    "d1afdfcc68fd16fd47ae4fa3856fe130",
+    "e9de3a077042cbd879bc0674e4256062",
+    "fc1e8f6feec48c87f2125f9275cb2391",
+    "fa47f44ce7de81702d6ac13bc7a36c1b",
+    "07cef6b42a2b2000b900753476da35cc",
+    "4b7e02a7ae29e04e560bf5dec3793778",
+    "dff1d7fe0343dcbd1038823d1148cbc8",
+    "94f651b876d4e8d74f41a2b6c7b598d8",
+    "285a078730aa54a27fd07411c81772f9"
+  ]
+}
