@@ -149,6 +149,7 @@ const knownFiles = {
   '285a078730aa54a27fd07411c81772f9':['records','Brockton court · scanned response','Received October 20. Match the contents and certification to the court checklist.']
 };
 function fileInfo(doc) {
+  if (context.documentOverrides?.[doc.id]) return context.documentOverrides[doc.id];
   if (knownFiles[doc.id]) return knownFiles[doc.id];
   if (/Email_Correspondence|Email_Transcript/.test(doc.name)) return ['communications','Email transcript · readable text','Preserves the imported sent and received email text.'];
   if (/Gmail_Record/.test(doc.name)) return ['communications','Original emails & attachments · ZIP','Original .eml messages, attachments and a text transcript for this section.'];
@@ -243,6 +244,7 @@ function messageNode(message) {
   const envelope=el('div','message-envelope');
   for(const [key,label] of [['from','From'],['to','To'],['cc','Cc']])if(message[key])envelope.append(el('p','',label+': '+message[key]));
   envelope.append(linkNode('Open original in Gmail ↗',message.gmail_url),el('p','section-note','Gmail link requires access to James’s mailbox. Download the original-message ZIP in this section for an offline copy.'));
+  if(message.message_id==='1a15f5706139f66c') envelope.append(el('p','new-activity','ATTORNEY ACTION: request the records from a business email, on appropriate letterhead, with James’s signed authorization to release the information to Nathan. Send to records@warehampolice.gov. This reply contains no attachments.'));
   if(message.message_id==='1a15a764d09a9763') envelope.append(el('p','new-activity','ATTORNEY ACTION: review this letter and the waiver. Download the authorization already signed by James above, complete Part II, and return that completed form to the sheriff.'));
   if(message.attachments.length) {
     const list=el('div','email-attachments');list.append(el('p','section-note','Original attachments · also preserved in the email ZIP:'));
@@ -259,11 +261,11 @@ function messageNode(message) {
 }
 function communicationsNode(agency,replies) {
   const messages=departmentMessages(agency.id);
-  const section=disclosure('communications-'+agency.id,agency.id==='case-reference'?'Archive scope · 34 emails':('Communications · '+plural(messages.length,'email')+' · '+plural(replies.length,'saved update')),'communications-section');
+  const section=disclosure('communications-'+agency.id,agency.id==='case-reference'?'Archive scope · '+context.messages.length+' emails':('Communications · '+plural(messages.length,'email')+' · '+plural(replies.length,'saved update')),'communications-section');
   const body=el('div','communications-body');
-  body.append(el('p','section-note','Imported emails through October 21, 2026. Full message text is preserved, including quoted history; original .eml files and attachments are in the downloadable ZIP. Phone updates are identified in the status summary.'));
+  body.append(el('p','section-note','Imported emails through October 21, 2026, including Wareham’s 12:41 PM reply. Full message text is preserved, including quoted history; original .eml files and attachments are in the downloadable ZIP. Phone updates are identified in the status summary.'));
   if(messages.length) [...messages].reverse().forEach(m=>body.append(messageNode(m)));
-  else body.append(el('p','section-note',agency.id==='case-reference'?'The full archive covers all 34 emails. Read individual messages under their department or Congressional assistance.':'No imported emails assigned to this section.'));
+  else body.append(el('p','section-note',agency.id==='case-reference'?'The current full archive covers all '+context.messages.length+' emails. Read individual messages under their department or Congressional assistance.':'No imported emails assigned to this section.'));
   const saved=disclosure('saved-updates-'+agency.id,'Saved response log · '+replies.length,'saved-updates');
   if(!replies.length)saved.append(el('p','section-note','No saved updates.'));
   replies.forEach(r=>saved.append(responseNode(r)));body.append(saved);section.append(body);return section;
@@ -277,7 +279,7 @@ function agencyCard(agency,replies,documents) {
   const summary=card.firstChild;summary.className='agency-summary';
   const title=el('span','agency-title');title.append(el('span','agency-name',agency.name),el('span','agency-brief',meta?.short||'Open to review records and communications.'));
   const [status,statusClass]=statusFor(agency,replies,documents);
-  const overview=el('span','agency-overview');overview.append(el('span','status-badge '+statusClass,status),el('span','agency-meta',plural(documents.length,'file')+' · '+(agency.id==='case-reference'?'34 emails in full archive':plural(departmentMessages(agency.id).length,'email'))));
+  const overview=el('span','agency-overview');overview.append(el('span','status-badge '+statusClass,status),el('span','agency-meta',plural(documents.length,'file')+' · '+(agency.id==='case-reference'?context.messages.length+' emails in full archive':plural(departmentMessages(agency.id).length,'email'))));
   const chevron=el('span','chevron','⌄');chevron.setAttribute('aria-hidden','true');summary.append(title,overview,chevron);
   const content=el('div','agency-content');content.append(statusNode(agency,replies,documents),contactNode(agency),documentsNode(agency,documents),communicationsNode(agency,replies));
   if(checklistPlans[agency.id]) content.append(checklistNode(agency));
@@ -292,14 +294,15 @@ function agencyCard(agency,replies,documents) {
 function attorneyQueue(data) {
   const container=$('#attorney-actions');container.replaceChildren();
   const form=data.documents.find(d=>d.id==='fc1e8f6feec48c87f2125f9275cb2391');
+  const warehamInstructions=data.documents.find(d=>d.name==='Wareham_Police_Response_2026-10-21_1241_ET.txt');
   const actions=[
     ['sheriff-8','01','DOWNLOAD · SIGN · RETURN','Sheriff authorization','James has signed and dated the form. Nathan needs to review and sign/date Part II, then return it to Euvir Fahey at efahey@pcsdma.org. Submission is not yet confirmed.',form],
-    ['police-19','02','ATTORNEY FOLLOW-UP','Wareham identity verification','Call Records for the written identity procedure and how Nathan can handle it remotely. James reported this requirement by phone; written instructions are still pending.',null],
+    ['police-19','02','DOWNLOAD · REQUEST · AUTHORIZE','Wareham records release','Records exist. Nathan must request them from his business email on letterhead, with James’s signed authorization. Send both to Cindy Garron at records@warehampolice.gov. Records have not yet been delivered.',warehamInstructions],
     ['police-7','03','REVIEW · CALL RECORDS','Taunton reports & redactions','Reports and the all-held-records confirmation are saved. Call about redactions, access through counsel, and certification. The latest reply says not to reply by email.',null]
   ];
   for(const [id,n,tag,title,body,doc]of actions){
     const card=el('article','action-card');card.append(el('span','action-number',n),el('p','action-label',tag),el('h3','',title),el('p','',body));
-    if(doc)card.append(linkNode('Download James-signed form ↓',fileURL(doc),'primary-link'));
+    if(doc)card.append(linkNode(id==='police-19'?'Download Wareham’s instructions ↓':'Download James-signed form ↓',fileURL(doc),'primary-link'));
     card.append(linkNode('View status & correspondence →','#'+id,'action-detail'));container.append(card);
   }
 }

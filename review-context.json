@@ -26,23 +26,23 @@
       "asOf": "2026-10-21"
     },
     "police-19": {
-      "title": "Attorney identity follow-up",
+      "title": "Records exist · authorization needed",
       "tone": "action",
-      "owner": "Nathan",
-      "received": "James reports that Wareham said an attorney must verify his identity and that a written response would follow.",
-      "pending": "No written identity instructions or police records appear in the October 21 USCIS email import.",
-      "next": "Contact Records to obtain the written identity-verification procedure, confirm how Nathan can submit it remotely, and request the complete reports. Save any form or instructions before completing them.",
-      "evidence": "James’s telephone update; sent request and follow-up preserved in Gmail. The reported identity requirement is not yet documented in a received email.",
+      "owner": "Nathan + James",
+      "received": "Cindy Garron confirmed in writing on October 21 at 12:41 PM Eastern that Wareham has the requested records. She will email them to James’s out-of-state attorney once both release conditions are met. This email has no attachments.",
+      "pending": "The police records have not yet been delivered. Nathan’s request from his business email, on appropriate letterhead, and James’s signed authorization releasing the information to Nathan are still needed. Submission is not confirmed.",
+      "next": "Nathan: request the records on James’s behalf from your business email, on appropriate letterhead, and send it to Cindy Garron at records@warehampolice.gov with James’s signed authorization releasing his information to you. James: sign an authorization covering Wareham Police records. Keep the sent request and the returned records for RFE review.",
+      "evidence": "Cindy Garron, Records Clerk, Wareham Police: email received October 21, 2026 at 12:41 PM Eastern, Gmail message 1a15f5706139f66c. Written instructions now replace the earlier pending phone-report status.",
       "phones": [
         {
-          "label": "Records division",
+          "label": "Records division · Cindy Garron",
           "number": "508-295-8023"
         }
       ],
-      "email": "records@warehampolice.com",
+      "email": "records@warehampolice.gov",
       "source": "https://www.wareham.ma.us/317/Records",
-      "short": "Awaiting written identity requirements; Nathan needs to contact Records.",
-      "waiting": true,
+      "short": "Written release instructions received. Nathan’s letterhead request + James’s signed authorization are required.",
+      "waiting": false,
       "asOf": "2026-10-21"
     },
     "police-7": {
@@ -236,10 +236,10 @@
       "title": "Case reference & full archive",
       "tone": "review",
       "owner": "Nathan / James",
-      "received": "The imported USCIS label contains 34 messages across 16 threads: 21 sent and 13 received. All original messages and attachments are preserved.",
-      "pending": "The import is a snapshot of the USCIS label as of October 21; it does not claim to include every related message elsewhere in Gmail or later arrivals.",
+      "received": "35 messages across 16 threads are preserved: the original 34-message USCIS import plus Wareham’s October 21, 12:41 PM reply (21 sent, 14 received). All original messages and attachments are retained; Wareham’s new reply has no attachments.",
+      "pending": "This archive includes the October 21 USCIS import and the explicitly requested Wareham update. It does not claim to include every related message elsewhere in Gmail or later arrivals.",
       "next": "Use the RFE and CORI inventory to review each agency’s records. Download the complete archive for an offline copy of the imported correspondence.",
-      "evidence": "October 21 Gmail export and verified attachment/archive checksums.",
+      "evidence": "Original October 21 Gmail export, plus the original Wareham reply and verified attachment/archive checksums.",
       "phones": [],
       "email": "",
       "source": "",
@@ -906,6 +906,21 @@
       "gmail_url": "https://mail.google.com/mail/u/0/#all/1a15f14513b1d292",
       "body": "The document you received is all that we have.\n\nAlso the redactions that were made statements that are not public records\n\n*PLEASE DO NOT REPLY TO THIS EMAIL:* If your have questions or need more\ninformation please call the number below\n\nRECORDS OFFICE:\n\nTaunton Police Department\n90 County Street\nTaunton, MA.  02780\n508-821-1471\n\n***Please note that the City Of Taunton Police Department has moved to its\nnew Public Safety Facility located at 90 County St Taunton, MA 02780***\n\nOn Wed, Oct 21, 2026 at 10:53 AM James Weeks <jamesmweeksjr@gmail.com>\nwrote:\n\n> Dear Records Department,\n>\n> Thank you for responding to my records request and providing Reports.pdf.\n>\n> My original request was for all records your department holds\n> concerning me, including complete incident and arrest reports, officer\n> narratives, supplemental reports, statements, booking records,\n> complaint applications, and related attachments.\n>\n> Would you please confirm in writing whether Reports.pdf contains all\n> responsive records your department located and can provide, including\n> any archived records?\n>\n> Would you also be willing to explain why portions of the documents are\n> redacted, including the reason and applicable basis for those\n> redactions? Please let me know whether I can obtain any of that\n> information as the person the records concern, or through my attorney,\n> with identification or a signed authorization.\n>\n> If any additional records exist but were withheld or omitted, please\n> identify the type of record and explain why it was not provided. If\n> any requested records were destroyed, transferred, or could not be\n> located, please explain that separately.\n>\n> If Reports.pdf is everything your department holds in response to my\n> request, please explicitly confirm that in your reply. This will help\n> me accurately document the completeness of the records for USCIS,\n> which must receive my response by November 16, 2026.\n>\n> Thank you for your time and assistance.\n>\n> James Michael Weeks Jr.\n> jamesmweeksjr@gmail.com\n>",
       "attachments": []
+    },
+    {
+      "message_id": "1a15f5706139f66c",
+      "date_et": "2026-10-21T12:41:29-04:00",
+      "direction": "received",
+      "from": "Police Records <records@warehampolice.gov>",
+      "to": "James Weeks <jamesmweeksjr@gmail.com>",
+      "cc": "",
+      "subject": "Re: Urgent certified reports — James Michael Weeks — Wareham 0660CR3644A",
+      "agency_ids": [
+        "police-19"
+      ],
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a15f5706139f66c",
+      "body": "Good afternoon,\n\nI am in receipt of your request.  Following up to our telephone call this morning, I am responding in writing to your request.  Please be advised that we do have the records requested.  The records that you have requested relate to CORI information/domestic incident and there are strict guidelines as to who can receive that information.  You are entitled to these records; however, I cannot send them to you via e-mail without being able to confirm your identity and that it is you who would actually be receiving the information.  I understand that you are not in state.  In our telephone conversation you indicated that you do have an attorney who is also out of state.  I can provide these records to your attorney via e-mail under the following conditions:\n\n  1.\n Your attorney requests the records on your behalf from a business e-mail and on appropriate letterhead; and\n  2.\n That accompanying the request is a signed authorization from you authorizing release of your information to your attorney\n\nI am happy to provide the records once this is received.\n\nSincerely,\n\nCindy Garron\nRecords Clerk\nWareham Police Department\n\nThe Records Department of the Wareham Police Department is open Mondays 11:00 a.m. - 4:00 p.m. and Tuesdays and Wednesdays 8:00 a.m. - 1:00 p.m.\n\n________________________________\nFrom: James Weeks <jamesmweeksjr@gmail.com>\nSent: Tuesday, October 20, 2026 2:58 AM\nTo: Police Records <records@warehampolice.gov>\nSubject: Urgent certified reports — James Michael Weeks — Wareham 0660CR3644A\n\n[[EXTERNAL EMAIL] Sender is from Outside of the Town of Wareham's email system. DO NOT CLICK links or attachments unless you recognize the sender and know the content is safe.\n\nDear Records Office,\n\nI am out of state and need these records delivered by email or secure\ndownload. I cannot appear at your office or arrange in-person\ncollection. USCIS issued a Request for Evidence dated October 14,\n2026, and must receive my complete response by November 16, 2026. I\nrespectfully request expedited electronic access to my own records.\n\nMy name is James Michael Weeks Jr. Please also search the name James\nMichael Weeks and the case-name format Weeks, JR, James Michael, as\nused in the USCIS notice. Date of birth: April 7, 1986 (as shown in my\nsupplied CORI).\n\nMy January 2, 2025 CORI identifies Wareham District Court docket\n0660CR3644A, charge label A&B DANGEROUS WEAPON, court appearance\nDecember 11, 2006, and Wareham Police Department. It labels the entry\nCLOSED/NON CONVICTION with text C 1/8/07 (JT) 2/1/07 DISM. Please\nidentify the actual incident/arrest dates, police report number and\nfinal charge details from your records. The dates identified as CORI\ncourt appearances are search anchors, not necessarily incident or\narrest dates. Please identify the actual event dates and police report\nnumbers from the underlying files. Please supply each suffix/count,\nincluding any amended or successor charge.\n\nPlease provide certified true copies of the complete arrest and\nincident reports, including the arresting officer’s narrative,\nsupplemental/investigative reports, statements, complaint\napplications, probable-cause statements, charge sheets, and booking\nrecords held by your agency for the incidents below. Please include\nall pages and attachments forming part of those records. A\ncriminal-history summary or arrest log alone will not supply the\nnarrative USCIS requests.\n\nPlease include available records identifying each original and amended\ncharge in words, the incident and arrest dates, incident/report\nnumbers, court and docket numbers, and any recorded disposition. USCIS\nspecifically requests the relevant ages of any alleged victims and\ntheir relationship to me if an arrest report is unavailable; please\nprovide records establishing those facts where disclosure to me or my\ncounsel is permitted. If identifying information must be redacted,\nplease advise whether age at the incident and relationship can be\ndocumented without disclosing unnecessary identifiers.\n\nPlease search for any other arrests or charges involving me held by\nyour agency, including archived records and records under the name\nvariants above, because the notice also covers incidents not\nspecifically listed. Please identify any additional incident and court\ncase numbers.\n\nIf any requested arrest report is unavailable, please provide an\noriginal signed or certified agency letter identifying the incident,\nrecord requested, search performed, and why it cannot be supplied (for\nexample, never created, not located after a search, destroyed under a\nretention schedule, or transferred). Please provide any surviving\nrelated records and the receiving custodian’s details if transferred.\nA statement that a record is withheld or restricted should accurately\nsay that, rather than state there is no record.\n\nI am requesting access as the person who is the subject of these\nrecords. If a public-records request is not the correct procedure,\nplease explain the defendant/subject-access procedure, required\nauthorization, or court order. If records are restricted, sealed,\nimpounded, or exempt, please distinguish that from records that do not\nexist or cannot be located, identify the restriction in writing, and\nexplain how my attorney or I can seek lawful access.\n\nPlease send the records as PDF attachments to jamesmweeksjr@gmail.com,\nor provide a secure download link I can access from out of state.\nInclude every page, certification page, signature and seal.\n\nPlease provide electronically certified PDFs if your office offers\nthem, or complete scans of the certified records already issued or\nretained in your file.\n\nIf only uncertified scans are available electronically, please send\nthem promptly and clearly identify their certification status so my\nattorney can address the USCIS requirement.\n\nPlease explain any electronic-access or certification restriction in\nwriting; inability to email a record is different from the record not\nexisting.\n\nPlease provide remote identification, signed-release and payment\ninstructions, your request reference, and expected completion date.\n\nMy requested target is November 2, 2026, for attorney review before\nUSCIS’s November 16 receipt deadline. I need electronic delivery only\nand cannot attend or arrange pickup in Massachusetts.\n\nThank you,\nJames Michael Weeks\nEmail: jamesmweeksjr@gmail.com\nTelephone: 13072122648\nRecords delivery: email or secure download\n\nDisclaimer\n\nThe information contained in this communication from the sender is confidential. It is intended solely for use by the recipient and others authorized to receive it. If you are not the recipient, you are hereby notified that any disclosure, copying, distribution or taking action in relation of the contents of this information is strictly prohibited and may be unlawful.\n\nThis email has been scanned for viruses and malware, and may have been automatically archived by Mimecast Ltd, an innovator in Software as a Service (SaaS) for business. Providing a safer and more useful place for your human generated data. Specializing in; Security, archiving and compliance. To find out more visit the Mimecast website.",
+      "attachments": []
     }
   ],
   "knownResponseIds": [
@@ -915,7 +930,8 @@
     "2777dda6a415d3a84c42714cf64b49ac",
     "9794ec3a1555b7959c306f17a9d4631b",
     "4418f9fdc03df9195255d4af82f1f8e5",
-    "fa8d10768e31a6829e107137b3afb2e4"
+    "fa8d10768e31a6829e107137b3afb2e4",
+    "679fbe110541d4fedfa47005cf9b4c77"
   ],
   "knownDocumentIds": [
     "c8b3b00dc3bc4349d1fefaa989d9362a",
@@ -952,6 +968,64 @@
     "4b7e02a7ae29e04e560bf5dec3793778",
     "dff1d7fe0343dcbd1038823d1148cbc8",
     "94f651b876d4e8d74f41a2b6c7b598d8",
-    "285a078730aa54a27fd07411c81772f9"
-  ]
+    "285a078730aa54a27fd07411c81772f9",
+    "831f0301337644c3f284a3d5e872919d",
+    "d4605637c68e6c6e6c01e95d01d97139",
+    "c429a995abafc55377f329d0851f02df",
+    "a34ca4daa44c4bf1960a3c67e9fd40d3",
+    "9a041ad2ddd971de663d15dd232c9253",
+    "6d25617df343f164e716d2387675589b"
+  ],
+  "documentOverrides": {
+    "6d25617df343f164e716d2387675589b": [
+      "communications",
+      "Current complete transcript · 35 messages",
+      "Full text of the original import plus Wareham’s October 21 reply."
+    ],
+    "9a041ad2ddd971de663d15dd232c9253": [
+      "communications",
+      "Current complete email archive · 35 messages",
+      "Includes the new Wareham reply, every previously imported email and attachment, and the offline reader."
+    ],
+    "a34ca4daa44c4bf1960a3c67e9fd40d3": [
+      "communications",
+      "Current Wareham originals & attachments · ZIP",
+      "All 3 messages. The CORI attachment belongs to James’s earlier sent follow-up; the new police reply has no attachments."
+    ],
+    "c429a995abafc55377f329d0851f02df": [
+      "communications",
+      "Current Wareham correspondence · 3 emails",
+      "Includes the two sent messages and Cindy Garron’s October 21 written response."
+    ],
+    "d4605637c68e6c6e6c01e95d01d97139": [
+      "letters",
+      "Wareham release instructions · attorney action",
+      "Received October 21 at 12:41 PM. Nathan must send a request from his business email on letterhead, with James’s signed authorization. No attachments accompanied this response."
+    ],
+    "831f0301337644c3f284a3d5e872919d": [
+      "communications",
+      "Wareham response · original email (.eml)",
+      "Exact original message, including headers. Confirms records exist and states release requirements; no attached files."
+    ],
+    "c8b3b00dc3bc4349d1fefaa989d9362a": [
+      "communications",
+      "Earlier complete transcript · 34 messages",
+      "Preserved initial import. The current transcript also includes Wareham’s new reply."
+    ],
+    "dca593c4a95a84002fbaad754c0927b7": [
+      "communications",
+      "Earlier complete archive · 34 messages",
+      "Preserved initial import. Use the current 35-message archive for the Wareham reply."
+    ],
+    "e7c2c903cbccf5a84f00a1c280bcf7a6": [
+      "communications",
+      "Earlier Wareham archive · 2 sent emails",
+      "Preserved initial snapshot; does not include Cindy Garron’s new reply."
+    ],
+    "149e58122c796970929921e9c0c04044": [
+      "communications",
+      "Earlier Wareham transcript · 2 sent emails",
+      "Preserved initial snapshot. Use the current 3-message transcript for the written reply."
+    ]
+  }
 }
