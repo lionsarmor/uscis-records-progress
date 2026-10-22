@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-21",
+  "asOf": "2026-10-22",
   "departments": {
     "sheriff-8": {
       "title": "Attorney must sign & return",
@@ -66,13 +66,13 @@
       "asOf": "2026-10-21"
     },
     "police-5": {
-      "title": "Waiting for written response",
+      "title": "Court referral reported · clarify",
       "tone": "waiting",
-      "owner": "Brockton Records",
-      "received": "The October 20 request and CORI follow-up are saved. James reached Brockton by phone and was told a response would come within 10 days, whether records exist or not.",
-      "pending": "No written response or police reports are in the imported USCIS emails. The phone update did not establish whether the quoted 10 days meant business or calendar days.",
-      "next": "Watch for the promised written response. If it does not arrive in the quoted window, call Records and ask for the request status and a written records/no-records response.",
-      "evidence": "James’s telephone update; Gmail confirms two sent messages on Oct 20. No received message in the Oct 21 import.",
+      "owner": "James / Nathan",
+      "received": "The October 20 request and CORI follow-up are saved. James previously reported being told to expect a response within 10 days. On October 22, James reported that Brockton Police said the records now come from the courthouse; the exact wording, court and custodian have not been confirmed. Brockton District Court’s separate October 20 scan, DOC102026.pdf, is already saved.",
+      "pending": "No written Brockton Police referral or police narratives are recorded here. The reported courthouse referral does not establish which court holds which records, or whether the existing court scan contains all requested police narratives.",
+      "next": "Ask Brockton Records to identify the specific court, office/contact and report or case numbers, and confirm in writing where the complete arrest/incident narratives can be obtained. Ask Brockton court sender Maya Hall (maya.hall@jud.state.ma.us), or the Criminal Clerk’s office, whether the file includes police narratives, supplemental reports and complaint/probable-cause papers for 1515CR005525 and 1615CR001456. Compare the actual contents with DOC102026.pdf and obtain any missing reports from the confirmed custodian.",
+      "evidence": "James’s phone update reported in chat October 22, 2026; call date and precise wording not supplied. Gmail confirms the October 20 sent requests. Maya Hall’s separate court delivery (Oct 20, 8:27 AM Eastern; message 1a15948148305925) confirms a 13-page court scan, not the meaning of the later police referral.",
       "phones": [
         {
           "label": "Records · alternate directory number",
@@ -89,9 +89,12 @@
       ],
       "email": "records@brocktonpolice.com",
       "source": "https://www.brocktonpolice.com/our-department/general-phone-numbers/",
-      "short": "Phone contact made; Brockton said a response would come within 10 days.",
+      "short": "James reports a courthouse referral; confirm the custodian and whether it covers police narratives.",
       "waiting": true,
-      "asOf": "2026-10-21"
+      "asOf": "2026-10-22",
+      "relatedDocumentIds": [
+        "285a078730aa54a27fd07411c81772f9"
+      ]
     },
     "police-6": {
       "title": "Request pending",
@@ -117,10 +120,10 @@
       "title": "Voicemail left · waiting",
       "tone": "waiting",
       "owner": "Norton Records",
-      "received": "The October 20 request and CORI follow-up are saved. James called Records and left a message.",
+      "received": "The October 20 request and CORI follow-up are saved. James called Records and left a message. Related court evidence was received from Attleboro on October 22: DOC102226.pdf identifies Norton PD for 1134CR000858. That is a court response; Norton’s police reports have not been delivered in this saved record.",
       "pending": "James has not received a callback. No written response or records appear in the October 21 import.",
-      "next": "Watch for the callback or written response. Follow up with Records Administrator Michelle Goodwin about the reports for Attleboro case 1134CR000858A/B.",
-      "evidence": "James’s telephone update; Gmail confirms two sent messages on Oct 20.",
+      "next": "Watch for the callback or written response. Follow up with Records Administrator Michelle Goodwin about the reports for Attleboro case 1134CR000858A/B. The Attleboro docket is linked below as related court evidence for the case number and agency identification.",
+      "evidence": "James’s telephone update; Gmail confirms two sent messages on Oct 20. Related evidence: Attleboro court scan DOC102226.pdf received October 22, original email 1a1643c7b529a691.",
       "phones": [
         {
           "label": "Michelle Goodwin · Records",
@@ -131,16 +134,19 @@
       "source": "https://www.nortonma.gov/347/Police-Reports-and-Logs",
       "short": "Voicemail left; callback and written records response still pending.",
       "waiting": true,
-      "asOf": "2026-10-21"
+      "asOf": "2026-10-22",
+      "relatedDocumentIds": [
+        "f68aca14e5f6510cab7072b8cc3b38c9"
+      ]
     },
     "court-2": {
       "title": "Court scans received · match packet",
       "tone": "review",
       "owner": "Nathan / James",
       "received": "Brockton emailed DOC102026.pdf on October 20. James reports that he has all certified court records. This statement is separate from the files uploaded here; counsel still needs to match the certified packet to every case and RFE item.",
-      "pending": "Completeness and certification of the uploaded scan have not been independently established against every RFE item.",
-      "next": "Match the certified packet and uploaded scan to 1515CR005525 and 1615CR001456. Check dispositions, count descriptions, plea/CWOF terms, and any remaining court-file gaps.",
-      "evidence": "Brockton court email Oct 20, 8:27 AM Eastern; James’s statement that all certified court records are in hand.",
+      "pending": "Completeness and certification of the uploaded scan have not been independently established against every RFE item. James has since reported a Brockton Police courthouse referral; its precise court/custodian and scope are unconfirmed.",
+      "next": "Match the certified packet and uploaded scan to 1515CR005525 and 1615CR001456. Check dispositions, count descriptions, plea/CWOF terms, and any remaining court-file gaps. Ask the sender Maya Hall at maya.hall@jud.state.ma.us whether the actual court file includes the requested police narratives, supplemental reports and complaint/probable-cause papers; compare them with DOC102026.pdf and the written police referral once obtained.",
+      "evidence": "Brockton court email Oct 20, 8:27 AM Eastern; James’s statement that all certified court records are in hand. October 22 owner-reported phone referral from Brockton Police; no new written court response is implied.",
       "phones": [
         {
           "label": "Clerk’s office",
@@ -151,7 +157,7 @@
       "source": "https://www.mass.gov/locations/brockton-district-court",
       "short": "Scanned court response saved; counsel needs to check it against the certified packet.",
       "waiting": false,
-      "asOf": "2026-10-21"
+      "asOf": "2026-10-22"
     },
     "court-4": {
       "title": "Dockets received · agency unresolved",
@@ -198,24 +204,27 @@
       "asOf": "2026-10-21"
     },
     "court-17": {
-      "title": "Certified packet reported in hand",
+      "title": "Court docket received · review needed",
       "tone": "review",
       "owner": "Nathan / James",
-      "received": "James reports that he has all certified court records. This statement is separate from the files uploaded here; counsel still needs to match the certified packet to every case and RFE item. The October 20 email request is preserved.",
-      "pending": "No reply to this particular email request or new court-file attachment appears in the October 21 USCIS import. This does not mean James lacks the certified records.",
-      "next": "Review the certified papers for 1134CR000858A/B. Upload the relevant copies for counsel and request any missing supporting court documents after that review.",
-      "evidence": "James’s statement about all certified court records; Oct 20 sent request; no received email in this imported label.",
+      "received": "On October 22 at 11:30 AM Eastern, Lillian M Bolarinho emailed DOC102226.pdf from Attleboro District Court. The five-page PDF contains the records request on pages 1–2 and the criminal docket, entries and offenses/disposition sheet on pages 3–5 for 1134CR000858. It lists Norton PD and two motor-vehicle counts: operating a vehicle with suspended registration, and uninsured motor vehicle. James also reports all certified court records are in hand.",
+      "pending": "Nathan still needs to check the scan against the certified packet and the RFE checklist, including certification, all counts, disposition terms and any supporting records. This email forwards the scan without stating that the complete court file has been supplied. Norton Police narratives remain separately pending.",
+      "next": "Nathan: download and review DOC102226.pdf for 1134CR000858A/B. Compare its docket and disposition entries with the certified papers already in hand; request any missing court-file material after that review. Use the docket’s Norton PD identification when following up with Norton Records.",
+      "evidence": "Original Attleboro court email, October 22, 2026 at 11:30 AM Eastern (Gmail 1a1643c7b529a691). Original DOC102226.pdf verified byte-for-byte against James’s Desktop download. PDF visually reviewed: five pages, with docket number 1134CR000858 and Norton PD.",
       "phones": [
         {
           "label": "Clerk’s office",
           "number": "508-222-5900"
         }
       ],
-      "email": "cmattleborodc@jud.state.ma.us",
+      "email": "lillian.bolarinho@jud.state.ma.us",
       "source": "https://www.mass.gov/locations/attleboro-district-court",
-      "short": "James reports certified records in hand; the emailed request has no saved reply.",
+      "short": "Five-page court response saved for 1134CR000858A/B; Nathan should review the docket and disposition pages.",
       "waiting": false,
-      "asOf": "2026-10-21"
+      "asOf": "2026-10-22",
+      "reviewDocumentIds": [
+        "f68aca14e5f6510cab7072b8cc3b38c9"
+      ]
     },
     "congressional-hageman": {
       "title": "Congressional correspondence saved",
@@ -236,16 +245,16 @@
       "title": "Case reference & full archive",
       "tone": "review",
       "owner": "Nathan / James",
-      "received": "35 messages across 16 threads are preserved: the original 34-message USCIS import plus Wareham’s October 21, 12:41 PM reply (21 sent, 14 received). All original messages and attachments are retained; Wareham’s new reply has no attachments.",
-      "pending": "This archive includes the October 21 USCIS import and the explicitly requested Wareham update. It does not claim to include every related message elsewhere in Gmail or later arrivals.",
+      "received": "36 messages across 17 threads are preserved: the original 34-message USCIS import plus Wareham’s October 21 reply and Attleboro’s October 22 court delivery (21 sent, 15 received). All original messages and attachments are retained, including the new five-page DOC102226.pdf.",
+      "pending": "This record includes the original USCIS import and the two specifically requested agency updates. It does not claim to include every related message elsewhere in Gmail or later arrivals.",
       "next": "Use the RFE and CORI inventory to review each agency’s records. Download the complete archive for an offline copy of the imported correspondence.",
-      "evidence": "Original October 21 Gmail export, plus the original Wareham reply and verified attachment/archive checksums.",
+      "evidence": "Original October 21 Gmail export plus original Wareham and Attleboro updates. New Attleboro attachment matches the Desktop PDF exactly; uploaded originals and archives have verified checksums.",
       "phones": [],
       "email": "",
       "source": "",
       "short": "RFE, CORI inventory, and the complete imported correspondence in one place.",
       "waiting": false,
-      "asOf": "2026-10-21"
+      "asOf": "2026-10-22"
     }
   },
   "messages": [
@@ -921,6 +930,31 @@
       "gmail_url": "https://mail.google.com/mail/u/0/#all/1a15f5706139f66c",
       "body": "Good afternoon,\n\nI am in receipt of your request.  Following up to our telephone call this morning, I am responding in writing to your request.  Please be advised that we do have the records requested.  The records that you have requested relate to CORI information/domestic incident and there are strict guidelines as to who can receive that information.  You are entitled to these records; however, I cannot send them to you via e-mail without being able to confirm your identity and that it is you who would actually be receiving the information.  I understand that you are not in state.  In our telephone conversation you indicated that you do have an attorney who is also out of state.  I can provide these records to your attorney via e-mail under the following conditions:\n\n  1.\n Your attorney requests the records on your behalf from a business e-mail and on appropriate letterhead; and\n  2.\n That accompanying the request is a signed authorization from you authorizing release of your information to your attorney\n\nI am happy to provide the records once this is received.\n\nSincerely,\n\nCindy Garron\nRecords Clerk\nWareham Police Department\n\nThe Records Department of the Wareham Police Department is open Mondays 11:00 a.m. - 4:00 p.m. and Tuesdays and Wednesdays 8:00 a.m. - 1:00 p.m.\n\n________________________________\nFrom: James Weeks <jamesmweeksjr@gmail.com>\nSent: Tuesday, October 20, 2026 2:58 AM\nTo: Police Records <records@warehampolice.gov>\nSubject: Urgent certified reports — James Michael Weeks — Wareham 0660CR3644A\n\n[[EXTERNAL EMAIL] Sender is from Outside of the Town of Wareham's email system. DO NOT CLICK links or attachments unless you recognize the sender and know the content is safe.\n\nDear Records Office,\n\nI am out of state and need these records delivered by email or secure\ndownload. I cannot appear at your office or arrange in-person\ncollection. USCIS issued a Request for Evidence dated October 14,\n2026, and must receive my complete response by November 16, 2026. I\nrespectfully request expedited electronic access to my own records.\n\nMy name is James Michael Weeks Jr. Please also search the name James\nMichael Weeks and the case-name format Weeks, JR, James Michael, as\nused in the USCIS notice. Date of birth: April 7, 1986 (as shown in my\nsupplied CORI).\n\nMy January 2, 2025 CORI identifies Wareham District Court docket\n0660CR3644A, charge label A&B DANGEROUS WEAPON, court appearance\nDecember 11, 2006, and Wareham Police Department. It labels the entry\nCLOSED/NON CONVICTION with text C 1/8/07 (JT) 2/1/07 DISM. Please\nidentify the actual incident/arrest dates, police report number and\nfinal charge details from your records. The dates identified as CORI\ncourt appearances are search anchors, not necessarily incident or\narrest dates. Please identify the actual event dates and police report\nnumbers from the underlying files. Please supply each suffix/count,\nincluding any amended or successor charge.\n\nPlease provide certified true copies of the complete arrest and\nincident reports, including the arresting officer’s narrative,\nsupplemental/investigative reports, statements, complaint\napplications, probable-cause statements, charge sheets, and booking\nrecords held by your agency for the incidents below. Please include\nall pages and attachments forming part of those records. A\ncriminal-history summary or arrest log alone will not supply the\nnarrative USCIS requests.\n\nPlease include available records identifying each original and amended\ncharge in words, the incident and arrest dates, incident/report\nnumbers, court and docket numbers, and any recorded disposition. USCIS\nspecifically requests the relevant ages of any alleged victims and\ntheir relationship to me if an arrest report is unavailable; please\nprovide records establishing those facts where disclosure to me or my\ncounsel is permitted. If identifying information must be redacted,\nplease advise whether age at the incident and relationship can be\ndocumented without disclosing unnecessary identifiers.\n\nPlease search for any other arrests or charges involving me held by\nyour agency, including archived records and records under the name\nvariants above, because the notice also covers incidents not\nspecifically listed. Please identify any additional incident and court\ncase numbers.\n\nIf any requested arrest report is unavailable, please provide an\noriginal signed or certified agency letter identifying the incident,\nrecord requested, search performed, and why it cannot be supplied (for\nexample, never created, not located after a search, destroyed under a\nretention schedule, or transferred). Please provide any surviving\nrelated records and the receiving custodian’s details if transferred.\nA statement that a record is withheld or restricted should accurately\nsay that, rather than state there is no record.\n\nI am requesting access as the person who is the subject of these\nrecords. If a public-records request is not the correct procedure,\nplease explain the defendant/subject-access procedure, required\nauthorization, or court order. If records are restricted, sealed,\nimpounded, or exempt, please distinguish that from records that do not\nexist or cannot be located, identify the restriction in writing, and\nexplain how my attorney or I can seek lawful access.\n\nPlease send the records as PDF attachments to jamesmweeksjr@gmail.com,\nor provide a secure download link I can access from out of state.\nInclude every page, certification page, signature and seal.\n\nPlease provide electronically certified PDFs if your office offers\nthem, or complete scans of the certified records already issued or\nretained in your file.\n\nIf only uncertified scans are available electronically, please send\nthem promptly and clearly identify their certification status so my\nattorney can address the USCIS requirement.\n\nPlease explain any electronic-access or certification restriction in\nwriting; inability to email a record is different from the record not\nexisting.\n\nPlease provide remote identification, signed-release and payment\ninstructions, your request reference, and expected completion date.\n\nMy requested target is November 2, 2026, for attorney review before\nUSCIS’s November 16 receipt deadline. I need electronic delivery only\nand cannot attend or arrange pickup in Massachusetts.\n\nThank you,\nJames Michael Weeks\nEmail: jamesmweeksjr@gmail.com\nTelephone: 13072122648\nRecords delivery: email or secure download\n\nDisclaimer\n\nThe information contained in this communication from the sender is confidential. It is intended solely for use by the recipient and others authorized to receive it. If you are not the recipient, you are hereby notified that any disclosure, copying, distribution or taking action in relation of the contents of this information is strictly prohibited and may be unlawful.\n\nThis email has been scanned for viruses and malware, and may have been automatically archived by Mimecast Ltd, an innovator in Software as a Service (SaaS) for business. Providing a safer and more useful place for your human generated data. Specializing in; Security, archiving and compliance. To find out more visit the Mimecast website.",
       "attachments": []
+    },
+    {
+      "message_id": "1a1643c7b529a691",
+      "date_et": "2026-10-22T11:30:38-04:00",
+      "direction": "received",
+      "from": "Lillian M Bolarinho <lillian.bolarinho@jud.state.ma.us>",
+      "to": "\"jamesmweeksjr@gmail.com\" <jamesmweeksjr@gmail.com>",
+      "cc": "",
+      "subject": "Fw: Send data from MFP15606793 10/22/2026 11:25",
+      "agency_ids": [
+        "court-17"
+      ],
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a1643c7b529a691",
+      "body": "________________________________\nFrom: Attleboro District Court Clerk's <attd17p14@jud.state.ma.us>\nSent: Thursday, October 22, 2026 11:25 AM\nTo: Lillian M Bolarinho <lillian.bolarinho@jud.state.ma.us>\nSubject: Send data from MFP15606793 10/22/2026 11:25\n\nScanned from MFP15606793\nDate:10/22/2026 11:25\nPages:5\nResolution:200x200 DPI\n----------------------------------------",
+      "attachments": [
+        {
+          "message_id": "1a1643c7b529a691",
+          "part_index": 4,
+          "filename": "DOC102226.pdf",
+          "mime_type": "application/pdf",
+          "size": 166426,
+          "sha256": "0293255acdc66081b3a94f322a864fb38849fd56bad4b6cd0a2dba05ba028c77",
+          "path": "attachments/1a1643c7b529a691/04_DOC102226.pdf"
+        }
+      ]
     }
   ],
   "knownResponseIds": [
@@ -931,7 +965,8 @@
     "9794ec3a1555b7959c306f17a9d4631b",
     "4418f9fdc03df9195255d4af82f1f8e5",
     "fa8d10768e31a6829e107137b3afb2e4",
-    "679fbe110541d4fedfa47005cf9b4c77"
+    "679fbe110541d4fedfa47005cf9b4c77",
+    "956281c390d7fc0717092908512f171d"
   ],
   "knownDocumentIds": [
     "c8b3b00dc3bc4349d1fefaa989d9362a",
@@ -974,18 +1009,25 @@
     "c429a995abafc55377f329d0851f02df",
     "a34ca4daa44c4bf1960a3c67e9fd40d3",
     "9a041ad2ddd971de663d15dd232c9253",
-    "6d25617df343f164e716d2387675589b"
+    "6d25617df343f164e716d2387675589b",
+    "f68aca14e5f6510cab7072b8cc3b38c9",
+    "4e7f43b0daa38c4ff308c4595f4d198a",
+    "49e54f437094e52b29f327cee571882c",
+    "5da19e10bd37813d61f6d02517fe60e6",
+    "40bdd4938501b66ee3b280be5d225d53",
+    "b4c53aeac1b8d65fa0b18bbf7fd6376c",
+    "d218b4c51db3ba856437fd9fcbbd7e3c"
   ],
   "documentOverrides": {
     "6d25617df343f164e716d2387675589b": [
       "communications",
-      "Current complete transcript · 35 messages",
-      "Full text of the original import plus Wareham’s October 21 reply."
+      "Earlier complete transcript · 35 messages",
+      "Preserved October 21 version. Use the October 22 transcript for the Attleboro delivery."
     ],
     "9a041ad2ddd971de663d15dd232c9253": [
       "communications",
-      "Current complete email archive · 35 messages",
-      "Includes the new Wareham reply, every previously imported email and attachment, and the offline reader."
+      "Earlier complete archive · 35 messages",
+      "Preserved October 21 version. The current 36-message archive also includes Attleboro’s October 22 delivery."
     ],
     "a34ca4daa44c4bf1960a3c67e9fd40d3": [
       "communications",
@@ -1026,6 +1068,72 @@
       "communications",
       "Earlier Wareham transcript · 2 sent emails",
       "Preserved initial snapshot. Use the current 3-message transcript for the written reply."
+    ],
+    "d218b4c51db3ba856437fd9fcbbd7e3c": [
+      "communications",
+      "Current complete transcript · 36 messages",
+      "Full text updated with the October 22 Attleboro court delivery."
+    ],
+    "b4c53aeac1b8d65fa0b18bbf7fd6376c": [
+      "communications",
+      "Current complete email archive · 36 messages",
+      "Includes the Attleboro court email and PDF, the Wareham update, all earlier imported messages/attachments, and the offline reader."
+    ],
+    "40bdd4938501b66ee3b280be5d225d53": [
+      "communications",
+      "Current Attleboro original emails & PDF · ZIP",
+      "Both original messages, DOC102226.pdf and a readable transcript."
+    ],
+    "5da19e10bd37813d61f6d02517fe60e6": [
+      "communications",
+      "Current Attleboro correspondence · 2 emails",
+      "October 20 request and October 22 records delivery."
+    ],
+    "49e54f437094e52b29f327cee571882c": [
+      "communications",
+      "Attleboro delivery email · readable text",
+      "Preserved body, sender, subject and attachment reference for the October 22 court response."
+    ],
+    "4e7f43b0daa38c4ff308c4595f4d198a": [
+      "communications",
+      "Attleboro delivery · original email (.eml)",
+      "Exact original email and its DOC102226.pdf attachment from Lillian M Bolarinho, received October 22 at 11:30 AM Eastern."
+    ],
+    "f68aca14e5f6510cab7072b8cc3b38c9": [
+      "records",
+      "Attleboro court docket · Nathan to review",
+      "1134CR000858A/B · 5 pages. Pages 1–2: request; pages 3–5: docket, entries and offenses/disposition sheet. Norton PD identified. Verify certification and completeness against the certified packet."
+    ],
+    "180711c82792e48e8299371c5f25b86b": [
+      "communications",
+      "Earlier Attleboro archive · 1 sent email",
+      "Preserved initial snapshot before the October 22 court response."
+    ],
+    "5f2ccb6b93aa94278461a100ef0db81e": [
+      "communications",
+      "Earlier Attleboro transcript · 1 sent email",
+      "Preserved initial snapshot. Use the current two-message transcript for the court response."
     ]
-  }
+  },
+  "archiveCounts": {
+    "messages": 36,
+    "threads": 17,
+    "sent": 21,
+    "received": 15,
+    "attachmentOccurrences": 16,
+    "uniqueAttachments": 11
+  },
+  "archiveScope": "the original 34-message USCIS-label import plus the requested Wareham reply (October 21) and Attleboro court delivery (October 22)",
+  "messageNotes": {
+    "1a1643c7b529a691": "NATHAN: download DOC102226.pdf for court-record review. It contains the request plus docket/disposition pages for 1134CR000858; compare it with the certified packet. Norton Police narratives are a separate pending request."
+  },
+  "ownerUpdates": [
+    {
+      "id": "brockton-court-referral-2026-10-22",
+      "agencyId": "police-5",
+      "date": "2026-10-22",
+      "source": "James’s phone update reported in chat; call date and exact agency wording not confirmed",
+      "text": "James reported: “brockton police said all there records come from the court house now or something so i have no idea how to reconcile that”. Record this as an unconfirmed courthouse/custodian referral. Obtain the exact office, contact and scope in writing, and check whether the court file includes the police narratives requested."
+    }
+  ]
 }

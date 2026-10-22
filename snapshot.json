@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T16:45:23.869050+00:00",
+  "updatedAt": "2026-10-22T17:04:36.710292+00:00",
   "source": "James confirmed that all 10 agency requests were emailed.",
   "emails": [
     {
@@ -137,6 +137,14 @@
   ],
   "responses": [
     {
+      "id": "956281c390d7fc0717092908512f171d",
+      "agencyId": "court-17",
+      "date": "2026-10-22",
+      "type": "records",
+      "text": "Imported original email. Message ID: 1a1643c7b529a691\nReceived: October 22, 2026, 11:30 AM Eastern\nFrom: Lillian M Bolarinho <lillian.bolarinho@jud.state.ma.us>\nSubject: Fw: Send data from MFP15606793 10/22/2026 11:25\nAttachment: DOC102226.pdf (5 pages), verified byte-for-byte against James’s Desktop download.\n\n________________________________\nFrom: Attleboro District Court Clerk's <attd17p14@jud.state.ma.us>\nSent: Thursday, October 22, 2026 11:25 AM\nTo: Lillian M Bolarinho <lillian.bolarinho@jud.state.ma.us>\nSubject: Send data from MFP15606793 10/22/2026 11:25\n\nScanned from MFP15606793\nDate:10/22/2026 11:25\nPages:5\nResolution:200x200 DPI\n----------------------------------------\n\nDocument review note: PDF pages 1–2 reproduce the records request; pages 3–5 are the Attleboro criminal docket, entries and offenses/disposition sheet for 1134CR000858. The docket identifies Norton PD. Certification and completeness remain for counsel to verify. This court delivery does not establish receipt of Norton Police narratives.",
+      "createdAt": "2026-10-22T17:04:36.710292+00:00"
+    },
+    {
       "id": "679fbe110541d4fedfa47005cf9b4c77",
       "agencyId": "police-19",
       "date": "2026-10-21",
@@ -202,6 +210,62 @@
     }
   ],
   "documents": [
+    {
+      "id": "d218b4c51db3ba856437fd9fcbbd7e3c",
+      "agencyId": "case-reference",
+      "name": "USCIS_Email_Transcript_2026-10-22.txt",
+      "size": 159375,
+      "createdAt": "2026-10-22T17:04:31.682707+00:00",
+      "downloadPath": "/files/d218b4c51db3ba856437fd9fcbbd7e3c"
+    },
+    {
+      "id": "b4c53aeac1b8d65fa0b18bbf7fd6376c",
+      "agencyId": "case-reference",
+      "name": "USCIS_Email_Archive_2026-10-22.zip",
+      "size": 25136596,
+      "createdAt": "2026-10-22T17:04:08.774692+00:00",
+      "downloadPath": "/files/b4c53aeac1b8d65fa0b18bbf7fd6376c"
+    },
+    {
+      "id": "40bdd4938501b66ee3b280be5d225d53",
+      "agencyId": "court-17",
+      "name": "court-17_Gmail_Record_2026-10-22.zip",
+      "size": 334137,
+      "createdAt": "2026-10-22T17:04:01.983852+00:00",
+      "downloadPath": "/files/40bdd4938501b66ee3b280be5d225d53"
+    },
+    {
+      "id": "5da19e10bd37813d61f6d02517fe60e6",
+      "agencyId": "court-17",
+      "name": "court-17_Email_Correspondence_2026-10-22.txt",
+      "size": 7826,
+      "createdAt": "2026-10-22T17:03:59.320730+00:00",
+      "downloadPath": "/files/5da19e10bd37813d61f6d02517fe60e6"
+    },
+    {
+      "id": "49e54f437094e52b29f327cee571882c",
+      "agencyId": "court-17",
+      "name": "Attleboro_Court_Response_2026-10-22_1130_ET.txt",
+      "size": 775,
+      "createdAt": "2026-10-22T17:03:56.150845+00:00",
+      "downloadPath": "/files/49e54f437094e52b29f327cee571882c"
+    },
+    {
+      "id": "4e7f43b0daa38c4ff308c4595f4d198a",
+      "agencyId": "court-17",
+      "name": "Attleboro_Court_Response_2026-10-22_1130_ET.eml",
+      "size": 245704,
+      "createdAt": "2026-10-22T17:03:50.824535+00:00",
+      "downloadPath": "/files/4e7f43b0daa38c4ff308c4595f4d198a"
+    },
+    {
+      "id": "f68aca14e5f6510cab7072b8cc3b38c9",
+      "agencyId": "court-17",
+      "name": "DOC102226.pdf",
+      "size": 166426,
+      "createdAt": "2026-10-22T17:03:45.807578+00:00",
+      "downloadPath": "/files/f68aca14e5f6510cab7072b8cc3b38c9"
+    },
     {
       "id": "6d25617df343f164e716d2387675589b",
       "agencyId": "case-reference",

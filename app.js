@@ -153,7 +153,7 @@ function fileInfo(doc) {
   if (knownFiles[doc.id]) return knownFiles[doc.id];
   if (/Email_Correspondence|Email_Transcript/.test(doc.name)) return ['communications','Email transcript · readable text','Preserves the imported sent and received email text.'];
   if (/Gmail_Record/.test(doc.name)) return ['communications','Original emails & attachments · ZIP','Original .eml messages, attachments and a text transcript for this section.'];
-  if (/USCIS_Email_Archive/.test(doc.name)) return ['communications','Complete USCIS email archive · ZIP','All 34 imported messages, all attachments and the offline reader.'];
+  if (/USCIS_Email_Archive/.test(doc.name)) return ['communications','Complete USCIS email archive · ZIP','Original messages, attachments and the offline reader for this dated archive.'];
   if (/WAC2590104055/.test(doc.name)) return ['reference','USCIS request for evidence · October 14','Source document for counsel’s response review.'];
   if (/25-01727_E25PER/.test(doc.name)) return ['reference','CORI inventory · January 2, 2025','Supporting inventory sent with the records requests; not a substitute for underlying reports.'];
   if (/USCIS_PRF.*completed/.test(doc.name)) return ['forms','Congressional privacy release · completed copy','Previously sent to the congressional office; preserved for reference.'];
@@ -199,7 +199,7 @@ function statusNode(agency,replies,documents) {
   section.append(el('h3','','Where things stand'));
   if (!meta) {section.append(el('p','','Review the latest correspondence below.'));return section;}
   const [label]=statusFor(agency,replies,documents);
-  section.append(el('p','status-date','Status reviewed October 21, 2026 · Next action: '+meta.owner));
+  section.append(el('p','status-date','Status reviewed '+dateLabel(meta.asOf || context.asOf)+' · Next action: '+meta.owner));
   if (label.startsWith('New activity')) section.append(el('p','new-activity','New material was added after this summary. Read the latest saved updates and documents before relying on the status below.'));
   const grid=el('dl','status-grid');
   for (const [term,value] of [['Received / confirmed',meta.received],['Still pending',meta.pending],['Next step',meta.next]]) {
@@ -210,6 +210,10 @@ function statusNode(agency,replies,documents) {
     const doc=documents.find(d=>d.id==='fc1e8f6feec48c87f2125f9275cb2391');
     if(doc) section.append(linkNode('Attorney: download authorization to sign & return ↓',fileURL(doc),'primary-link'));
     section.append(el('p','section-note','Return completed authorization to efahey@pcsdma.org. Submission has not been confirmed.'));
+  }
+  for (const id of meta.reviewDocumentIds || []) {
+    const doc=documents.find(d=>d.id===id);
+    if(doc) section.append(linkNode('Nathan: download court records for review ↓',fileURL(doc),'primary-link'));
   }
   return section;
 }
@@ -233,6 +237,13 @@ function documentsNode(agency,documents) {
     const category=el('div','attachment-category');category.dataset.category=id;
     category.append(el('h4','',title+' · '+docs.length));docs.forEach(d=>category.append(documentRow(d)));section.append(category);
   }
+  const related=(context.departments[agency.id]?.relatedDocumentIds || []).map(id=>currentData.documents.find(d=>d.id===id)).filter(Boolean);
+  if(related.length) {
+    const box=el('div','attachment-category related-court-records');
+    box.append(el('h4','','Related court records · separate from police reports'));
+    for(const doc of related) box.append(linkNode((currentData.emails.find(a=>a.id===doc.agencyId)?.name || 'Court record')+': '+doc.name+' ↓',fileURL(doc),'source-link'));
+    section.append(box);
+  }
   if(agency.kind==='police'||agency.kind==='sheriff') section.append(linkNode('Shared reference: CORI inventory and RFE →','#case-reference','source-link'));
   return section;
 }
@@ -244,6 +255,7 @@ function messageNode(message) {
   const envelope=el('div','message-envelope');
   for(const [key,label] of [['from','From'],['to','To'],['cc','Cc']])if(message[key])envelope.append(el('p','',label+': '+message[key]));
   envelope.append(linkNode('Open original in Gmail ↗',message.gmail_url),el('p','section-note','Gmail link requires access to James’s mailbox. Download the original-message ZIP in this section for an offline copy.'));
+  if(context.messageNotes?.[message.message_id]) envelope.append(el('p','new-activity',context.messageNotes[message.message_id]));
   if(message.message_id==='1a15f5706139f66c') envelope.append(el('p','new-activity','ATTORNEY ACTION: request the records from a business email, on appropriate letterhead, with James’s signed authorization to release the information to Nathan. Send to records@warehampolice.gov. This reply contains no attachments.'));
   if(message.message_id==='1a15a764d09a9763') envelope.append(el('p','new-activity','ATTORNEY ACTION: review this letter and the waiver. Download the authorization already signed by James above, complete Part II, and return that completed form to the sheriff.'));
   if(message.attachments.length) {
@@ -261,9 +273,15 @@ function messageNode(message) {
 }
 function communicationsNode(agency,replies) {
   const messages=departmentMessages(agency.id);
+  const ownerUpdates=(context.ownerUpdates || []).filter(u=>u.agencyId===agency.id);
   const section=disclosure('communications-'+agency.id,agency.id==='case-reference'?'Archive scope · '+context.messages.length+' emails':('Communications · '+plural(messages.length,'email')+' · '+plural(replies.length,'saved update')),'communications-section');
+  if(ownerUpdates.length) section.firstChild.append(el('span','', ' · '+plural(ownerUpdates.length,'phone update')));
   const body=el('div','communications-body');
-  body.append(el('p','section-note','Imported emails through October 21, 2026, including Wareham’s 12:41 PM reply. Full message text is preserved, including quoted history; original .eml files and attachments are in the downloadable ZIP. Phone updates are identified in the status summary.'));
+  for(const update of ownerUpdates) {
+    const item=disclosure('owner-update-'+update.id,'Phone update reported '+dateLabel(update.date),'response-disclosure');
+    item.append(el('p','section-note',update.source),el('p','text',update.text));body.append(item);
+  }
+  body.append(el('p','section-note','Preserved correspondence updated October 22, 2026, including the requested Wareham and Attleboro replies. Full message text is preserved, including quoted history; original .eml files and attachments are in the downloadable ZIP. Phone updates are identified in the status summary.'));
   if(messages.length) [...messages].reverse().forEach(m=>body.append(messageNode(m)));
   else body.append(el('p','section-note',agency.id==='case-reference'?'The current full archive covers all '+context.messages.length+' emails. Read individual messages under their department or Congressional assistance.':'No imported emails assigned to this section.'));
   const saved=disclosure('saved-updates-'+agency.id,'Saved response log · '+replies.length,'saved-updates');
@@ -376,9 +394,9 @@ async function load() {
     const data = await response.json();
     render(data);
     hasLiveData = true;
-    status.textContent = 'Files & response log refreshed · Status summaries reviewed Oct 21';
+    status.textContent = 'Files & response log refreshed · See each department’s status date';
   } catch (error) {
-    status.textContent = hasLiveData ? 'Refresh unavailable · Showing last loaded updates' : 'Live updates unavailable · Showing the saved October 21 records snapshot';
+    status.textContent = hasLiveData ? 'Refresh unavailable · Showing last loaded updates' : 'Live updates unavailable · Showing the saved records snapshot';
   }
 }
 $('#agency-search').addEventListener('input', applyFilters);
