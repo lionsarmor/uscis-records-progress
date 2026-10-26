@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T17:04:36.710292+00:00",
+  "updatedAt": "2026-10-26T14:54:05.465697+00:00",
   "source": "James confirmed that all 10 agency requests were emailed.",
   "emails": [
     {
@@ -137,6 +137,14 @@
   ],
   "responses": [
     {
+      "id": "ebdfe9a8d411b495974ab8a139da6249",
+      "agencyId": "court-4",
+      "date": "2026-10-26",
+      "type": "records",
+      "text": "TAUNTON DISTRICT COURT — RECORDS DELIVERY\nReceived: October 26, 2026, 10:15 AM Eastern\nFrom: Kristin Mohan <kristin.mohan@jud.state.ma.us>\nTo: James Weeks <jamesmweeksjr@gmail.com>\nSubject: RE: Attn: Kristin Mohan — Police agency identification for case 1631CR001779\nGmail message ID: 1a1789149b777a03\nAttachments: DOC102626.pdf (7 pages); Scanned_from_a_Lexmark_Multifunction_Product10-26-2026-094811.pdf (1 page)\n\nGood morning,\n\nAttached please find the complaint, criminal application with police report and citation. The Massachusetts State Police issued this complaint.\n\nRegards,\n\nKristin Mohan\nCase Administrator II\nClerk Magistrate’s Office\nTaunton District Court\n40 Broadway\nTaunton, MA 02780\n508-977-6111\nFrom: James Weeks <jamesmweeksjr@gmail.com>\nSent: Wednesday, October 21, 2026 11:31 AM\nTo: CMTauntonDC <cmtauntondc@jud.state.ma.us>\nSubject: Attn: Kristin Mohan — Police agency identification for case 1631CR001779\n\nCAUTION: This email originated from outside the Judiciary. Report any suspicious email using the Phish Alert Report butt͏​​﻿‌͏\n\nCAUTION: This email originated from outside the Judiciary. Report any suspicious email using the Phish Alert Report button on the Outlook desktop ribbon or forward to phishing@jud.state.ma.us<mailto:phishing@jud.state.ma.us>.\n\nDear Ms. Mohan,\n\nThank you for sending the docket sheets for my Taunton District Court cases.\n\nI am following up regarding 1631CR001779 / 1631CR001779A, listed on my\n\nCORI as “Operating After Suspended License,” with a court appearance\n\ndate of August 5, 2016.\n\nThe police-department field on my CORI is blank. Could you please\n\nidentify the police department or other agency that issued the\n\ncitation or filed the complaint, and provide any associated citation\n\nor incident/report number?\n\nPlease also email a copy of the complaint, citation, and any related\n\npolice report held in the court file. If this matter proceeded by\n\ncitation or summons without an arrest, please confirm that if your\n\nrecords establish it.\n\nI need this information to obtain the underlying records for a USCIS\n\nresponse that must be received by November 16, 2026.\n\nThank you for your assistance.\n\nJames Michael Weeks Jr.\n\nDate of birth: April 7, 1986\n\njamesmweeksjr@gmail.com<mailto:jamesmweeksjr@gmail.com>\n\n307-212-2648\n\nDocument review: DOC102626.pdf contains seven pages: criminal complaint, indigency determination, criminal complaint application, signed statement and Massachusetts State Police Middleboro incident report/narrative. The separate one-page Lexmark PDF is citation R7760862. The complaint identifies docket 1631CR001779, State Police Middleboro, incident 2016-0D4-002646, and offense date May 31, 2016. The application marks HAS NOT been arrested and summons to issue. Counsel should compare these records with the certified disposition and RFE requirements; no determination of USCIS sufficiency is made.",
+      "createdAt": "2026-10-26T14:54:05.465697+00:00"
+    },
+    {
       "id": "956281c390d7fc0717092908512f171d",
       "agencyId": "court-17",
       "date": "2026-10-22",
@@ -210,6 +218,70 @@
     }
   ],
   "documents": [
+    {
+      "id": "cd4c082e99934c8d11e81e2a16c00ee1",
+      "agencyId": "case-reference",
+      "name": "USCIS_Email_Transcript_2026-10-26.txt",
+      "size": 163274,
+      "createdAt": "2026-10-26T14:54:00.955922+00:00",
+      "downloadPath": "/files/cd4c082e99934c8d11e81e2a16c00ee1"
+    },
+    {
+      "id": "d31660216019694e844b6453fd132068",
+      "agencyId": "case-reference",
+      "name": "USCIS_Email_Archive_2026-10-26.zip",
+      "size": 10891368,
+      "createdAt": "2026-10-26T14:47:00.614817+00:00",
+      "downloadPath": "/files/d31660216019694e844b6453fd132068"
+    },
+    {
+      "id": "3338ce3e165269721622d74f0ceec281",
+      "agencyId": "court-4",
+      "name": "court-4_Gmail_Record_2026-10-26.zip",
+      "size": 1446977,
+      "createdAt": "2026-10-26T14:46:47.810726+00:00",
+      "downloadPath": "/files/3338ce3e165269721622d74f0ceec281"
+    },
+    {
+      "id": "989939dc477b956ad0ebb8c8fe32e5f3",
+      "agencyId": "court-4",
+      "name": "court-4_Email_Correspondence_2026-10-26.txt",
+      "size": 28730,
+      "createdAt": "2026-10-26T14:46:45.159835+00:00",
+      "downloadPath": "/files/989939dc477b956ad0ebb8c8fe32e5f3"
+    },
+    {
+      "id": "9214f4f0059a7c8b8afe494ff33ceaa1",
+      "agencyId": "court-4",
+      "name": "Taunton_Court_Response_2026-10-26_1015_ET.txt",
+      "size": 2306,
+      "createdAt": "2026-10-26T14:46:42.884781+00:00",
+      "downloadPath": "/files/9214f4f0059a7c8b8afe494ff33ceaa1"
+    },
+    {
+      "id": "0f9604d6da5da911a41b0e13b3cbac75",
+      "agencyId": "court-4",
+      "name": "Taunton_Court_Response_2026-10-26_1015_ET.eml",
+      "size": 696521,
+      "createdAt": "2026-10-26T14:46:33.719659+00:00",
+      "downloadPath": "/files/0f9604d6da5da911a41b0e13b3cbac75"
+    },
+    {
+      "id": "87f3dd6f07d57de55fbba9048e44d718",
+      "agencyId": "court-4",
+      "name": "Scanned_from_a_Lexmark_Multifunction_Product10-26-2026-094811.pdf",
+      "size": 196513,
+      "createdAt": "2026-10-26T14:46:28.875837+00:00",
+      "downloadPath": "/files/87f3dd6f07d57de55fbba9048e44d718"
+    },
+    {
+      "id": "123a1c8b7c03af068c0f1a5cff4c27cc",
+      "agencyId": "court-4",
+      "name": "DOC102626.pdf",
+      "size": 288998,
+      "createdAt": "2026-10-26T14:46:23.341769+00:00",
+      "downloadPath": "/files/123a1c8b7c03af068c0f1a5cff4c27cc"
+    },
     {
       "id": "d218b4c51db3ba856437fd9fcbbd7e3c",
       "agencyId": "case-reference",

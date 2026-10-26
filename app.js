@@ -316,11 +316,12 @@ function attorneyQueue(data) {
   const actions=[
     ['sheriff-8','01','DOWNLOAD · SIGN · RETURN','Sheriff authorization','James has signed and dated the form. Nathan needs to review and sign/date Part II, then return it to Euvir Fahey at efahey@pcsdma.org. Submission is not yet confirmed.',form],
     ['police-19','02','DOWNLOAD · REQUEST · AUTHORIZE','Wareham records release','Records exist. Nathan must request them from his business email on letterhead, with James’s signed authorization. Send both to Cindy Garron at records@warehampolice.gov. Records have not yet been delivered.',warehamInstructions],
-    ['police-7','03','REVIEW · CALL RECORDS','Taunton reports & redactions','Reports and the all-held-records confirmation are saved. Call about redactions, access through counsel, and certification. The latest reply says not to reply by email.',null]
+    ['police-7','03','REVIEW · CALL RECORDS','Taunton reports & redactions','Reports and the all-held-records confirmation are saved. Call about redactions, access through counsel, and certification. The latest reply says not to reply by email.',null],
+    ['court-4','04','NEW RECORDS · REVIEW','Taunton · State Police identified','The October 26 court reply supplies the complaint, State Police Middleboro incident report/narrative and citation for 1631CR001779. Download both PDFs and match them to the certified disposition; follow up with State Police if further records are needed.',data.documents.find(d=>d.id===context.departments['court-4'].reviewDocumentIds[0])]
   ];
   for(const [id,n,tag,title,body,doc]of actions){
     const card=el('article','action-card');card.append(el('span','action-number',n),el('p','action-label',tag),el('h3','',title),el('p','',body));
-    if(doc)card.append(linkNode(id==='police-19'?'Download Wareham’s instructions ↓':'Download James-signed form ↓',fileURL(doc),'primary-link'));
+    if(doc)card.append(linkNode(id==='court-4'?'Download new Taunton records ↓':id==='police-19'?'Download Wareham’s instructions ↓':'Download James-signed form ↓',fileURL(doc),'primary-link'));
     card.append(linkNode('View status & correspondence →','#'+id,'action-detail'));container.append(card);
   }
 }

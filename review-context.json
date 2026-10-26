@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-22",
+  "asOf": "2026-10-26",
   "departments": {
     "sheriff-8": {
       "title": "Attorney must sign & return",
@@ -160,13 +160,13 @@
       "asOf": "2026-10-22"
     },
     "court-4": {
-      "title": "Dockets received · agency unresolved",
+      "title": "Complaint, police report & citation received",
       "tone": "review",
       "owner": "Nathan / James",
-      "received": "Taunton acknowledged the request October 20 and sent two docket-sheet PDFs October 21. James reports that he has all certified court records. This statement is separate from the files uploaded here; counsel still needs to match the certified packet to every case and RFE item.",
-      "pending": "The issuing police agency for 1631CR001779A remains unresolved in this tracker.",
-      "next": "Ask sender Kristin Mohan which agency issued the complaint or citation for 1631CR001779A, and request the identifying complaint/citation if needed. Match both docket PDFs and the certified packet to the RFE checklist.",
-      "evidence": "Court acknowledgment Oct 20 and Kristin Mohan’s docket delivery Oct 21. An inquiry was drafted in conversation; no sent copy is verified in the import.",
+      "received": "Kristin Mohan replied October 26 at 10:15 AM Eastern with DOC102626.pdf (7 pages) and a separate one-page citation PDF. She confirms Massachusetts State Police issued the complaint. The court packet identifies State Police Middleboro, docket 1631CR001779, incident 2016-0D4-002646, citation R7760862 and offense date May 31, 2016. It includes the complaint, application, signed statement and police incident report/narrative. Both earlier docket PDFs remain available. James reports the certified court records are in hand.",
+      "pending": "Nathan still needs to match the new records and certified disposition to 1631CR001779A and the RFE checklist, and check whether any further records or certification are needed. The issuing agency has been identified; the email does not certify that the entire court or State Police file has been supplied.",
+      "next": "Download both October 26 PDFs and review them with the earlier docket sheets and certified disposition. The application marks HAS NOT been arrested and summons to issue; check that documentation against the case history. If further underlying records are needed, follow up with Massachusetts State Police Middleboro using incident 2016-0D4-002646 and citation R7760862. Keep that agency separate from Middleborough municipal Police and Taunton Police.",
+      "evidence": "Original October 21 sent inquiry (Gmail 1a15f1671983d2e3) and Kristin Mohan’s October 26, 10:15 AM Eastern reply (1a1789149b777a03). Both original PDF attachments were extracted from the raw Gmail export; all 8 pages were visually reviewed. Original email and attachment hashes are preserved.",
       "phones": [
         {
           "label": "Kristin Mohan · docket response",
@@ -179,9 +179,13 @@
       ],
       "email": "kristin.mohan@jud.state.ma.us",
       "source": "https://www.mass.gov/locations/taunton-district-court",
-      "short": "Two docket PDFs saved; identify the police agency for 1631CR001779A.",
+      "short": "October 26: complaint, State Police report/narrative and citation saved; State Police Middleboro identified for 1631CR001779.",
       "waiting": false,
-      "asOf": "2026-10-21"
+      "asOf": "2026-10-26",
+      "reviewDocumentIds": [
+        "123a1c8b7c03af068c0f1a5cff4c27cc",
+        "87f3dd6f07d57de55fbba9048e44d718"
+      ]
     },
     "court-3": {
       "title": "Certified packet reported in hand",
@@ -245,16 +249,16 @@
       "title": "Case reference & full archive",
       "tone": "review",
       "owner": "Nathan / James",
-      "received": "36 messages across 17 threads are preserved: the original 34-message USCIS import plus Wareham’s October 21 reply and Attleboro’s October 22 court delivery (21 sent, 15 received). All original messages and attachments are retained, including the new five-page DOC102226.pdf.",
-      "pending": "This record includes the original USCIS import and the two specifically requested agency updates. It does not claim to include every related message elsewhere in Gmail or later arrivals.",
+      "received": "38 messages across 18 threads are preserved: the original 34-message import plus the requested Wareham, Attleboro and Taunton updates, including Taunton’s October 21 sent inquiry (22 sent, 16 received). All original messages and attachments are retained, including the two new Taunton PDFs.",
+      "pending": "This working archive includes the specifically requested agency updates. The restored USCIS Gmail label contains additional related mail; this website does not claim to include the full label or every later arrival.",
       "next": "Use the RFE and CORI inventory to review each agency’s records. Download the complete archive for an offline copy of the imported correspondence.",
-      "evidence": "Original October 21 Gmail export plus original Wareham and Attleboro updates. New Attleboro attachment matches the Desktop PDF exactly; uploaded originals and archives have verified checksums.",
+      "evidence": "Original Gmail exports through the requested October 26 Taunton delivery. Original-message and attachment checksums, upload verification and current transcripts are preserved.",
       "phones": [],
       "email": "",
       "source": "",
       "short": "RFE, CORI inventory, and the complete imported correspondence in one place.",
       "waiting": false,
-      "asOf": "2026-10-22"
+      "asOf": "2026-10-26"
     }
   },
   "messages": [
@@ -917,6 +921,21 @@
       "attachments": []
     },
     {
+      "message_id": "1a15f1671983d2e3",
+      "date_et": "2026-10-21T11:31:08-04:00",
+      "direction": "sent",
+      "from": "James Weeks <jamesmweeksjr@gmail.com>",
+      "to": "cmtauntondc@jud.state.ma.us",
+      "cc": "",
+      "subject": "Attn: Kristin Mohan — Police agency identification for case 1631CR001779",
+      "agency_ids": [
+        "court-4"
+      ],
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a15f1671983d2e3",
+      "body": "Dear Ms. Mohan,\n\nThank you for sending the docket sheets for my Taunton District Court cases.\n\nI am following up regarding 1631CR001779 / 1631CR001779A, listed on my\nCORI as “Operating After Suspended License,” with a court appearance\ndate of August 5, 2016.\n\nThe police-department field on my CORI is blank. Could you please\nidentify the police department or other agency that issued the\ncitation or filed the complaint, and provide any associated citation\nor incident/report number?\n\nPlease also email a copy of the complaint, citation, and any related\npolice report held in the court file. If this matter proceeded by\ncitation or summons without an arrest, please confirm that if your\nrecords establish it.\n\nI need this information to obtain the underlying records for a USCIS\nresponse that must be received by November 16, 2026.\n\nThank you for your assistance.\n\nJames Michael Weeks Jr.\nDate of birth: April 7, 1986\njamesmweeksjr@gmail.com\n307-212-2648",
+      "attachments": []
+    },
+    {
       "message_id": "1a15f5706139f66c",
       "date_et": "2026-10-21T12:41:29-04:00",
       "direction": "received",
@@ -955,6 +974,40 @@
           "path": "attachments/1a1643c7b529a691/04_DOC102226.pdf"
         }
       ]
+    },
+    {
+      "message_id": "1a1789149b777a03",
+      "date_et": "2026-10-26T10:15:32-04:00",
+      "direction": "received",
+      "from": "Kristin Mohan <kristin.mohan@jud.state.ma.us>",
+      "to": "James Weeks <jamesmweeksjr@gmail.com>",
+      "cc": "",
+      "subject": "RE: Attn: Kristin Mohan — Police agency identification for case 1631CR001779",
+      "agency_ids": [
+        "court-4"
+      ],
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a1789149b777a03",
+      "body": "Good morning,\n\nAttached please find the complaint, criminal application with police report and citation. The Massachusetts State Police issued this complaint.\n\nRegards,\n\nKristin Mohan\nCase Administrator II\nClerk Magistrate’s Office\nTaunton District Court\n40 Broadway\nTaunton, MA 02780\n508-977-6111\nFrom: James Weeks <jamesmweeksjr@gmail.com>\nSent: Wednesday, October 21, 2026 11:31 AM\nTo: CMTauntonDC <cmtauntondc@jud.state.ma.us>\nSubject: Attn: Kristin Mohan — Police agency identification for case 1631CR001779\n\nCAUTION: This email originated from outside the Judiciary. Report any suspicious email using the Phish Alert Report butt͏​​﻿‌͏\n\nCAUTION: This email originated from outside the Judiciary. Report any suspicious email using the Phish Alert Report button on the Outlook desktop ribbon or forward to phishing@jud.state.ma.us<mailto:phishing@jud.state.ma.us>.\n\nDear Ms. Mohan,\n\nThank you for sending the docket sheets for my Taunton District Court cases.\n\nI am following up regarding 1631CR001779 / 1631CR001779A, listed on my\n\nCORI as “Operating After Suspended License,” with a court appearance\n\ndate of August 5, 2016.\n\nThe police-department field on my CORI is blank. Could you please\n\nidentify the police department or other agency that issued the\n\ncitation or filed the complaint, and provide any associated citation\n\nor incident/report number?\n\nPlease also email a copy of the complaint, citation, and any related\n\npolice report held in the court file. If this matter proceeded by\n\ncitation or summons without an arrest, please confirm that if your\n\nrecords establish it.\n\nI need this information to obtain the underlying records for a USCIS\n\nresponse that must be received by November 16, 2026.\n\nThank you for your assistance.\n\nJames Michael Weeks Jr.\n\nDate of birth: April 7, 1986\n\njamesmweeksjr@gmail.com<mailto:jamesmweeksjr@gmail.com>\n\n307-212-2648",
+      "attachments": [
+        {
+          "message_id": "1a1789149b777a03",
+          "part_index": 4,
+          "filename": "DOC102626.pdf",
+          "mime_type": "application/pdf",
+          "size": 288998,
+          "sha256": "f32ef38e679c4f61f14b2bae8b774190a1b1194655f34b265db8798c30fe8e21",
+          "path": "attachments/1a1789149b777a03/04_DOC102626.pdf"
+        },
+        {
+          "message_id": "1a1789149b777a03",
+          "part_index": 5,
+          "filename": "Scanned_from_a_Lexmark_Multifunction_Product10-26-2026-094811.pdf",
+          "mime_type": "application/pdf",
+          "size": 196513,
+          "sha256": "a08cdd85bf72a86db109d37c83926635495bab4d13d8f4b3ee86c5b9ebfb4f38",
+          "path": "attachments/1a1789149b777a03/05_Scanned_from_a_Lexmark_Multifunction_Product10-26-2026-094811.pdf"
+        }
+      ]
     }
   ],
   "knownResponseIds": [
@@ -966,7 +1019,8 @@
     "4418f9fdc03df9195255d4af82f1f8e5",
     "fa8d10768e31a6829e107137b3afb2e4",
     "679fbe110541d4fedfa47005cf9b4c77",
-    "956281c390d7fc0717092908512f171d"
+    "956281c390d7fc0717092908512f171d",
+    "ebdfe9a8d411b495974ab8a139da6249"
   ],
   "knownDocumentIds": [
     "c8b3b00dc3bc4349d1fefaa989d9362a",
@@ -1016,7 +1070,15 @@
     "5da19e10bd37813d61f6d02517fe60e6",
     "40bdd4938501b66ee3b280be5d225d53",
     "b4c53aeac1b8d65fa0b18bbf7fd6376c",
-    "d218b4c51db3ba856437fd9fcbbd7e3c"
+    "d218b4c51db3ba856437fd9fcbbd7e3c",
+    "123a1c8b7c03af068c0f1a5cff4c27cc",
+    "87f3dd6f07d57de55fbba9048e44d718",
+    "0f9604d6da5da911a41b0e13b3cbac75",
+    "9214f4f0059a7c8b8afe494ff33ceaa1",
+    "989939dc477b956ad0ebb8c8fe32e5f3",
+    "3338ce3e165269721622d74f0ceec281",
+    "d31660216019694e844b6453fd132068",
+    "cd4c082e99934c8d11e81e2a16c00ee1"
   ],
   "documentOverrides": {
     "6d25617df343f164e716d2387675589b": [
@@ -1071,13 +1133,13 @@
     ],
     "d218b4c51db3ba856437fd9fcbbd7e3c": [
       "communications",
-      "Current complete transcript · 36 messages",
-      "Full text updated with the October 22 Attleboro court delivery."
+      "Earlier complete transcript · 36 messages",
+      "Preserved October 22 snapshot before the new Taunton delivery."
     ],
     "b4c53aeac1b8d65fa0b18bbf7fd6376c": [
       "communications",
-      "Current complete email archive · 36 messages",
-      "Includes the Attleboro court email and PDF, the Wareham update, all earlier imported messages/attachments, and the offline reader."
+      "Earlier complete archive · 36 messages",
+      "Preserved October 22 snapshot. Use the current October 26 archive for the new Taunton delivery."
     ],
     "40bdd4938501b66ee3b280be5d225d53": [
       "communications",
@@ -1113,17 +1175,67 @@
       "communications",
       "Earlier Attleboro transcript · 1 sent email",
       "Preserved initial snapshot. Use the current two-message transcript for the court response."
+    ],
+    "123a1c8b7c03af068c0f1a5cff4c27cc": [
+      "records",
+      "Taunton · complaint, application & State Police report",
+      "October 26 delivery · 7 pages for 1631CR001779. Includes signed statement and State Police Middleboro incident report/narrative, 2016-0D4-002646. Nathan to review with certified disposition."
+    ],
+    "87f3dd6f07d57de55fbba9048e44d718": [
+      "records",
+      "Taunton · original State Police citation R7760862",
+      "October 26 delivery · 1 page. May 31, 2016 citation; criminal application is marked. Read together with DOC102626.pdf."
+    ],
+    "0f9604d6da5da911a41b0e13b3cbac75": [
+      "communications",
+      "Taunton delivery · original email (.eml)",
+      "Exact October 26, 10:15 AM Eastern reply from Kristin Mohan, with both original PDF attachments."
+    ],
+    "9214f4f0059a7c8b8afe494ff33ceaa1": [
+      "communications",
+      "Taunton delivery · readable email",
+      "Preserved sender, date, subject and full message body identifying Massachusetts State Police."
+    ],
+    "989939dc477b956ad0ebb8c8fe32e5f3": [
+      "communications",
+      "Current Taunton correspondence · 5 emails",
+      "Acknowledgment, docket delivery, October 21 sent agency inquiry and October 26 response."
+    ],
+    "3338ce3e165269721622d74f0ceec281": [
+      "communications",
+      "Current Taunton originals & attachments · ZIP",
+      "Five original messages, both new PDFs, earlier docket PDFs and readable transcript."
+    ],
+    "d31660216019694e844b6453fd132068": [
+      "communications",
+      "Current complete working archive · 38 messages",
+      "Portable reader, all original EML messages and attachments, including the October 26 Taunton delivery. Covers the stated working-archive scope."
+    ],
+    "cd4c082e99934c8d11e81e2a16c00ee1": [
+      "communications",
+      "Current complete transcript · 38 messages",
+      "Full text through the requested Taunton court delivery and its October 21 sent inquiry."
+    ],
+    "d9c947cf0a00b2572355a211ad3927d2": [
+      "communications",
+      "Earlier Taunton original-message archive",
+      "Preserved initial snapshot. The current five-message bundle includes the October 26 reply and both new PDFs."
+    ],
+    "6e59f6c909661f9b02469c8dcabd8146": [
+      "communications",
+      "Earlier Taunton transcript",
+      "Preserved initial snapshot before the October 21 inquiry and October 26 reply were added."
     ]
   },
   "archiveCounts": {
-    "messages": 36,
-    "threads": 17,
-    "sent": 21,
-    "received": 15,
-    "attachmentOccurrences": 16,
-    "uniqueAttachments": 11
+    "messages": 38,
+    "threads": 18,
+    "sent": 22,
+    "received": 16,
+    "attachmentOccurrences": 18,
+    "uniqueAttachments": 13
   },
-  "archiveScope": "the original 34-message USCIS-label import plus the requested Wareham reply (October 21) and Attleboro court delivery (October 22)",
+  "archiveScope": "the original 34-message USCIS-label import plus the requested Wareham reply (October 21), Attleboro court delivery (October 22), and Taunton court delivery (October 26) with its October 21 sent inquiry",
   "messageNotes": {
     "1a1643c7b529a691": "NATHAN: download DOC102226.pdf for court-record review. It contains the request plus docket/disposition pages for 1134CR000858; compare it with the certified packet. Norton Police narratives are a separate pending request."
   },
