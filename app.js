@@ -213,7 +213,7 @@ function statusNode(agency,replies,documents) {
   }
   for (const id of meta.reviewDocumentIds || []) {
     const doc=documents.find(d=>d.id===id);
-    if(doc) section.append(linkNode('Nathan: download court records for review ↓',fileURL(doc),'primary-link'));
+    if(doc) section.append(linkNode(agency.kind==='police'?'Nathan: download police records for review ↓':'Nathan: download court records for review ↓',fileURL(doc),'primary-link'));
   }
   return section;
 }
@@ -281,9 +281,9 @@ function communicationsNode(agency,replies) {
     const item=disclosure('owner-update-'+update.id,'Phone update reported '+dateLabel(update.date),'response-disclosure');
     item.append(el('p','section-note',update.source),el('p','text',update.text));body.append(item);
   }
-  body.append(el('p','section-note','Preserved correspondence updated October 22, 2026, including the requested Wareham and Attleboro replies. Full message text is preserved, including quoted history; original .eml files and attachments are in the downloadable ZIP. Phone updates are identified in the status summary.'));
+  body.append(el('p','section-note','Preserved correspondence updated October 30, 2026, including the Middleborough delivery and missing historical agency/attorney emails. Full text and attachments are in the dated ZIP; export provenance is identified where relevant. Phone updates are identified separately.'));
   if(messages.length) [...messages].reverse().forEach(m=>body.append(messageNode(m)));
-  else body.append(el('p','section-note',agency.id==='case-reference'?'The current full archive covers all '+context.messages.length+' emails. Read individual messages under their department or Congressional assistance.':'No imported emails assigned to this section.'));
+  else body.append(el('p','section-note',agency.id==='case-reference'?'The current working archive covers all '+context.messages.length+' preserved emails. Read agency messages in their sections; attorney records coordination is included here.':'No imported emails assigned to this section.'));
   const saved=disclosure('saved-updates-'+agency.id,'Saved response log · '+replies.length,'saved-updates');
   if(!replies.length)saved.append(el('p','section-note','No saved updates.'));
   replies.forEach(r=>saved.append(responseNode(r)));body.append(saved);section.append(body);return section;
@@ -314,6 +314,7 @@ function attorneyQueue(data) {
   const form=data.documents.find(d=>d.id==='fc1e8f6feec48c87f2125f9275cb2391');
   const warehamInstructions=data.documents.find(d=>d.name==='Wareham_Police_Response_2026-10-21_1241_ET.txt');
   const actions=[
+    ['police-6','NEW','NEW PACKET · REVIEW','Middleborough · 72-page packet','The October 29 delivery includes a signed cover letter explaining redactions and certifying the attached copies. Review the seven-case packet and any remaining access issues before completing the checklist.',data.documents.find(d=>d.id===context.departments['police-6'].reviewDocumentIds[0])],
     ['sheriff-8','01','DOWNLOAD · SIGN · RETURN','Sheriff authorization','James has signed and dated the form. Nathan needs to review and sign/date Part II, then return it to Euvir Fahey at efahey@pcsdma.org. Submission is not yet confirmed.',form],
     ['police-19','02','DOWNLOAD · REQUEST · AUTHORIZE','Wareham records release','Records exist. Nathan must request them from his business email on letterhead, with James’s signed authorization. Send both to Cindy Garron at records@warehampolice.gov. Records have not yet been delivered.',warehamInstructions],
     ['police-7','03','REVIEW · CALL RECORDS','Taunton reports & redactions','Reports and the all-held-records confirmation are saved. Call about redactions, access through counsel, and certification. The latest reply says not to reply by email.',null],
@@ -321,7 +322,7 @@ function attorneyQueue(data) {
   ];
   for(const [id,n,tag,title,body,doc]of actions){
     const card=el('article','action-card');card.append(el('span','action-number',n),el('p','action-label',tag),el('h3','',title),el('p','',body));
-    if(doc)card.append(linkNode(id==='court-4'?'Download new Taunton records ↓':id==='police-19'?'Download Wareham’s instructions ↓':'Download James-signed form ↓',fileURL(doc),'primary-link'));
+    if(doc)card.append(linkNode(id==='police-6'?'Download Middleborough packet ↓':id==='court-4'?'Download new Taunton records ↓':id==='police-19'?'Download Wareham’s instructions ↓':'Download James-signed form ↓',fileURL(doc),'primary-link'));
     card.append(linkNode('View status & correspondence →','#'+id,'action-detail'));container.append(card);
   }
 }

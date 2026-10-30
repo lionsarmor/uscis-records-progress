@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T14:54:05.465697+00:00",
+  "updatedAt": "2026-10-30T11:36:57.307255+00:00",
   "source": "James confirmed that all 10 agency requests were emailed.",
   "emails": [
     {
@@ -137,6 +137,22 @@
   ],
   "responses": [
     {
+      "id": "10d282b2fd098918d4b8adb160876e81",
+      "agencyId": "court-3",
+      "date": "2026-08-12",
+      "type": "records",
+      "text": "Historical correspondence recovered by the October 30 Gmail scan. Gmail message ID: 19ff6a969fb7bcc9\nFrom: Cassie Whitney <cassie.whitney@jud.state.ma.us>\nSubject: FW: Send data from MFP15747636 08/12/2026 11:36\nAttachment: DOC081226.pdf (2 pages).\n\nGood afternoon,\n\n   All we have in this matter is the Docket sheet.\n\n   Cassie Whitney\n   Case Specialist\n   Wareham District Court\n   2200 Cranberry Hwy.\n   W Wareham, MA. 02576\n   (F) 508-291-6376\n   (P) 508-614-1694 \n\n-----Original Message-----\nFrom: wardclkfax@jud.state.ma.us <wardclkfax@jud.state.ma.us> \nSent: Wednesday, August 12, 2026 11:37 AM\nTo: Cassie Whitney <cassie.whitney@jud.state.ma.us>\nSubject: Send data from MFP15747636 08/12/2026 11:36\n\nScanned from MFP15747636\nDate:08/12/2026 11:36\nPages:2\nResolution:200x200 DPI\n----------------------------------------",
+      "createdAt": "2026-10-30T11:36:57.307255+00:00"
+    },
+    {
+      "id": "691e4adbaec93a164553c27a5c63d4df",
+      "agencyId": "police-6",
+      "date": "2026-10-29",
+      "type": "records",
+      "text": "MIDDLEBOROUGH POLICE RECORDS DELIVERY\nReceived October 29, 2026 at 2:18 PM Eastern\nFrom: RECORDS@mpdmail.com\nSubject: Records Request\nGmail message ID: 1a188e27a944be45\nAttachment: 2574_001.pdf — original 72-page PDF, 4,607,536 bytes\n\nAttached, please find the records you requested.  Thank you.\n\nAmy Dowler\n\nRecords Access Officer\n\nMiddleborough Police Department\n\nPacket review: 72 pages. The signed cover letter on PDF pages 1–4 says the department supplied all records in its care, custody and control for the seven requested cases; explains redactions under Exemptions C (privacy) and F (investigatory); and on page 4 states the attached copies are certified. Counsel must review the complete packet, match all seven cases/counts and determine whether further access or documents are needed. Original PDF bytes are preserved; the email EML is a reconstruction of exported Gmail headers/body because the raw MIME connector transfer failed.",
+      "createdAt": "2026-10-30T11:36:03.662328+00:00"
+    },
+    {
       "id": "ebdfe9a8d411b495974ab8a139da6249",
       "agencyId": "court-4",
       "date": "2026-10-26",
@@ -218,6 +234,278 @@
     }
   ],
   "documents": [
+    {
+      "id": "d81f6dd678f1dd1bc09bd1bebcfe718e",
+      "agencyId": "case-reference",
+      "name": "USCIS_Email_Transcript_2026-10-30.txt",
+      "size": 229922,
+      "createdAt": "2026-10-30T11:35:56.996148+00:00",
+      "downloadPath": "/files/d81f6dd678f1dd1bc09bd1bebcfe718e"
+    },
+    {
+      "id": "a1350d4bde5132c9add4349878749148",
+      "agencyId": "case-reference",
+      "name": "USCIS_Records_Email_Archive_2026-10-30.zip",
+      "size": 25131297,
+      "createdAt": "2026-10-30T11:34:41.724635+00:00",
+      "downloadPath": "/files/a1350d4bde5132c9add4349878749148"
+    },
+    {
+      "id": "62aed05fd2d4f708e4279dad9a87cdff",
+      "agencyId": "case-reference",
+      "name": "case-reference_Gmail_Record_2026-10-30.zip",
+      "size": 4448826,
+      "createdAt": "2026-10-30T11:34:10.490728+00:00",
+      "downloadPath": "/files/62aed05fd2d4f708e4279dad9a87cdff"
+    },
+    {
+      "id": "4e0ee5d7325884e8e0c74f04ab23d675",
+      "agencyId": "case-reference",
+      "name": "case-reference_Email_Correspondence_2026-10-30.txt",
+      "size": 24109,
+      "createdAt": "2026-10-30T11:34:07.521750+00:00",
+      "downloadPath": "/files/4e0ee5d7325884e8e0c74f04ab23d675"
+    },
+    {
+      "id": "97e9219ca554d09f50e09c7f949322a0",
+      "agencyId": "police-19",
+      "name": "police-19_Gmail_Record_2026-10-30.zip",
+      "size": 339326,
+      "createdAt": "2026-10-30T11:34:02.706796+00:00",
+      "downloadPath": "/files/97e9219ca554d09f50e09c7f949322a0"
+    },
+    {
+      "id": "8c0737561438a3e9cce8bf50fe615acd",
+      "agencyId": "police-19",
+      "name": "police-19_Email_Correspondence_2026-10-30.txt",
+      "size": 26541,
+      "createdAt": "2026-10-30T11:34:00.199405+00:00",
+      "downloadPath": "/files/8c0737561438a3e9cce8bf50fe615acd"
+    },
+    {
+      "id": "061189bc5621ea985119b22c2275b924",
+      "agencyId": "court-4",
+      "name": "court-4_Gmail_Record_2026-10-30.zip",
+      "size": 1816887,
+      "createdAt": "2026-10-30T11:33:47.148803+00:00",
+      "downloadPath": "/files/061189bc5621ea985119b22c2275b924"
+    },
+    {
+      "id": "e2797a41dc9c4eb90c70acfbcc7668c0",
+      "agencyId": "court-4",
+      "name": "court-4_Email_Correspondence_2026-10-30.txt",
+      "size": 54131,
+      "createdAt": "2026-10-30T11:33:43.250750+00:00",
+      "downloadPath": "/files/e2797a41dc9c4eb90c70acfbcc7668c0"
+    },
+    {
+      "id": "a363919b64d9be7a9f4915e30488fe61",
+      "agencyId": "court-3",
+      "name": "court-3_Gmail_Record_2026-10-30.zip",
+      "size": 313220,
+      "createdAt": "2026-10-30T11:33:37.957562+00:00",
+      "downloadPath": "/files/a363919b64d9be7a9f4915e30488fe61"
+    },
+    {
+      "id": "730a1431b522b2a0559ee4acad196785",
+      "agencyId": "court-3",
+      "name": "court-3_Email_Correspondence_2026-10-30.txt",
+      "size": 17209,
+      "createdAt": "2026-10-30T11:33:33.632737+00:00",
+      "downloadPath": "/files/730a1431b522b2a0559ee4acad196785"
+    },
+    {
+      "id": "5ca4af73db608cab216d2ea0aa8bdee8",
+      "agencyId": "police-6",
+      "name": "police-6_Gmail_Record_2026-10-30.zip",
+      "size": 9414342,
+      "createdAt": "2026-10-30T11:29:38.836169+00:00",
+      "downloadPath": "/files/5ca4af73db608cab216d2ea0aa8bdee8"
+    },
+    {
+      "id": "2d88f318cd597effbace543b02cbc65f",
+      "agencyId": "police-6",
+      "name": "police-6_Email_Correspondence_2026-10-30.txt",
+      "size": 7332,
+      "createdAt": "2026-10-30T11:29:35.748714+00:00",
+      "downloadPath": "/files/2d88f318cd597effbace543b02cbc65f"
+    },
+    {
+      "id": "093ad1d998efc3ceb89036532158aa64",
+      "agencyId": "police-6",
+      "name": "Middleborough_Police_Response_2026-10-29_1418_ET.txt",
+      "size": 366,
+      "createdAt": "2026-10-30T11:29:33.705896+00:00",
+      "downloadPath": "/files/093ad1d998efc3ceb89036532158aa64"
+    },
+    {
+      "id": "49b5554184e73a86a0ebe912e07f622f",
+      "agencyId": "police-6",
+      "name": "Middleborough_Police_Response_2026-10-29_1418_ET_Export.eml",
+      "size": 6308136,
+      "createdAt": "2026-10-30T11:28:53.863810+00:00",
+      "downloadPath": "/files/49b5554184e73a86a0ebe912e07f622f"
+    },
+    {
+      "id": "28465535ac2e8a5fa1ac0645922d3be1",
+      "agencyId": "police-6",
+      "name": "2574_001.pdf",
+      "size": 4607536,
+      "createdAt": "2026-10-30T11:28:23.254850+00:00",
+      "downloadPath": "/files/28465535ac2e8a5fa1ac0645922d3be1"
+    },
+    {
+      "id": "cd42bb5d73f2475848dc2d7d8fdb8d24",
+      "agencyId": "case-reference",
+      "name": "15_Attorney_Request_and_Client_Release_Templates.txt",
+      "size": 6481,
+      "createdAt": "2026-10-30T11:28:21.393942+00:00",
+      "downloadPath": "/files/cd42bb5d73f2475848dc2d7d8fdb8d24"
+    },
+    {
+      "id": "ccba13e9edb28953f3972c896dbc6449",
+      "agencyId": "case-reference",
+      "name": "14_Case_and_Count_Inventory.csv",
+      "size": 5923,
+      "createdAt": "2026-10-30T11:28:19.357538+00:00",
+      "downloadPath": "/files/ccba13e9edb28953f3972c896dbc6449"
+    },
+    {
+      "id": "041365e47f8f49d9596925c92ae44729",
+      "agencyId": "case-reference",
+      "name": "13_Attleboro_Court_Records.pdf",
+      "size": 166426,
+      "createdAt": "2026-10-30T11:28:15.144301+00:00",
+      "downloadPath": "/files/041365e47f8f49d9596925c92ae44729"
+    },
+    {
+      "id": "66399b8865201253b2769d5f6504c36c",
+      "agencyId": "case-reference",
+      "name": "12_Taunton_Court_Records_Set_2.pdf",
+      "size": 113838,
+      "createdAt": "2026-10-30T11:28:11.058601+00:00",
+      "downloadPath": "/files/66399b8865201253b2769d5f6504c36c"
+    },
+    {
+      "id": "7b4d7c64be1bf4e4cef54a7abb95139b",
+      "agencyId": "case-reference",
+      "name": "11_Taunton_Court_Records_Set_1.pdf",
+      "size": 131374,
+      "createdAt": "2026-10-30T11:28:07.012462+00:00",
+      "downloadPath": "/files/7b4d7c64be1bf4e4cef54a7abb95139b"
+    },
+    {
+      "id": "eacc45a8f1d08e1b02b651d0d7cf2fb2",
+      "agencyId": "case-reference",
+      "name": "10_Brockton_Court_Records.pdf",
+      "size": 390219,
+      "createdAt": "2026-10-30T11:28:01.651547+00:00",
+      "downloadPath": "/files/eacc45a8f1d08e1b02b651d0d7cf2fb2"
+    },
+    {
+      "id": "e08b50f3c21814264b51964e87d0b273",
+      "agencyId": "case-reference",
+      "name": "09_Taunton_Police_Redaction_Correspondence.txt",
+      "size": 23829,
+      "createdAt": "2026-10-30T11:27:59.187404+00:00",
+      "downloadPath": "/files/e08b50f3c21814264b51964e87d0b273"
+    },
+    {
+      "id": "0b7d3f502b05a4695df226f9601b5f2c",
+      "agencyId": "case-reference",
+      "name": "08_Taunton_Police_Redacted_Report.pdf",
+      "size": 245339,
+      "createdAt": "2026-10-30T11:27:53.898499+00:00",
+      "downloadPath": "/files/0b7d3f502b05a4695df226f9601b5f2c"
+    },
+    {
+      "id": "ab7c01f166cd400052284a0f6985dd27",
+      "agencyId": "case-reference",
+      "name": "07_Wareham_Police_Original_Email.eml",
+      "size": 31244,
+      "createdAt": "2026-10-30T11:27:51.205961+00:00",
+      "downloadPath": "/files/ab7c01f166cd400052284a0f6985dd27"
+    },
+    {
+      "id": "be39168a48c17c087dfb227ad7bddff6",
+      "agencyId": "case-reference",
+      "name": "05_Sheriff_Response_and_Access_Instructions.pdf",
+      "size": 171685,
+      "createdAt": "2026-10-30T11:27:46.592639+00:00",
+      "downloadPath": "/files/be39168a48c17c087dfb227ad7bddff6"
+    },
+    {
+      "id": "518bcd42f20a25be7d02b43de26fcc52",
+      "agencyId": "case-reference",
+      "name": "04_Sheriff_Authorization_James_Signed_Nathan_To_Complete.pdf",
+      "size": 63359,
+      "createdAt": "2026-10-30T11:27:43.097949+00:00",
+      "downloadPath": "/files/518bcd42f20a25be7d02b43de26fcc52"
+    },
+    {
+      "id": "5939e32f42f63ef163c1e4acd99e36a5",
+      "agencyId": "case-reference",
+      "name": "03_Massachusetts_CORI_January_2025.pdf",
+      "size": 162416,
+      "createdAt": "2026-10-30T11:27:39.008960+00:00",
+      "downloadPath": "/files/5939e32f42f63ef163c1e4acd99e36a5"
+    },
+    {
+      "id": "486873e9b3bddb51de7e62a43cd7fccc",
+      "agencyId": "case-reference",
+      "name": "02_USCIS_RFE_November_16_Deadline.pdf",
+      "size": 201437,
+      "createdAt": "2026-10-30T11:27:34.007436+00:00",
+      "downloadPath": "/files/486873e9b3bddb51de7e62a43cd7fccc"
+    },
+    {
+      "id": "4c2b3d2bc55a23b0b4f1059b0faed202",
+      "agencyId": "case-reference",
+      "name": "01_START_HERE_Agency_Contacts_and_Cases.pdf",
+      "size": 51270,
+      "createdAt": "2026-10-30T11:27:30.818195+00:00",
+      "downloadPath": "/files/4c2b3d2bc55a23b0b4f1059b0faed202"
+    },
+    {
+      "id": "2b1e7e65815fa42b033c0f455f9c6917",
+      "agencyId": "case-reference",
+      "name": "06_Wareham_Police_Release_Instructions.txt",
+      "size": 7511,
+      "createdAt": "2026-10-30T11:27:28.560520+00:00",
+      "downloadPath": "/files/2b1e7e65815fa42b033c0f455f9c6917"
+    },
+    {
+      "id": "d31befcac97dd82a0557d973bd842bdd",
+      "agencyId": "court-3",
+      "name": "DOC081226.pdf",
+      "size": 149400,
+      "createdAt": "2026-10-30T11:27:21.702087+00:00",
+      "downloadPath": "/files/d31befcac97dd82a0557d973bd842bdd"
+    },
+    {
+      "id": "f3dbfffb399562ea7121e64ac1c57924",
+      "agencyId": "case-reference",
+      "name": "acknowledgemnet-letter-on-his-criminal-history.pdf",
+      "size": 20986,
+      "createdAt": "2026-10-30T11:27:19.046233+00:00",
+      "downloadPath": "/files/f3dbfffb399562ea7121e64ac1c57924"
+    },
+    {
+      "id": "d149b5d2c143141b25370a00499375bc",
+      "agencyId": "case-reference",
+      "name": "AAP.pdf",
+      "size": 318817,
+      "createdAt": "2026-10-30T11:27:14.021535+00:00",
+      "downloadPath": "/files/d149b5d2c143141b25370a00499375bc"
+    },
+    {
+      "id": "683159a239131999fc504afa36d8b3b4",
+      "agencyId": "case-reference",
+      "name": "BAPTISMAL CERTIFICATE (Nicholas Anthony Tafalla Weeks).pdf",
+      "size": 268048,
+      "createdAt": "2026-10-30T11:27:09.214850+00:00",
+      "downloadPath": "/files/683159a239131999fc504afa36d8b3b4"
+    },
     {
       "id": "cd4c082e99934c8d11e81e2a16c00ee1",
       "agencyId": "case-reference",
