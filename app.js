@@ -206,6 +206,10 @@ function statusNode(agency,replies,documents) {
     const row=el('div');row.append(el('dt','',term),el('dd','',value));grid.append(row);
   }
   section.append(grid,el('p','source-note','Basis: '+meta.evidence));
+  if (agency.id==='police-5') {
+    const doc=currentData.documents.find(d=>d.id==='285a078730aa54a27fd07411c81772f9');
+    if(doc) section.append(linkNode('Download Brockton case records · supplied by court ↓',fileURL(doc),'primary-link'));
+  }
   if (agency.id==='sheriff-8') {
     const doc=documents.find(d=>d.id==='fc1e8f6feec48c87f2125f9275cb2391');
     if(doc) section.append(linkNode('Attorney: download authorization to sign & return ↓',fileURL(doc),'primary-link'));
@@ -229,7 +233,7 @@ function documentsNode(agency,documents) {
   const section=el('section','card-section attachment-section');
   section.append(el('h3','','Attachments by purpose'));
   const counts=documents.filter(d=>['records','letters'].includes(fileInfo(d)[0])).length;
-  if(agency.kind!=='support') section.append(el('p','section-note',counts ? 'Agency records and letters are separated from forms and email archives.' : 'No agency records or decision letters are uploaded in this section yet. Saved requests and email archives remain available below.'));
+  if(agency.kind!=='support') section.append(el('p','section-note',agency.id==='police-5' ? 'The available Brockton case packet was supplied by the court and is linked below. No further records are expected based on James’s confirmation.' : counts ? 'Agency records and letters are separated from forms and email archives.' : 'No agency records or decision letters are uploaded in this section yet. Saved requests and email archives remain available below.'));
   if(!documents.length) section.append(el('p','section-note','No uploaded files in this section.'));
   for(const [id,title] of fileCategories) {
     const docs=documents.filter(d=>fileInfo(d)[0]===id);
@@ -240,7 +244,7 @@ function documentsNode(agency,documents) {
   const related=(context.departments[agency.id]?.relatedDocumentIds || []).map(id=>currentData.documents.find(d=>d.id===id)).filter(Boolean);
   if(related.length) {
     const box=el('div','attachment-category related-court-records');
-    box.append(el('h4','','Related court records · separate from police reports'));
+    box.append(el('h4','',agency.id==='police-5'?'Brockton case records received · supplied by court':'Related court records · separate from police reports'));
     for(const doc of related) box.append(linkNode((currentData.emails.find(a=>a.id===doc.agencyId)?.name || 'Court record')+': '+doc.name+' ↓',fileURL(doc),'source-link'));
     section.append(box);
   }

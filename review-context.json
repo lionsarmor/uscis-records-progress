@@ -66,13 +66,13 @@
       "asOf": "2026-10-21"
     },
     "police-5": {
-      "title": "Court referral reported · clarify",
-      "tone": "waiting",
-      "owner": "James / Nathan",
-      "received": "The October 20 request and CORI follow-up are saved. James previously reported being told to expect a response within 10 days. On October 22, James reported that Brockton Police said the records now come from the courthouse; the exact wording, court and custodian have not been confirmed. Brockton District Court’s separate October 20 scan, DOC102026.pdf, is already saved.",
-      "pending": "No written Brockton Police referral or police narratives are recorded here. The reported courthouse referral does not establish which court holds which records, or whether the existing court scan contains all requested police narratives.",
-      "next": "Ask Brockton Records to identify the specific court, office/contact and report or case numbers, and confirm in writing where the complete arrest/incident narratives can be obtained. Ask Brockton court sender Maya Hall (maya.hall@jud.state.ma.us), or the Criminal Clerk’s office, whether the file includes police narratives, supplemental reports and complaint/probable-cause papers for 1515CR005525 and 1615CR001456. Compare the actual contents with DOC102026.pdf and obtain any missing reports from the confirmed custodian.",
-      "evidence": "James’s phone update reported in chat October 22, 2026; call date and precise wording not supplied. Gmail confirms the October 20 sent requests. Maya Hall’s separate court delivery (Oct 20, 8:27 AM Eastern; message 1a15948148305925) confirms a 13-page court scan, not the meaning of the later police referral.",
+      "title": "All available Brockton case records received",
+      "tone": "review",
+      "owner": "Nathan · packet review",
+      "received": "Maya Hall at Brockton District Court supplied the 13-page DOC102026.pdf on October 20 for 1515CR005525 and 1615CR001456, including the related civil docket. James confirms that all available Brockton court records are in hand, no further Brockton records are expected, and he was not arrested for the matter in question.",
+      "pending": "No additional Brockton records request is pending in this tracker. Nathan’s review of the available packet for the USCIS response remains.",
+      "next": "Use the court-supplied packet as the available Brockton case records for both the court and police-records tracking sections. Nathan should review the packet and James’s explanation that there was no arrest; if written clarification is needed, the saved draft asks only for confirmation of what the court holds and supplied.",
+      "evidence": "Maya Hall’s October 20, 2026, 8:27 AM Eastern email (Gmail 1a15948148305925) and its original 13-page PDF; James’s October 30 confirmation in this conversation that these are all available Brockton records. The PDF consists of court docket records; James’s no-arrest statement is owner-reported.",
       "phones": [
         {
           "label": "Records · alternate directory number",
@@ -89,9 +89,9 @@
       ],
       "email": "records@brocktonpolice.com",
       "source": "https://www.brocktonpolice.com/our-department/general-phone-numbers/",
-      "short": "James reports a courthouse referral; confirm the custodian and whether it covers police narratives.",
-      "waiting": true,
-      "asOf": "2026-10-22",
+      "short": "All available Brockton case records received. No further records expected based on James’s confirmation; Nathan to review the packet.",
+      "waiting": false,
+      "asOf": "2026-10-30",
       "relatedDocumentIds": [
         "285a078730aa54a27fd07411c81772f9"
       ]
@@ -143,13 +143,13 @@
       ]
     },
     "court-2": {
-      "title": "Court scans received · match packet",
+      "title": "All available Brockton case records received",
       "tone": "review",
-      "owner": "Nathan / James",
-      "received": "Brockton emailed DOC102026.pdf on October 20. James reports that he has all certified court records. This statement is separate from the files uploaded here; counsel still needs to match the certified packet to every case and RFE item.",
-      "pending": "Completeness and certification of the uploaded scan have not been independently established against every RFE item. James has since reported a Brockton Police courthouse referral; its precise court/custodian and scope are unconfirmed.",
-      "next": "Match the certified packet and uploaded scan to 1515CR005525 and 1615CR001456. Check dispositions, count descriptions, plea/CWOF terms, and any remaining court-file gaps. Ask the sender Maya Hall at maya.hall@jud.state.ma.us whether the actual court file includes the requested police narratives, supplemental reports and complaint/probable-cause papers; compare them with DOC102026.pdf and the written police referral once obtained.",
-      "evidence": "Brockton court email Oct 20, 8:27 AM Eastern; James’s statement that all certified court records are in hand. October 22 owner-reported phone referral from Brockton Police; no new written court response is implied.",
+      "owner": "Nathan · packet review",
+      "received": "Maya Hall at Brockton District Court supplied the 13-page DOC102026.pdf on October 20 for 1515CR005525 and 1615CR001456, including the related civil docket. James confirms that all available Brockton court records are in hand, no further Brockton records are expected, and he was not arrested for the matter in question.",
+      "pending": "No additional Brockton records request is pending in this tracker. Nathan’s review of the available packet for the USCIS response remains.",
+      "next": "Use the court-supplied packet as the available Brockton case records for both the court and police-records tracking sections. Nathan should review the packet and James’s explanation that there was no arrest; if written clarification is needed, the saved draft asks only for confirmation of what the court holds and supplied.",
+      "evidence": "Maya Hall’s October 20, 2026, 8:27 AM Eastern email (Gmail 1a15948148305925) and its original 13-page PDF; James’s October 30 confirmation in this conversation that these are all available Brockton records. The PDF consists of court docket records; James’s no-arrest statement is owner-reported.",
       "phones": [
         {
           "label": "Clerk’s office",
@@ -158,9 +158,9 @@
       ],
       "email": "cmbrocktondc@jud.state.ma.us",
       "source": "https://www.mass.gov/locations/brockton-district-court",
-      "short": "Scanned court response saved; counsel needs to check it against the certified packet.",
+      "short": "All available Brockton case records received. No further records expected based on James’s confirmation; Nathan to review the packet.",
       "waiting": false,
-      "asOf": "2026-10-22"
+      "asOf": "2026-10-30"
     },
     "court-4": {
       "title": "Complaint, police report & citation received",
@@ -1987,6 +1987,11 @@
       "communications",
       "Current complete transcript · 61 messages",
       "Updated through the October 30 mailbox scan, including the Middleborough delivery and attorney coordination."
+    ],
+    "285a078730aa54a27fd07411c81772f9": [
+      "records",
+      "Brockton · all available court-supplied case records",
+      "13-page docket packet received October 20. James confirms all available Brockton records are in hand and no further records are expected. Shared under court and police tracking; Nathan to review for the USCIS response."
     ]
   },
   "archiveCounts": {
